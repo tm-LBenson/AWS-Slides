@@ -2,6 +2,7 @@
 layout: posts
 title: 'Amazon S3 Overview'
 section: Section-5-S3
+lesson: 1
 ---
 
 ### Amazon S3 Overview
@@ -49,3 +50,5 @@ Amazon Simple Storage Service (Amazon S3) is a scalable object storage service o
 #### Conclusion
 
 Amazon S3 is an essential component of the AWS ecosystem, providing robust, secure, and scalable storage solutions. Its wide range of features and storage classes makes it suitable for a variety of applications, from website hosting to data lakes and long
+
+---
