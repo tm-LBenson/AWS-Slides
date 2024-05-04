@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<h1>AWS Slides - Table of Contents</h1>
+
+{% for section in site.sections %}
+<h2>{{ section.name }}</h2>
+<ul>
+  {% for post in site.posts %} {% if post.section == section.name %}
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %} {% endfor %}
+  <li>
+    Hands-On:
+    <ul>
+      {% for hand in site.hands_on %} {% if hand.section == section.name %}
+      <li><a href="{{ site.baseurl }}{{ hand.url }}">{{ hand.title }}</a></li>
+      {% endif %} {% endfor %}
+    </ul>
+  </li>
+</ul>
+{% endfor %}

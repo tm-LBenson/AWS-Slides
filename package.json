@@ -1,0 +1,13 @@
+{
+  "name": "aws-slides",
+  "version": "1.0.0",
+  "description": "A Jekyll project for AWS slides and more.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --config _config.yml,_config_dev.yml",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "Lewis Benson",
+  "license": "MIT"
+}

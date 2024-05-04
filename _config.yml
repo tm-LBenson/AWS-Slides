@@ -1,0 +1,19 @@
+title: AWSSlides
+email: tm.lewisbenson@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A site used to store stories
+baseurl: '/' # the subpath of your site, e.g. /blog
+url: 'https://tm-lbenson.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+github_username: tm-LBenson
+
+# Build settings
+theme: minima
+
+collections:
+  sections:
+    output: true
+    permalink: /:collection/:name
+  hands_on:
+    output: true
+    permalink: /hands-on/:name/
