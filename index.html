@@ -4,23 +4,21 @@ layout: default
 
 <h1>AWS Slides - Table of Contents</h1>
 
-{% assign sorted_sections = site.sections | sort: 'lesson' %} {% for section in
+{% assign sorted_sections = site.sections | sort: 'order' %} {% for section in
 sorted_sections %}
-<h2>{{ section.name }}</h2>
+<h2>{{ section.title }}</h2>
 <ul>
   {% assign sorted_posts = site.posts | where: "section", section.name | sort:
   'lesson' %} {% for post in sorted_posts %}
   <li>
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    {% assign related_hands_on = site.hands_on | where: "section", post.section
-    | where: "lesson", post.lesson | sort: 'order' %} {% if
-    related_hands_on.size > 0 %}
     <ul>
-      {% for hand in related_hands_on %}
+      {% assign sorted_hands_on = site.hands_on | where: "section", post.section
+      | where: "lesson", post.lesson | sort: 'order' %} {% for hand in
+      sorted_hands_on %}
       <li><a href="{{ site.baseurl }}{{ hand.url }}">{{ hand.title }}</a></li>
       {% endfor %}
     </ul>
-    {% endif %}
   </li>
   {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding Amazon Elastic Block Store (EBS)'
-section: Section-3-EC2-EBS
+section: Section-3-EBS
 lesson: 1
 ---
 
