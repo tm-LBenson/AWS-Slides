@@ -1,11 +1,11 @@
 body {
   font-family: 'Georgia', serif;
-  color: #ddd;
+  color: #dcdcdc; /* Light gray text */
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: auto;
-  background-color: #333;
+  background-color: #232f3e; /* Dark background */
   font-size: 20px;
 }
 
@@ -15,8 +15,8 @@ header {
 }
 
 body > header {
-  background-color: #555;
-  color: #ddd;
+  background-color: #2e3c4e; /* Slightly lighter background for header */
+  color: #dcdcdc; /* Light gray text */
   width: 100%;
 }
 
@@ -28,13 +28,13 @@ body > header {
 }
 
 header > p {
-  color: #ddd;
+  color: #dcdcdc; /* Light gray text */
   font-size: 1.2rem;
   margin: auto 15px;
 }
 
 .post-meta {
-  color: #aaa;
+  color: #9a9a9a; /* Light gray for post metadata */
 }
 
 header h1 {
@@ -43,7 +43,7 @@ header h1 {
 }
 
 main {
-  background-color: #444;
+  background-color: #2e3c4e; /* Slightly lighter background for main content */
   padding: 20px;
   margin: 20px 0;
   border-radius: 3px;
@@ -54,8 +54,8 @@ main {
 }
 
 footer {
-  background-color: #555;
-  color: #ddd;
+  background-color: #2e3c4e; /* Slightly lighter background for footer */
+  color: #dcdcdc; /* Light gray text */
   text-align: center;
   padding: 10px 0;
   width: 100%;
@@ -76,7 +76,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ddd;
+  color: #dcdcdc; /* Light gray text */
 }
 
 h1,
@@ -85,20 +85,21 @@ h3,
 h4,
 h5,
 h6 {
-  color: #ddd;
+  color: #dcdcdc; /* Light gray text */
 }
 
 a {
-  color: #88b04b; /* Pantone's Greenery color, like an old library lamp */
+  color: #48bb78; /* AWS green color for links */
 }
+
 p {
   display: inline-block;
 }
+
 article {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   min-height: 70vh;
 }
 

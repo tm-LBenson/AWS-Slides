@@ -3,33 +3,35 @@
 }
 
 button:hover {
-  background-color: #f0f0f0;
+  background-color: #484848; /* Darker background color on hover */
 }
 
 select {
   display: inline-block;
-  margin: 0 10px;
-  height: 80px;
+  margin: 0 5px; /* Reduced margin for better mobile scaling */
+  height: 40px; /* Reduced height for mobile */
   border: 1px solid #ccc;
-  background-color: #fafafa;
-  color: #333;
+  background-color: #333; /* Dark background color */
+  color: #dcdcdc; /* Light gray text */
   padding: 0 10px;
 }
 
 select option {
-  height: 80px;
   padding: 0 10px;
 }
+
 .pagination-button {
   border-radius: 7px;
-  padding: 3px 7px;
+  padding: 6px 14px;
   display: flex;
+  font-size: 22px;
   align-items: center;
   justify-content: center;
-  background: #f4f4f4;
+  background: #484848; /* Darker background color */
   border: none;
   text-align: center;
   cursor: pointer;
+  color: #dcdcdc; /* Light gray text */
 }
 
 .page-number-button {
@@ -37,17 +39,19 @@ select option {
 }
 
 .pagination-button:disabled {
-  background: #bfbfbf;
+  background: #777; /* Darker disabled button color */
   cursor: default;
 }
+
 .pagination-container {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
-  gap: 10px;
+  justify-content: center; /* Centered pagination */
+  flex-wrap: wrap; /* Wrap pagination buttons on smaller screens */
+  gap: 5px; /* Reduced gap between buttons */
   margin-top: 20px;
-  margin-right: 10%;
 }
+
 .selected-page {
-  background-color: #88b04b;
+  background-color: #88b04b; /* AWS green for selected page */
 }
