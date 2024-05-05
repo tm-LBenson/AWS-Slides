@@ -29,11 +29,13 @@ Creating an Auto Scaling Group (ASG) in AWS ensures that your application scales
 
 - **Name Your ASG**: Give your Auto Scaling Group a name like "DemoASG".
 - **Create Launch Template**: Click on "Create new launch template".
+
   - **Name and Description**: Provide a name like "MyTemplate" and a description such as "test server app".
   - **Quick Start**: Click on "Quick Start" and select a default Linux 2 AMI (Free tier).
   - **Instance Type**: Select "t2.micro" for the instance type (Free tier).
   - **Security Group**: Use an existing security group, selecting the wizard group used in previous setups.
   - **User Data**: Expand "Advanced details" and scroll to the user data section. Paste the following script:
+
     ```bash
     #!/bin/bash
     # User data script
@@ -43,6 +45,7 @@ Creating an Auto Scaling Group (ASG) in AWS ensures that your application scales
     systemctl enable httpd  # Enable Apache on boot
     echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
     ```
+
 - **Save and Select Template**: After creating the launch template, select it from the list in the ASG interface.
 
 <!-- pagebreak -->

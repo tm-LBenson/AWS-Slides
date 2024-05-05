@@ -60,3 +60,5 @@ This hands-on guide will walk you through the basic operations in Amazon S3, inc
 - **Access Controls**: Understanding how access controls and signed URLs work in S3 to securely share and manage access to your data.
 
 By completing these steps, you will have a practical understanding of how to manage data storage in Amazon S3, ensuring data security and accessibility according to your needs.
+
+---
