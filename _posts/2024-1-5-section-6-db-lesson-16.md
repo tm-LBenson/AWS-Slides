@@ -7,7 +7,7 @@ lesson: 16
 
 ### Amazon QLDB Overview
 
-Amazon Quantum Ledger Database (QLDB) is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log ‎owned by a central trusted authority. QLDB is designed to provide high performance, ease of use, and a secure way to store and replicate data across multiple Availability Zones. Here's an overview of its capabilities and how it differs from other ledger technologies like blockchain.
+Amazon Quantum Ledger Database (QLDB) is a fully managed ledger database that provides a transparent, immutable, and cryptographically verifiable transaction log owned by a central trusted authority. QLDB is designed to provide high performance, ease of use, and a secure way to store and replicate data across multiple Availability Zones. Here's an overview of its capabilities and how it differs from other ledger technologies like blockchain.
 
 <!-- pagebreak -->
 
