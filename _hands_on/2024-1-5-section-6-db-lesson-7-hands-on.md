@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating a DynamoDB Table'
-section: Section-6-DB
+section: Section-6-DBs
 lesson: 7
 order: 2
 ---

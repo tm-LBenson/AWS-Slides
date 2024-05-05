@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'DynamoDB Accelerator (DAX) Overview'
-section: Section-6-DB
+section: Section-6-DBs
 lesson: 7
 ---
 

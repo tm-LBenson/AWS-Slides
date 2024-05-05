@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon ElastiCache Overview'
-section: Section-6-DB
+section: Section-6-DBs
 lesson: 5
 ---
 

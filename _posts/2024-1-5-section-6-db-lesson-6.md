@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'DynamoDB Overview'
-section: Section-6-DB
+section: Section-6-DBs
 lesson: 6
 ---
 
