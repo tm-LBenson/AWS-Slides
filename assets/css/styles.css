@@ -1,82 +1,28 @@
+/* Base styles for the entire page */
 body {
   font-family: 'Georgia', serif;
-  color: #dcdcdc; /* Light gray text */
+  color: #dcdcdc; /* Light gray text for readability */
+  background-color: #232f3e; /* Dark background similar to AWS dark mode */
+  font-size: 28px; /* Suitable font size for desktop */
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
-  background-color: #232f3e; /* Dark background */
-  font-size: 20px;
+  margin: 0 auto; /* Center-align the content */
+  padding: 20px 0; /* Padding around the body to avoid touching the edges */
+  line-height: 1.5;
 }
 
-header {
-  text-align: center;
-  padding: 10px 0;
-}
-
-body > header {
-  background-color: #2e3c4e; /* Slightly lighter background for header */
-  color: #dcdcdc; /* Light gray text */
-  width: 100%;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1000px;
-  margin: auto;
-}
-
-header > p {
-  color: #dcdcdc; /* Light gray text */
-  font-size: 1.2rem;
-  margin: auto 15px;
-}
-
-.post-meta {
-  color: #9a9a9a; /* Light gray for post metadata */
-}
-
-header h1 {
-  margin: 0;
-  padding: 0 20px;
-}
-
-main {
-  background-color: #2e3c4e; /* Slightly lighter background for main content */
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 3px;
-  max-width: 900px;
-  min-height: 70vh;
-  min-width: 400px;
-  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
-}
-
+header,
 footer {
-  background-color: #2e3c4e; /* Slightly lighter background for footer */
-  color: #dcdcdc; /* Light gray text */
+  background-color: #2e3c4e; /* Slightly lighter background for visual hierarchy */
+  color: #dcdcdc;
   text-align: center;
   padding: 10px 0;
   width: 100%;
 }
-
-nav {
-  padding: 0 15px;
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  color: #dcdcdc; /* Light gray text */
+p {
+  font-size: calc(1rem + 0.5vw); /* Slightly larger paragraph text */
+  line-height: 1.6; /* Increases line height for better readability */
 }
 
 h1,
@@ -85,42 +31,93 @@ h3,
 h4,
 h5,
 h6 {
-  color: #dcdcdc; /* Light gray text */
+  font-size: calc(
+    1.25rem + 1vw
+  ); /* Dynamically adjusts font size based on viewport width */
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 a {
-  color: #48bb78; /* AWS green color for links */
+  color: #48bb78; /* AWS green color for links to stand out */
 }
 
-p {
-  display: inline-block;
+/* Navigation styles */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  align-items: center;
+  margin: auto;
+  padding: 0 50px;
 }
 
-article {
+/* Main content area styling */
+main {
+  background-color: #2e3c4e; /* Consistent with header and footer */
+  padding: 20px;
+  margin: 20px auto; /* Centered with vertical margin */
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  width: 95%; /* Responsive width */
+  max-width: none; /* Allows content to fill the space */
+  min-height: 70vh; /* Keeps height consistent for navigation button placement */
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 70vh;
+  justify-content: center; /* Vertically centers content */
 }
 
-article h3,
-h4 {
-  font-size: 2rem;
-}
-
+/* Article and post content styles */
+.article,
 .post-content {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  justify-content: center; /* Centers content vertically in the container */
+
+  text-align: left;
+  padding: 20px 20px; /* Adds padding above and below the text */
+  padding-right: 40px;
+  flex-grow: 1; /* Allows the container to grow and fill the space as needed */
 }
-img {
-  width: 100%;
+
+img,
+pre {
+  width: 100%; /* Ensure images and preformatted text fit container */
+  max-width: 100%; /* Prevent overflow */
+  height: auto; /* Maintain aspect ratio for images */
 }
 
 pre {
   background-color: #627083;
   padding: 10px;
-  border: #232f3e 1px solid;
+  border: 1px solid #232f3e;
   border-radius: 14px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  body,
+  nav ul li {
+    font-size: 18px; /* Slightly smaller font size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; /* Smaller font size for mobile devices */
+  }
+  header h1,
+  article h3,
+  h4 {
+    font-size: 1.5rem; /* Adjusts header sizes for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px; /* Even smaller font size for very small screens */
+  }
+  header h1 {
+    font-size: 1.2rem; /* Further reduces title font size */
+  }
 }

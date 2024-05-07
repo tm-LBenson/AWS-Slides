@@ -1,57 +1,44 @@
 .post-content {
   margin-bottom: 20px;
-}
-
-button:hover {
-  background-color: #484848; /* Darker background color on hover */
-}
-
-select {
-  display: inline-block;
-  margin: 0 5px; /* Reduced margin for better mobile scaling */
-  height: 40px; /* Reduced height for mobile */
-  border: 1px solid #ccc;
-  background-color: #333; /* Dark background color */
-  color: #dcdcdc; /* Light gray text */
-  padding: 0 10px;
-}
-
-select option {
-  padding: 0 10px;
+  transition: opacity 0.4s ease-in-out; /* Smooth fade transition */
 }
 
 .pagination-button {
-  border-radius: 7px;
-  padding: 6px 14px;
-  display: flex;
-  font-size: 22px;
-  align-items: center;
-  justify-content: center;
-  background: #484848; /* Darker background color */
-  border: none;
-  text-align: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: linear-gradient(to right, #5a5a5a, #303030);
+  color: #fff;
+  border: 2px solid #444; /* Slight border for depth */
   cursor: pointer;
-  color: #dcdcdc; /* Light gray text */
-}
-
-.page-number-button {
-  background-color: #7073d3;
+  opacity: 1;
+  transition: background-color 0.3s, transform 0.2s, opacity 0.3s; /* Smooth transitions */
 }
 
 .pagination-button:disabled {
-  background: #777; /* Darker disabled button color */
+  opacity: 0.5; /* Faded appearance for disabled buttons */
   cursor: default;
 }
 
+.page-counter {
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 20px; /* Spacing for visibility */
+}
+
 .pagination-container {
-  width: 100%;
   display: flex;
   justify-content: center; /* Centered pagination */
-  flex-wrap: wrap; /* Wrap pagination buttons on smaller screens */
-  gap: 5px; /* Reduced gap between buttons */
+  gap: 10px; /* Spacing between buttons and counter */
   margin-top: 20px;
 }
 
-.selected-page {
-  background-color: #88b04b; /* AWS green for selected page */
+.pagination-button:hover {
+  background-color: #484848; /* Darker background color on hover */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+.post-content {
+  visibility: hidden; /* Hide content initially */
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear; /* Smooth transition for fading in */
 }

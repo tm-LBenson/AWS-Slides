@@ -6,71 +6,36 @@ window.onload = function () {
   let contentHtml = contentDiv.innerHTML;
   let pages = contentHtml.split('<!-- pagebreak -->');
 
-  if (pages.length <= 1) return;
+  if (pages.length <= 1) {
+    contentDiv.style.visibility = 'visible';
+    contentDiv.style.opacity = 1;
+    return;
+  }
 
   let currentPage = 0;
 
-  function createPageButton(pageIndex) {
-    let button = document.createElement('button');
-    button.textContent = pageIndex + 1;
-    button.className = 'pagination-button page-number-button';
-    if (pageIndex === currentPage) {
-      button.classList.add('selected-page');
-    }
-    button.onclick = function () {
-      showPage(pageIndex);
-    };
-    return button;
-  }
-
-  function createEllipsisButton() {
-    let button = document.createElement('button');
-    button.textContent = '...';
-    button.className = 'pagination-button page-number-button';
-    button.disabled = true;
-    return button;
-  }
-
-  function updatePageButtons(pageNumber) {
-    pageNumberButtons.forEach((button) => button.remove());
-
-    pageNumberButtons = [];
-
-    pageNumberButtons.push(createPageButton(0)); // First page
-    if (pageNumber > 3) pageNumberButtons.push(createEllipsisButton());
-
-    let start = Math.max(1, pageNumber - 1);
-    let end = Math.min(pageNumber + 2, pages.length - 1);
-    for (let i = start; i < end; i++) {
-      pageNumberButtons.push(createPageButton(i));
-    }
-
-    if (pageNumber < pages.length - 4)
-      pageNumberButtons.push(createEllipsisButton());
-    pageNumberButtons.push(createPageButton(pages.length - 1)); // Last page
-
-    pageNumberButtons.forEach((button) =>
-      paginationContainer.insertBefore(button, nextButton),
-    );
-  }
-
   function showPage(pageNumber) {
-    contentDiv.innerHTML = pages[pageNumber];
-    currentPage = pageNumber;
+    contentDiv.style.opacity = 0; // Start transition out
+    setTimeout(() => {
+      contentDiv.innerHTML = pages[pageNumber];
+      contentDiv.style.visibility = 'visible';
+      contentDiv.style.opacity = 1; // Fade in new content
+      currentPage = pageNumber;
+      updateNavigation();
+      updatePageCounter();
+    }, 400);
+  }
 
-    pageNumberButtons.forEach(function (btn, index) {
-      if (btn.textContent === (currentPage + 1).toString()) {
-        btn.classList.add('selected-page');
-      } else {
-        btn.classList.remove('selected-page');
-      }
-    });
+  function updateNavigation() {
+    prevButton.style.opacity = currentPage === 0 ? '0.5' : '1';
+    prevButton.disabled = currentPage === 0;
 
-    prevButton.style.display = currentPage === 0 ? 'none' : 'inline';
-    nextButton.style.display =
-      currentPage === pages.length - 1 ? 'none' : 'inline';
+    nextButton.style.opacity = currentPage === pages.length - 1 ? '0.5' : '1';
+    nextButton.disabled = currentPage === pages.length - 1;
+  }
 
-    updatePageButtons(pageNumber);
+  function updatePageCounter() {
+    pageCounter.textContent = `${currentPage + 1} / ${pages.length}`;
   }
 
   let nextButton = document.createElement('button');
@@ -91,13 +56,13 @@ window.onload = function () {
     }
   };
 
-  let pageNumberButtons = [];
+  let pageCounter = document.createElement('div');
+  pageCounter.className = 'page-counter';
+  pageCounter.textContent = `${currentPage + 1} / ${pages.length}`;
 
   let paginationContainer = document.createElement('div');
   paginationContainer.className = 'pagination-container';
-
-  paginationContainer.append(prevButton);
-  paginationContainer.append(nextButton);
+  paginationContainer.append(prevButton, pageCounter, nextButton);
 
   contentDiv.after(paginationContainer);
 
