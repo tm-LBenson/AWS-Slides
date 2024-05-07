@@ -14,17 +14,11 @@
   </head>
   <body>
     <header>
-      <div class="nav">
+      <nav class="nav">
         <p>AWS Slides</p>
-        <nav>
-          <ul>
-            <li><a href="{{ '/' | relative_url }}">Home</a></li>
-            {% for section in site.sections %}
-            <!-- <li><a href="{{ section.url | relative_url }}">{{ section.name }}</a></li> -->
-            {% endfor %}
-          </ul>
-        </nav>
-      </div>
+
+        <a href="{{ '/' | relative_url }}">Home</a>
+      </nav>
     </header>
     <main>{{ content }}</main>
     <footer>
