@@ -28,7 +28,7 @@ Amazon Simple Queue Service (SQS) is one of the oldest AWS offerings and serves 
 
 #### FIFO Queues
 
-- **FIFO Queues**: SQS offers FIFO queues that ensure messages are processed exactly once, in the exact order that they are sent. This is critical for applications where the order and exactness of operations are crucial.
+- **FIFO Queues**: SQS offers FIFO queues that ensure messages are processed exactly once, in the exact order that they are sent. This is critical for applications where the order and exactness of operations are important.
 - **Exam Tip**: If you see terms like "decouple" or the need for ordered message processing on the exam, think of SQS, particularly FIFO queues.
 
 <!-- pagebreak -->

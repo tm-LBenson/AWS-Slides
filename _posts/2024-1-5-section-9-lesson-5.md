@@ -39,6 +39,6 @@ AWS Global Accelerator is particularly effective for:
 - **Global Reach with Low Latency**: Services that need consistent, quick response times globally.
 - **Simplifying IP Management**: Applications that benefit from having fixed IP addresses for simplified DNS setups or regulatory requirements.
 
-AWS Global Accelerator enhances your application's performance by leveraging the AWS global network to efficiently route traffic. Understanding the distinctions between Global Accelerator and CloudFront is crucial for architects designing solutions that require robust, global access with low latency.
+AWS Global Accelerator enhances your application's performance by leveraging the AWS global network to efficiently route traffic. Understanding the distinctions between Global Accelerator and CloudFront is important for architects designing solutions that require robust, global access with low latency.
 
 ---

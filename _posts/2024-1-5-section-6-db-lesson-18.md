@@ -47,7 +47,7 @@ AWS Glue is a fully managed extract, transform, and load (ETL) service that make
 
 #### Exam Tips
 
-- **Remember for the Exam**: When you see any mention of ETL (Extract, Transform, Load) in an exam context, think of AWS Glue. It's crucial for scenarios where data needs to be extracted from various sources, transformed into a usable format, and loaded into an analytical datastore.
+- **Remember for the Exam**: When you see any mention of ETL (Extract, Transform, Load) in an exam context, think of AWS Glue. It's important for scenarios where data needs to be extracted from various sources, transformed into a usable format, and loaded into an analytical datastore.
 
 AWS Glue is instrumental for data-driven organizations, providing a simplified, serverless, and efficient way to handle data transformation tasks necessary for analytics.
 

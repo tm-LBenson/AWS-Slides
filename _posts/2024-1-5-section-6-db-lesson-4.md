@@ -30,7 +30,7 @@ Amazon RDS offers multiple deployment options to optimize performance, enhance a
 
 #### Multi-AZ
 
-- **High Availability**: Multi-AZ deployments provide high availability and failover support to a standby replica in a different Availability Zone. This setup is crucial for critical applications that require continuous database availability.
+- **High Availability**: Multi-AZ deployments provide high availability and failover support to a standby replica in a different Availability Zone. This setup is important for critical applications that require continuous database availability.
 - **Data Handling**: Both reads and writes are directed to the primary database under normal operations. The standby instance in a different AZ serves as a failover target in case of primary instance failure, ensuring minimal downtime.
 - **Configuration Limitation**: There is a limitation to one standby AZ, which can be a consideration when planning for regional resilience.
 

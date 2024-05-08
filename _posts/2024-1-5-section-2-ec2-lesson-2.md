@@ -7,7 +7,7 @@ lesson: 2
 
 ### Introduction to Security Groups
 
-Security groups act as virtual firewalls for EC2 instances, crucial for controlling access and securing your resources in AWS. Here's a detailed look at how security groups work:
+Security groups act as virtual firewalls for EC2 instances, important for controlling access and securing your resources in AWS. Here's a detailed look at how security groups work:
 
 #### What are Security Groups?
 

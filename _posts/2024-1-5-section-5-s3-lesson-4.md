@@ -23,6 +23,6 @@ lesson: 4
 
 #### Conclusion
 
-Security in Amazon S3 is designed to be robust yet flexible, providing multiple layers of protection including user and resource-based policies, encryption mechanisms, and detailed access controls. Understanding and implementing the correct security settings is crucial to protecting your data and ensuring compliance with industry regulations.
+Security in Amazon S3 is designed to be robust yet flexible, providing multiple layers of protection including user and resource-based policies, encryption mechanisms, and detailed access controls. Understanding and implementing the correct security settings is important to protecting your data and ensuring compliance with industry regulations.
 
 ---

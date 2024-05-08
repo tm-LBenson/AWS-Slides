@@ -75,6 +75,6 @@ Below is a snippet of JavaScript that outlines creating an ECS cluster with Farg
 
 #### Conclusion
 
-AWS CDK empowers developers to define and deploy cloud infrastructure and services programmatically, ensuring that infrastructure management is as agile as application development. For those preparing for AWS certification exams, understanding CDK's capabilities to streamline cloud infrastructure deployment is crucial.
+AWS CDK empowers developers to define and deploy cloud infrastructure and services programmatically, ensuring that infrastructure management is as agile as application development. For those preparing for AWS certification exams, understanding CDK's capabilities to streamline cloud infrastructure deployment is important.
 
 ---

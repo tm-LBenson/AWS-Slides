@@ -32,7 +32,7 @@ This hands-on guide will walk you through setting up Amazon S3 replication betwe
 - **Create Another New Bucket**: Back in the main S3 console tab, click "Create bucket" again to set up your destination bucket.
   - **Bucket Name**: Provide another unique name for this bucket.
   - **Region Selection**: Choose the same or a different AWS region, depending on whether you want Same-Region Replication (SRR) or Cross-Region Replication (CRR).
-  - **Enable Versioning**: Ensure versioning is enabled as well, which is crucial for replication.
+  - **Enable Versioning**: Ensure versioning is enabled as well, which is important for replication.
   - **Create Bucket**: Finalize the creation of your destination bucket.
   <!-- pagebreak -->
 

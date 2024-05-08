@@ -41,6 +41,6 @@ Amazon Timestream is a fast, scalable, fully managed time series database servic
 
 - **Time-Series Database Scenario**: For AWS certification exams, remember that if a scenario specifically mentions the need for managing time-series data, Amazon Timestream is likely the most suitable service. Its specialized capabilities for handling time-dependent data make it the optimal choice for such use cases.
 
-Amazon Timestream's specialized architecture and cost-efficiency make it a vital tool for industries and applications where time series data plays a crucial role.
+Amazon Timestream's specialized architecture and cost-efficiency make it a vital tool for industries and applications where time series data plays a important role.
 
 ---

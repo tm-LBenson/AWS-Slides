@@ -21,7 +21,7 @@ Cloud computing provides on-demand delivery of IT resources over the internet wi
 
 - **Key Concepts**:
   - **Compute, Storage, Data Transfer**: These are the primary cost components in cloud services.
-  - **Choosing an AWS Region**: Consider compliance, proximity to customers, availability of specific services, and pricing. This decision is crucial for optimizing performance and costs.
+  - **Choosing an AWS Region**: Consider compliance, proximity to customers, availability of specific services, and pricing. This decision is important for optimizing performance and costs.
 
 <!-- pagebreak -->
 

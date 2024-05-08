@@ -37,4 +37,4 @@ AWS promotes a hybrid cloud strategy, blending on-premises infrastructure with c
 
 #### Conclusion
 
-The hybrid cloud model is ideal for organizations looking to balance the control and security of on-premises infrastructure with the flexibility and scalability of the cloud. AWS Storage Gateway plays a crucial role in this ecosystem by facilitating smooth data exchange and integration between on-premises environments and AWS's expansive cloud services, particularly S3.
+The hybrid cloud model is ideal for organizations looking to balance the control and security of on-premises infrastructure with the flexibility and scalability of the cloud. AWS Storage Gateway plays a important role in this ecosystem by facilitating smooth data exchange and integration between on-premises environments and AWS's expansive cloud services, particularly S3.

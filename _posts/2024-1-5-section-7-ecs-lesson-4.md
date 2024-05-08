@@ -44,6 +44,6 @@ Amazon API Gateway is a fully managed service that makes it easy for developers 
 
 - **Serverless API**: When encountering scenarios on the AWS certification exams involving the creation of a serverless API, remember that API Gateway is typically involved alongside AWS Lambda. This combination allows for scalable, efficient, and serverless backend architectures.
 
-Understanding Amazon API Gateway is crucial for efficiently designing APIs that are scalable, secure, and well-integrated with the AWS ecosystem. This service is fundamental in connecting client applications with the vast array of AWS serverless backends and services.
+Understanding Amazon API Gateway is important for efficiently designing APIs that are scalable, secure, and well-integrated with the AWS ecosystem. This service is fundamental in connecting client applications with the vast array of AWS serverless backends and services.
 
 ---

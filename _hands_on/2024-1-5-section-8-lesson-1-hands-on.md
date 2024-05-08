@@ -104,6 +104,6 @@ This practical exercise will guide you through the process of using AWS CloudFor
 
 #### Conclusion
 
-You've now seen how to use AWS CloudFormation to not only deploy resources but also to manage more complex scenarios involving security settings and networking. This hands-on experience is crucial for understanding the full capabilities of CloudFormation and enhancing your skills in cloud infrastructure management.
+You've now seen how to use AWS CloudFormation to not only deploy resources but also to manage more complex scenarios involving security settings and networking. This hands-on experience is important for understanding the full capabilities of CloudFormation and enhancing your skills in cloud infrastructure management.
 
 ---

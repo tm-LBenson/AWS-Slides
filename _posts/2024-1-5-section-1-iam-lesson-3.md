@@ -32,7 +32,7 @@ As you expand your use of AWS, you may need to create custom policies that speci
 Securing access to your AWS resources is paramount. Enhancements like setting up strong password policies and enabling multi-factor authentication (MFA) are essential steps.
 
 - **Password Policy**: Define a robust password policy within IAM to enforce password complexity, rotation, and expiration.
-- **Multi-Factor Authentication (MFA)**: Set up MFA to add an additional layer of security, crucial for protecting sensitive operations. Tools like Authy and Google Authenticator can be used to facilitate this process.
+- **Multi-Factor Authentication (MFA)**: Set up MFA to add an additional layer of security, important for protecting sensitive operations. Tools like Authy and Google Authenticator can be used to facilitate this process.
 
 This lesson aims to provide you with a deep understanding of IAM's advanced user management capabilities and the necessary tools to secure your AWS environment effectively. These concepts are not only fundamental for AWS administration but also critical for several AWS certification paths including the AWS Certified Solutions Architect and AWS Certified DevOps Engineer exams.
 

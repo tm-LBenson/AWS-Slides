@@ -17,7 +17,7 @@ DynamoDB Global Tables offer a powerful feature for applications that require a 
 
 - **Multi-Region Replication**: They utilize active-active replication, meaning that data is continuously synchronized across all configured regions. This ensures that the application can read and write from any region while maintaining data consistency.
 
-- **Use Case**: This feature is crucial for applications that are geographically distributed and need quick data access no matter where the user is located.
+- **Use Case**: This feature is important for applications that are geographically distributed and need quick data access no matter where the user is located.
 
 #### Key Features
 

@@ -7,7 +7,7 @@ lesson: 3
 
 ### EC2 Instance Types Explained
 
-Understanding different EC2 instance types is crucial for optimizing application performance and cost efficiency. Here’s a breakdown of the primary categories:
+Understanding different EC2 instance types is important for optimizing application performance and cost efficiency. Here’s a breakdown of the primary categories:
 
 #### General Purpose Instances
 

@@ -35,7 +35,7 @@ This lesson provides a summary of the important topics covered in the Amazon EC2
 
 #### Introduction to Security Groups
 
-- **Functionality**: Security groups act as virtual firewalls that control both inbound and outbound traffic to an EC2 instance. They are crucial for defining secure access permissions and can be adjusted without restarting the instance.
+- **Functionality**: Security groups act as virtual firewalls that control both inbound and outbound traffic to an EC2 instance. They are important for defining secure access permissions and can be adjusted without restarting the instance.
 
 <!-- pagebreak -->
 

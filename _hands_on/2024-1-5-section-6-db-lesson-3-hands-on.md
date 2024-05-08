@@ -50,7 +50,7 @@ This hands-on guide will walk you through creating an Amazon RDS instance using 
 #### Step 5: Create Database
 
 - Click "Create Database" and review the summary provided by AWS.
-- Note the details provided in the summary, especially the database endpoint and port, which are crucial for connectivity.
+- Note the details provided in the summary, especially the database endpoint and port, which are important for connectivity.
 
 <!-- pagebreak -->
 

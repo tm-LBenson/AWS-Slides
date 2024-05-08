@@ -7,7 +7,7 @@ lesson: 1
 
 ### CloudFormation Overview
 
-AWS CloudFormation provides a way to manage and provision AWS infrastructure through code. This service allows you to use a simple text file, or template, to model and automate the setup and management of AWS resources. This lesson will explore what CloudFormation is, its benefits, and why it's crucial for managing infrastructure at scale.
+AWS CloudFormation provides a way to manage and provision AWS infrastructure through code. This service allows you to use a simple text file, or template, to model and automate the setup and management of AWS resources. This lesson will explore what CloudFormation is, its benefits, and why it's important for managing infrastructure at scale.
 
 <!-- pagebreak -->
 

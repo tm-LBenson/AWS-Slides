@@ -38,7 +38,7 @@ AWS offers a broad set of services that support the deployment and management of
 
 #### Considerations When Going Global
 
-- **Data Transfer Costs**: While AWS provides tools to manage data globally, transferring data between regions can incur costs. It's crucial to understand these costs and optimize data transfer strategies.
+- **Data Transfer Costs**: While AWS provides tools to manage data globally, transferring data between regions can incur costs. It's important to understand these costs and optimize data transfer strategies.
 - **Cultural and Language Differences**: Tailoring content to local languages and cultural norms can enhance user engagement and satisfaction.
 - **Managing Time Zones**: Handling time zone differences is essential for synchronizing data updates, maintenance schedules, and customer support.
 

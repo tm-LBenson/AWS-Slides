@@ -7,7 +7,7 @@ lesson: 10
 
 ### IAM Access Analyzer for S3
 
-Amazon S3 integrates with IAM Access Analyzer to provide an additional layer of security by ensuring that only intended individuals or entities have access to your S3 buckets. This tool is crucial for identifying and remediating unintended public or cross-account access to your data.
+Amazon S3 integrates with IAM Access Analyzer to provide an additional layer of security by ensuring that only intended individuals or entities have access to your S3 buckets. This tool is important for identifying and remediating unintended public or cross-account access to your data.
 
 <!-- pagebreak -->
 

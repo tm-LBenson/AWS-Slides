@@ -7,7 +7,7 @@ lesson: 6
 
 ### Amazon S3 Versioning Overview
 
-Amazon S3 versioning is a powerful feature that allows you to preserve, retrieve, and restore every version of every object stored in your S3 buckets. This capability is crucial for data protection and archival, providing a means to recover from accidental deletions or overwrites. Here’s a detailed overview of how versioning works in S3 and why it is a recommended practice.
+Amazon S3 versioning is a powerful feature that allows you to preserve, retrieve, and restore every version of every object stored in your S3 buckets. This capability is important for data protection and archival, providing a means to recover from accidental deletions or overwrites. Here’s a detailed overview of how versioning works in S3 and why it is a recommended practice.
 
 <!-- pagebreak -->
 

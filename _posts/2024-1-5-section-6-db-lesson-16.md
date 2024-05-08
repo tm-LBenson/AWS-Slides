@@ -13,7 +13,7 @@ Amazon Quantum Ledger Database (QLDB) is a fully managed ledger database that pr
 
 #### What is Amazon QLDB?
 
-- **Ledger Database**: Amazon QLDB is built to record a complete and verifiable history of all changes made to your application data over time. It is optimized for use cases where data integrity and history are crucial.
+- **Ledger Database**: Amazon QLDB is built to record a complete and verifiable history of all changes made to your application data over time. It is optimized for use cases where data integrity and history are important.
 
 - **Immutability**: Once data is written to QLDB, it cannot be altered or deleted. Every change is recorded on a transparent, immutable ledger.
 

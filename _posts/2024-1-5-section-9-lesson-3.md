@@ -37,6 +37,6 @@ CloudFront can be integrated with AWS Origin Access Control (OAC) and Amazon S3 
 
 ---
 
-This lesson provides an essential understanding of Amazon CloudFront, focusing on its role as a CDN, its integration with AWS Shield for DDoS protection, the function of edge locations and Points of Presence, and how it integrates with AWS services like S3 for secure content delivery. This knowledge is crucial for deploying and managing fast and secure applications globally.
+This lesson provides an essential understanding of Amazon CloudFront, focusing on its role as a CDN, its integration with AWS Shield for DDoS protection, the function of edge locations and Points of Presence, and how it integrates with AWS services like S3 for secure content delivery. This knowledge is important for deploying and managing fast and secure applications globally.
 
 ---

@@ -24,7 +24,7 @@ When deploying applications globally, architects must consider various architect
 - **Active-Passive**:
 
   - In an active-passive setup, one region handles all the read and write operations (active), while another region is on standby (passive).
-  - The passive region serves as a backup and will only become active if the primary region fails. This setup is crucial for disaster recovery.
+  - The passive region serves as a backup and will only become active if the primary region fails. This setup is important for disaster recovery.
   - Users can typically only read from the passive region but cannot write. This configuration reduces read latency for users closer to the passive region.
 
 - **Active-Active**:

@@ -31,7 +31,7 @@ Amazon Simple Storage Service (S3) is an extensive and versatile object storage 
 
 #### S3 Versioning
 
-- **File Version Control**: Maintain multiple versions of an object within S3. This feature is crucial for data integrity, allowing you to recover from accidental deletions or overwrites.
+- **File Version Control**: Maintain multiple versions of an object within S3. This feature is important for data integrity, allowing you to recover from accidental deletions or overwrites.
 <!-- pagebreak -->
 
 #### S3 Replication

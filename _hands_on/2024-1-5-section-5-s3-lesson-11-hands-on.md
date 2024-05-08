@@ -42,7 +42,7 @@ This guide provides a walkthrough on how to order an AWS Snow Family device for 
 #### Step 5: Final Review
 
 - **Review All Options**: Carefully review all the options you have selected, including job details, device type, and network settings. Make sure everything is configured as per your requirements for the data transfer job.
-- **Verification**: It's crucial to double-check all entered information to prevent issues during the job execution and device handling.
+- **Verification**: It's important to double-check all entered information to prevent issues during the job execution and device handling.
 <!-- pagebreak -->
 
 #### Step 6: Cancel or Confirm the Order
@@ -53,4 +53,4 @@ This guide provides a walkthrough on how to order an AWS Snow Family device for 
 
 #### Conclusion
 
-Ordering a device from the AWS Snow Family involves several crucial steps, from selecting the right device and configuring the job to reviewing shipping details and network configurations. This hands-on guide is designed to familiarize you with the ordering process, ensuring you are prepared to efficiently manage data transportation jobs using AWS Snow Family devices.
+Ordering a device from the AWS Snow Family involves several important steps, from selecting the right device and configuring the job to reviewing shipping details and network configurations. This hands-on guide is designed to familiarize you with the ordering process, ensuring you are prepared to efficiently manage data transportation jobs using AWS Snow Family devices.
