@@ -40,6 +40,6 @@ Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ t
 - **Application Migration**: Ideal for organizations looking to migrate their existing on-premises applications to the cloud without changing the application code that depends on specific messaging protocols.
 - **Complex Messaging Patterns**: Well-suited for applications requiring complex routing, filtering, and transformation capabilities that are native to brokers like ActiveMQ and RabbitMQ.
 
-Amazon MQ fills a critical niche for enterprises that rely on traditional messaging brokers and are looking to transition their operations to the cloud with minimal disruption. Understanding when to use Amazon MQ versus other AWS messaging services like SQS and SNS is crucial for architects and developers designing modern, scalable cloud architectures.
+Amazon MQ fills a critical niche for enterprises that rely on traditional messaging brokers and are looking to transition their operations to the cloud with minimal disruption. Understanding when to use Amazon MQ versus other AWS messaging services like SQS and SNS is important for architects and developers designing modern, scalable cloud architectures.
 
 ---

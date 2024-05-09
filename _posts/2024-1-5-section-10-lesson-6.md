@@ -7,7 +7,7 @@ lesson: 6
 
 ### Summary of AWS Messaging and Queuing Services
 
-In this section, we've covered several AWS services designed for messaging and queuing. Each service offers unique features suited for specific use cases in distributed systems. Understanding these services is crucial for designing scalable, efficient, and robust cloud applications.
+In this section, we've covered several AWS services designed for messaging and queuing. Each service offers unique features suited for specific use cases in distributed systems. Understanding these services is important for designing scalable, efficient, and robust cloud applications.
 
 <!-- pagebreak -->
 
