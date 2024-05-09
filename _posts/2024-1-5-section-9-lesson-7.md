@@ -1,10 +1,8 @@
-## 2024-1-5-section-9-lesson-7.md
-
+---
 layout: posts
 title: 'AWS Wavelength'
 section: Section-9
 lesson: 7
-
 ---
 
 ### AWS Wavelength

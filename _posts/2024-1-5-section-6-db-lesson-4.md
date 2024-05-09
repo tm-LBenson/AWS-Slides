@@ -5,15 +5,6 @@ section: Section-6-DBs
 lesson: 4
 ---
 
-## 2024-1-5-section-6-db-lesson-4.md
-
-layout: posts
-title: 'RDS Deployment Options'
-section: Section-6-DB
-lesson: 4
-
----
-
 ### RDS Deployment Options
 
 Amazon RDS offers multiple deployment options to optimize performance, enhance availability, and ensure disaster recovery for your databases. Here’s a closer look at some of the key RDS deployment options

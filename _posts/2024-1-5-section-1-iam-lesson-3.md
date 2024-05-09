@@ -1,5 +1,4 @@
-## 2024-1-5-section-1-lesson-3.md
-
+---
 layout: posts
 title: 'IAM - Advanced User Management and Policy Inheritance'
 section: Section-1-IAM

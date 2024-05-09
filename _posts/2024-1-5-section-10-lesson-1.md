@@ -1,10 +1,8 @@
-## 2024-1-5-section-10-lesson-1.md
-
+---
 layout: posts
 title: 'Cloud Iterations Overview'
 section: Section-10
 lesson: 1
-
 ---
 
 ### Cloud Iterations Overview
