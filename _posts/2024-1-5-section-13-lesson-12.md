@@ -11,6 +11,8 @@ lesson: 12
 
 Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. It automatically assesses applications for vulnerabilities or deviations from best practices.
 
+<!-- pagebreak -->
+
 #### Key Features
 
 - **EC2 Assessments**:
@@ -26,17 +28,20 @@ Amazon Inspector is an automated security assessment service that helps improve 
 - **Lambda Function Assessments**:
   - Scans AWS Lambda functions for vulnerabilities in the function code and package dependencies.
   - Automated assessments occur as functions are deployed, helping to ensure that your serverless applications are secure.
+  <!-- pagebreak -->
 
 #### Integration with AWS Services
 
 - **AWS Security Hub**: Amazon Inspector findings can be sent to AWS Security Hub, which aggregates and categorizes findings from various AWS services to provide a comprehensive view of security and compliance status.
 - **Amazon EventBridge**: Inspector findings can also be forwarded to Amazon EventBridge, allowing for automated response workflows based on the findings.
+<!-- pagebreak -->
 
 #### Benefits
 
 - **Proactive Security**: By continuously analyzing your AWS resources, Amazon Inspector helps identify and mitigate potential security issues before they can be exploited.
 - **Compliance Assurance**: Regular assessments help ensure compliance with security best practices and regulatory standards, reducing the risk of non-compliance penalties.
 - **Integrated Reporting**: Seamless integration with AWS Security Hub provides centralized reporting and visibility into security and compliance status across your AWS environment.
+<!-- pagebreak -->
 
 #### Conclusion
 

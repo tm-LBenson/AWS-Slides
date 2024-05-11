@@ -11,10 +11,13 @@ lesson: 18
 
 The root user of an AWS account refers to the primary account holder with complete access to all AWS services and resources. This account is established during the AWS account creation process and holds the highest level of permissions.
 
+<!-- pagebreak -->
+
 #### Key Guidelines for Root User Safety
 
 - **Secure Access Keys**: It is crucial to secure the root user access keys and avoid using them for regular operations to minimize security risks.
 - **Limit Use of Root Account**: Avoid using the root user for daily administrative tasks. Instead, use roles with necessary permissions for everyday activities.
+<!-- pagebreak -->
 
 #### Root-Only Actions
 
@@ -44,11 +47,13 @@ Certain actions within AWS can only be performed by the root user, making unders
 
   - Special Services Enrollment:
   - Sign up for AWS GovCloud.
+  <!-- pagebreak -->
 
 #### Best Practices for Root User Management
 
 - **MFA (Multi-Factor Authentication)**: Always enable MFA on the root account to enhance security.
 - **Regular Monitoring**: Keep a close watch on the root account's activity, even if it's not used regularly, to detect any unauthorized access promptly.
+<!-- pagebreak -->
 
 #### Conclusion
 
