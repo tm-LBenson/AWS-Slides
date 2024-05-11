@@ -21,32 +21,23 @@ The root user of an AWS account refers to the primary account holder with comple
 
 #### Root-Only Actions
 
-Certain actions within AWS can only be performed by the root user, making understanding these critical for effective account management. Key actions include (Note: the bold headings are most likely to be seen on the exam):
+Certain actions within AWS can only be performed by the root user, making understanding these critical for effective account management. Key actions include:
 
 - **Account Settings Changes**:
-
-  - Modify account settings such as the account name, email address, and the root user password.
-  - Manage root user access keys.
-
-- Financial and Legal Actions:
-
-  - View certain tax invoices.
-
+- **Change or cancel the AWS Support plan.**
+- **Register as a seller in the Reserved Instance Marketplace.**:
+  - If you purchase 3 years of an EC2 instance, you can sell it early on a marketplace
 - **Close the AWS account.**
 
-- IAM and Security Actions:
+##### Other Actions only on Root
 
-  - Restore IAM user permissions.
-  - Configure an Amazon S3 bucket to enable MFA (Multi-Factor Authentication).
-  - Edit or delete an Amazon S3 bucket policy that includes invalid VPC IDs or endpoint IDs.
-
-  - **Change or cancel the AWS Support plan.**
-  - **Register as a seller in the Reserved Instance Marketplace.**:
-
-    - If you purchase 3 years of an EC2 instance, you can sell it early on a marketplace
-
-  - Special Services Enrollment:
-  - Sign up for AWS GovCloud.
+- Financial and Legal Actions:
+- View certain tax invoices.
+- Restore IAM user permissions.
+- Configure an Amazon S3 bucket to enable MFA (Multi-Factor Authentication).
+- Edit or delete an Amazon S3 bucket policy that includes invalid VPC IDs or endpoint IDs.
+- Special Services Enrollment:
+- Sign up for AWS GovCloud.
   <!-- pagebreak -->
 
 #### Best Practices for Root User Management
