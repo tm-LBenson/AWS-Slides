@@ -1,10 +1,8 @@
-## 2024-1-5-section-14-lesson-11.md
-
+---
 layout: posts
 title: 'AWS Machine Learning Services Overview'
 section: Section-14
 lesson: 11
-
 ---
 
 ### AWS Machine Learning Services Summary
