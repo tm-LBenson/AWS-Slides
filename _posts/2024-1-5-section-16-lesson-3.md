@@ -20,7 +20,7 @@ AWS Directory Services provides a way to integrate AWS resources with Microsoft 
 - **Integration with AWS**: Extends Microsoft AD capabilities into the AWS cloud, allowing seamless integration between on-premises AD infrastructures and AWS services.
 - **Managed Service**: AWS handles the setup, maintenance, and scalability of the directory services, making it easier for AWS customers to focus on their applications.
 
-#### Use Cases:
+#### Use Cases
 
 - **Single Sign-On (SSO)**: Allows users to sign in once and access multiple AWS services without re-authenticating.
 - **Resource Access**: Manage and control access to AWS resources using group memberships and permissions defined in AD.
