@@ -26,13 +26,13 @@ AWS Cost and Usage Reports offer a detailed understanding of your AWS spending a
 
 #### How to Access and Use AWS Cost and Usage Reports
 
-##### Enabling the Reports:
+##### Enabling the Reports
 
 - Navigate to the **Billing and Cost Management Dashboard**.
 - Select **Cost & Usage Reports** under the navigation pane.
 - Set up a report by defining the report name, data granularity, and delivery options.
 
-##### Analyzing the Data:
+##### Analyzing the Data
 
 - Use Amazon Athena to query your cost and usage report data stored in S3.
 - Employ Amazon QuickSight for visualizing the spending trends and exploring data interactively.
