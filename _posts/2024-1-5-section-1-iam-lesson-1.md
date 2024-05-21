@@ -11,8 +11,6 @@ lesson: 1
 
 Welcome to your first steps into the AWS Cloud! This lesson will guide you through understanding the basics of cloud computing and AWS.
 
-- **Create an AWS Account**: You'll need a unique account name, an email, and a secure password. Using Gmail with the alias feature (e.g., `example+AWS-TRAINING@gmail.com`) can be handy for managing your account emails effectively.
-
 <!-- pagebreak -->
 
 #### What is Cloud Computing?
@@ -42,6 +40,18 @@ Understanding these models helps you choose the right solution for different sce
 
 <!-- pagebreak -->
 
+#### Five Characteristics of Cloud Computing
+
+To understand the essence of cloud computing, let's look at its five key characteristics:
+
+1. **On-Demand Self-Service**: Provision computing capabilities as needed automatically.
+2. **Broad Network Access**: Access resources over the network using standard mechanisms.
+3. **Resource Pooling**: Serve multiple customers using a multi-tenant model.
+4. **Rapid Elasticity**: Scale resources quickly based on demand.
+5. **Measured Service**: Monitor, control, and report resource usage, providing transparency for both the provider and consumer.
+
+<!-- pagebreak -->
+
 #### Setting Up a Budget
 
 Monitoring and managing your AWS spending is crucial to avoid unexpected charges. AWS provides tools to set up budgets and alerts to help you keep track of your expenses.
@@ -61,5 +71,26 @@ The AWS Management Console is your gateway to accessing and managing AWS service
 - **Service Categories**: Understand the different categories like Compute, Storage, Database, and Networking to effectively navigate the console.
 
 This lesson sets the foundation for your AWS journey, preparing you for more advanced topics and practical experiences in the cloud.
+
+<!-- pagebreak -->
+
+#### Pricing Fundamentals of AWS
+
+Understanding AWS pricing is critical for managing costs effectively. AWS pricing is based on three main fundamentals:
+
+1. **Compute Costs**: Charges for the compute power you use.
+2. **Storage Costs**: Charges for the data storage you use.
+3. **Data Transfer Costs**: Charges for data transferred out of AWS services.
+
+<!-- pagebreak -->
+
+#### Shared Responsibility Model
+
+The Shared Responsibility Model outlines the division of responsibilities between AWS and the customer:
+
+- **AWS Responsibilities**: Security of the cloud infrastructure, including hardware, software, networking, and facilities.
+- **Customer Responsibilities**: Security in the cloud, including data encryption, identity and access management, and application security.
+
+Understanding this model is crucial for ensuring compliance and security in your AWS environment.
 
 ---
