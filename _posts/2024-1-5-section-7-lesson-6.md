@@ -34,3 +34,5 @@ When preparing for AWS certification exams, here are some key points about Dynam
 - **Use Cases**: DynamoDB is widely used in mobile, web, gaming, ad tech, IoT, and many other applications that need consistent, single-digit millisecond latency at any scale.
 
 DynamoDB’s combination of high availability, security, and performance makes it a critical tool for building scalable, high-performance applications on AWS.
+
+---

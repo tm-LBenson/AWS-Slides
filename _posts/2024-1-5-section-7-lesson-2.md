@@ -89,3 +89,5 @@ Connections:
 
 - Traffic flows from the Elastic Load Balancer to multiple EC2 instances.
 - EC2 instances connect to Amazon RDS for database read/write operations.
+
+---
