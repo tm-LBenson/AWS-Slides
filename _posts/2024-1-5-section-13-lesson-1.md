@@ -1,78 +1,43 @@
 ---
 layout: posts
-title: 'Security and Compliance: Understanding AWS Shared Responsibility Model'
-section: Section-14
+title: 'VPC - Virtual Private Cloud Overview'
+section: Section-13
 lesson: 1
 ---
 
-### AWS Security and Compliance Overview
+### Introduction to Virtual Private Cloud (VPC)
 
-#### AWS Responsibility - Security of the Cloud
-
-AWS is responsible for protecting the infrastructure that runs all the services offered in the AWS Cloud. This infrastructure comprises hardware, software, networking, and facilities.
+This lesson provides a high-level overview of Amazon Virtual Private Cloud (VPC), focusing on the default VPC setup, which is important for understanding basic networking within AWS. We'll briefly cover the essential components and concepts needed for the AWS Cloud Practitioner exam.
 
 <!-- pagebreak -->
 
-##### Managed Services Security by AWS
+#### Core Components of a VPC
 
-- **S3, DynamoDB, RDS, etc.**: AWS manages and controls the components from the host operating system and virtualization layer down to the physical security of the facilities in which the services operate.
-
-<!-- pagebreak -->
-
-#### Customer Responsibility - Security in the Cloud
-
-Customers are responsible for managing the guest operating system (including updates and security patches), other associated application software as well as the configuration of the AWS provided security group firewall.
+- **VPC**: A virtual network dedicated to your AWS account within a region, providing isolation and control over AWS resources.
+- **Subnets**: Divisions within a VPC that allow you to allocate IP ranges within different availability zones, enhancing resource deployment flexibility and fault tolerance.
+- **Internet Gateways & NAT Gateways**: Facilitates communication between resources within your VPC and the internet. Internet Gateways allow public access, while NAT Gateways enable internet access for private subnets.
 
 <!-- pagebreak -->
 
-##### Example: Amazon EC2 Security
+#### Security and Traffic Management
 
-- **Operating System & Network Configuration**: Customers are responsible for management of the guest OS, firewall, and network configurations.
-- **Data Encryption**: Encrypting application data is the customer's responsibility.
-
-<!-- pagebreak -->
-
-#### Shared Controls
-
-- **Patch Management**: Customers are responsible for patching and fixing flaws within the software, but AWS is responsible for patching and fixing flaws within the infrastructure.
-- **Configuration Management**: Customers manage their own data and configure their instance of database or applications, while AWS takes care of the infrastructure.
-- **Awareness & Training**: Both AWS and the customer manage their own training programs for their employees.
+- **Security Groups**: Act as virtual firewalls for your instances to control inbound and outbound traffic at the instance level.
+- **Network ACLs (NACLs)**: An additional layer of security that acts as a firewall for controlling traffic in and out of subnets.
+- **VPC Flow Logs**: Capture information about IP traffic going to and from network interfaces in your VPC, useful for monitoring and troubleshooting connectivity issues.
 
 <!-- pagebreak -->
 
-#### Examples of Shared Responsibility
+#### Connectivity Solutions
 
-##### For RDS
-
-- **AWS Responsibilities**:
-
-  - Managing the underlying EC2 instance and disabling SSH access.
-  - Automated database patching.
-  - Automated OS patching.
-  - Auditing the underlying instance and disks & guaranteeing functionality.
-
-- **Customer Responsibilities**:
-  - Managing database security groups and rules.
-  - In-database user creation and permissions.
-  - Configuring databases to allow only SSL connections.
-  - Setting database encryption.
+- **VPC Peering**: Allows you to connect two VPCs, enabling traffic to route between them using private IP addresses.
+- **VPC Endpoints**: Enables private connections between your VPC and AWS services without requiring traffic to traverse the internet.
+- **Site-to-Site VPN & Direct Connect**: Facilitates secure and private connectivity from an on-premises network to AWS or between AWS regions.
+- **Transit Gateway**: A service that simplifies the networking and management of multiple VPCs and VPNs across your cloud environment.
 
 <!-- pagebreak -->
 
-##### For S3
+#### Conclusion
 
-- **AWS Responsibilities**:
+Understanding the basics of AWS VPC and its components is essential for managing network configurations within the AWS ecosystem. This knowledge is foundational for anyone preparing for AWS certification exams, particularly those focusing on architecture and network security.
 
-  - Guaranteeing unlimited storage.
-  - Ensuring data encryption.
-  - Separating data between different customers.
-  - Preventing AWS employees from accessing customer data.
-
-- **Customer Responsibilities**:
-  - Bucket configuration and policy settings.
-  - Managing IAM users and roles.
-  - Enabling encryption on the buckets.
-
-<!-- pagebreak -->
-
-![AWS Shared Responsibility Model](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+---

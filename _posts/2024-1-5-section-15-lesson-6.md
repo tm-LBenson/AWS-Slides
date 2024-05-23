@@ -1,29 +1,54 @@
 ---
-title: 'AWS Control Tower'
-section: Section-16
+layout: posts
+title: 'Exploring Amazon SageMaker'
+section: Section-15
 lesson: 6
 ---
 
-### AWS Control Tower
+### Amazon SageMaker Overview
 
-#### Introduction
-
-- AWS Control Tower offers an easy way to set up and govern a secure and compliant multi-account AWS environment, built on AWS best practices.
+Amazon SageMaker is a fully managed machine learning (ML) service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at scale.
 
 <!-- pagebreak -->
 
-#### Benefits of AWS Control Tower
+#### Machine Learning Process Simplified
 
-- **Automated Setup**: Automate the setup of your environment with just a few clicks.
-- **Policy Management**: Automate ongoing policy management using guardrails to ensure compliance and governance.
-- **Compliance Monitoring**: Monitor compliance and detect policy violations with an interactive dashboard, allowing for quick remediation.
+To understand how SageMaker enhances the ML workflow, consider a simple example: predicting exam scores based on study habits.
 
 <!-- pagebreak -->
 
-#### Integration with AWS Organizations
+##### Step 1: Collect Historical Data
 
-- AWS Control Tower utilizes AWS Organizations to organize accounts and implement Service Control Policies (SCPs), simplifying the management of multiple AWS accounts.
+Gather data that may influence exam scores:
+
+- Years of experience in IT.
+- Years of experience with AWS.
+- Time spent on the course.
+
+##### Step 2: Compare and Analyze
+
+Analyze how actual scores correlate with the time spent studying and other factors to identify patterns or insights.
 
 <!-- pagebreak -->
 
-This setup provides a structured approach to learning about AWS Control Tower, ensuring that students can easily follow along and understand the key concepts necessary for the exam.
+##### Step 3: Build the ML Model
+
+- Use SageMaker to create machine learning models that can predict exam scores based on historical data.
+- Train the model with existing data, tuning it to improve accuracy.
+
+##### Step 4: Deploy and Predict
+
+- Once trained, deploy the model in SageMaker to make it operational.
+- Input new data (e.g., hours a student plans to study) to predict potential exam scores.
+
+<!-- pagebreak -->
+
+#### Benefits of Using SageMaker
+
+Amazon SageMaker streamlines the entire machine learning process, providing tools and resources to handle all aspects of model building, training, and deployment within a single platform. This includes automatic provisioning of servers and high-level tools to facilitate model creation and tuning, making it accessible for both novices and experienced practitioners.
+
+SageMaker ensures that teams can focus more on solving the problem at hand rather than managing the underlying infrastructure, thus accelerating the machine learning lifecycle.
+
+Note: For the exam, you do not need to memorize the steps in ML; they are an exaggerated and oversimplified example to explain what SageMaker does.
+
+---

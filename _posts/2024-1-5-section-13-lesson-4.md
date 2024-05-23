@@ -1,36 +1,49 @@
 ---
 layout: posts
-title: 'AWS Firewall Manager: Centralized Security Management'
-section: Section-14
+title: 'Network ACLs & Security Groups in AWS'
+section: Section-13
 lesson: 4
 ---
 
-### AWS Firewall Manager
+### Understanding Network ACLs and Security Groups
 
-#### Introduction to AWS Firewall Manager
-
-AWS Firewall Manager is a security management service designed to help you centrally manage security rules across your AWS Organization. This service simplifies the administration of security policies across multiple AWS accounts and resources.
+AWS provides two primary methods to manage network traffic at different layers of the VPC: Network Access Control Lists (NACLs) and Security Groups. Both serve as firewalls but operate at different levels and with different capabilities.
 
 <!-- pagebreak -->
 
-#### Simplifying Security Management
+#### Network ACL (NACL)
 
-- **Central Management**: Enables administrators to manage security rules for multiple accounts and resources from a single pane of glass, ensuring consistent security policy enforcement across the organization.
-- **Automatic Policy Application**: Automatically applies security policies to all existing and new resources within the organization, ensuring continuous compliance and protection.
-
-<!-- pagebreak -->
-
-#### Supported Security Mechanisms
-
-- **VPC Security Groups**: Manage security groups for EC2 instances and Application Load Balancers.
-- **AWS WAF**: Centralize the management of AWS WAF rules to protect web applications.
-- **AWS Shield Advanced**: Provides integration for enhanced DDoS protection.
-- **AWS Network Firewall**: Facilitates the deployment and management of network firewall policies.
+- **Role and Function**: NACLs act as a firewall at the subnet level, controlling both inbound and outbound traffic.
+- **Rules and Capabilities**:
+  - **ALLOW and DENY Rules**: NACLs allow you to create rules that explicitly allow or deny traffic, providing a layer of security that can block unwanted traffic before it reaches EC2 instances.
+  - **Stateless Operations**: NACLs do not track the state of network connections. Each packet is evaluated independently, which means inbound and outbound rules are applied separately.
+  - **Rule Evaluation**: Rules are processed in numerical order, with the lowest number rule being processed first. Once a rule applies, no further rules are evaluated.
 
 <!-- pagebreak -->
 
-#### Importance for AWS Cloud Practitioner Exam
+#### Security Groups
 
-For the AWS Certified Cloud Practitioner exam, it's essential to understand that AWS Firewall Manager allows for the centralized management of security rules across all accounts in an AWS Organization. This is crucial for ensuring consistent security policies and simplifying regulatory compliance across the organization.
+- **Role and Function**: Security groups act as a firewall for associated Amazon EC2 instances, controlling both inbound and outbound traffic at the instance level.
+- **Rules and Capabilities**:
+  - **Allow-Only Rules**: Unlike NACLs, security groups can only have allow rules. They cannot explicitly deny traffic; any traffic that does not match an allow rule is automatically denied.
+  - **Stateful Operations**: Security groups are stateful, meaning that if incoming traffic is allowed, the response traffic is automatically allowed, regardless of outbound rules.
+  - **Connection Tracking**: Security groups track the state of network connections, allowing or denying future packets based on the connection state.
 
-Remember, the key takeaway for the exam is that AWS Firewall Manager is used for managing security rules at an organizational level, which is vital for maintaining security and compliance.
+<!-- pagebreak -->
+
+#### Differences and Use Cases
+
+- **NACL vs. Security Groups**: NACLs provide a broad layer of security at the subnet level, useful for controlling access to multiple instances within the same subnet. Security groups provide more granular control at the instance level.
+- **Combining Both**: For robust security, it's common to use both NACLs and security groups. NACLs serve as a first line of defense, blocking undesirable traffic at the subnet level. Security groups then provide finer-grained control over the traffic allowed to reach individual instances.
+
+Understanding the functionalities and differences between NACLs and security groups is crucial for designing secure, highly available network architectures in AWS.
+
+<!-- pagebreak -->
+
+| **Security Group**                                                            | **Network ACL**                                                  |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| Operates at the instance level                                                | Operates at the subnet level                                     |
+| Supports allow rules only                                                     | Supports allow rules and deny rules                              |
+| Is stateful: Return traffic is automatically allowed, regardless of any rules | Is stateless: Return traffic must be explicitly allowed by rules |
+
+---

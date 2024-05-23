@@ -1,30 +1,36 @@
 ---
 layout: posts
-title: 'AWS Directory Services Overview'
-section: Section-17
+title: 'Understanding Service Control Policies in AWS Organizations'
+section: Section-16
 lesson: 3
 ---
 
-### AWS Directory Services
+### Service Control Policies (SCPs) in AWS Organizations
 
-AWS Directory Services provides a way to integrate AWS resources with Microsoft Active Directory (AD). This service allows you to use your existing corporate credentials to access AWS services and resources securely.
+Service Control Policies (SCPs) provide a powerful mechanism to centrally manage permissions across multiple AWS accounts within an AWS Organization.
 
-#### Understanding Microsoft Active Directory (AD)
-
-- **Corporate Access Management**: If you've used a company computer that required a specific login that worked across multiple systems, that was likely powered by Microsoft AD.
-- **Features**: Microsoft AD manages user credentials and access across a network, including password policies, printer access, and access to other Windows services.
 <!-- pagebreak -->
 
-#### AWS Directory Services Features
+#### Overview of SCPs
 
-- **Integration with AWS**: Extends Microsoft AD capabilities into the AWS cloud, allowing seamless integration between on-premises AD infrastructures and AWS services.
-- **Managed Service**: AWS handles the setup, maintenance, and scalability of the directory services, making it easier for AWS customers to focus on their applications.
+- **Function**: SCPs allow you to allowlist or denylist IAM actions across your organization's accounts.
+- **Scope**: SCPs can be applied at the organizational unit (OU) or account level, but they do not affect the management account.
+- **Influence**: SCPs affect all users and roles in an account, including the root user, but they do not apply to service-linked roles.
 
-#### Use Cases
+<!-- pagebreak -->
 
-- **Single Sign-On (SSO)**: Allows users to sign in once and access multiple AWS services without re-authenticating.
-- **Resource Access**: Manage and control access to AWS resources using group memberships and permissions defined in AD.
+#### Key Features
 
-For the AWS Certified Cloud Practitioner exam, remember that AWS Directory Services enhances Microsoft Active Directory with AWS features.
+- **Restriction on Service-Linked Roles**: Service-linked roles, which facilitate seamless service integration, are not impacted by SCPs. This ensures that essential services continue to function even under strict policies.
+- **Default Deny**: SCPs follow a "default deny" stance. They must contain explicit 'Allow' statements to enable actions; otherwise, they prevent all actions.
+
+<!-- pagebreak -->
+
+#### Practical Use Cases
+
+- **Restricting Services**: Utilize SCPs to prevent the use of specific AWS services, such as Amazon EMR, enhancing security and compliance by limiting the services available to users.
+- **Compliance Enforcement**: SCPs can enforce compliance with standards such as PCI DSS by explicitly disabling non-compliant AWS services.
+
+Understanding and implementing SCPs within AWS Organizations is crucial for maintaining governance and operational control over your AWS resources across different accounts.
 
 ---

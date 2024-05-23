@@ -1,26 +1,26 @@
 ---
 layout: posts
-title: 'Security - AWS Well-Architected Framework'
-section: Section-19
+title: 'Amazon AppStream 2.0: Desktop Application Streaming'
+section: Section-18
 lesson: 3
 ---
 
-### Security
+### Amazon AppStream 2.0 Overview
 
-Security within the AWS Well-Architected Framework encompasses the ability to protect information, systems, and assets while delivering business value through risk assessments and mitigation strategies.
+Amazon AppStream 2.0 is a desktop application streaming service that allows businesses to deliver desktop applications to any computer through **a web browser.** (Not a desktop environment like Workspaces) This service simplifies application management and accessibility, eliminating the need for extensive infrastructure and traditional application deployment methods.
 
-#### Design Principles
+#### Key Features
 
-- **Implement a strong identity foundation**: Centralize privilege management and enforce the principle of least privilege using IAM to minimize reliance on long-term credentials.
-- **Enable traceability**: Monitor, alert, and audit actions and changes to your environment in real-time. Integrate logs and metrics with automated response systems to ensure swift actions.
-- **Apply security at all layers**: Add security at each layer of your architecture, from the edge network to VPCs, subnets, load balancers, instances, operating systems, and applications.
-- **Automate security best practices**: Use automation to apply security at scale, efficiently managing complex configurations and reducing human error.
-- **Protect data in transit and at rest**: Secure your data through encryption, tokenization, and strict access controls to ensure integrity and confidentiality.
-- **Keep people away from data**: Minimize direct access to data by using automated tools to handle and process data securely.
-- **Prepare for security events**: Continually practice incident response, simulate security events to test your preparedness, and implement automated tools to aid in rapid detection, investigation, and recovery.
+- **Accessibility**: Users can access applications from any device capable of running a web browser, providing flexibility and convenience.
+- **Scalability**: Easily scales to meet user demand without the need for physical hardware provisioning.
+- **Security**: Applications run on AWS, isolating the application infrastructure from the user's device, which enhances security.
 
-<!-- pagebreak -->
+#### Use Cases
 
-Understanding and applying these principles ensures robust security measures are embedded within every aspect of your cloud architecture.
+- Businesses that require providing their workforce with access to desktop applications without the complexity of managing end-user devices.
+- Educational institutions that need to deliver software for classes without requiring students to install specific applications on their personal computers.
+- Organizations that operate in regulated industries where data security and compliance are paramount.
+
+Amazon AppStream 2.0 offers a user-friendly, secure, and cost-effective solution for delivering applications directly to users, irrespective of their physical location.
 
 ---

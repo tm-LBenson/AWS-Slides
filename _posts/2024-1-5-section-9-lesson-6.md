@@ -1,38 +1,56 @@
 ---
 layout: posts
-title: 'AWS Outposts'
-section: Section-10
+title: 'AWS CodeBuild Overview'
+section: Section-9
 lesson: 6
 ---
 
-### AWS Outposts
+### AWS CodeBuild Overview
 
-#### What is Hybrid Cloud?
-
-Hybrid cloud is a computing environment that combines a public cloud and a private cloud by allowing data and applications to be shared between them. This setup provides businesses with greater flexibility and more data deployment options by allowing workloads to move between private and public clouds as computing needs and costs change.
+AWS CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to deploy. It enables developers to automatically build and test their code changes in the AWS Cloud, enhancing productivity by providing a scalable and flexible tool for automating the build process. This lesson introduces AWS CodeBuild, outlining its primary functionalities and integration within the AWS ecosystem.
 
 <!-- pagebreak -->
 
-#### Introduction to AWS Outposts
+#### What is AWS CodeBuild?
 
-AWS Outposts is a fully managed service that extends AWS infrastructure, AWS services, APIs, and tools to virtually any data center, co-location space, or on-premises facility for a truly consistent hybrid experience. AWS Outposts is designed for situations where you need to keep certain computing activities close to home for low latency or local data processing needs.
+- **Continuous Integration Service**: CodeBuild automates the process of building and testing code every time a developer pushes updates to a repository, helping to identify and fix bugs quicker, improve software quality, and reduce the time it takes to validate and release new software updates.
 
-<!-- pagebreak -->
-
-#### Key Features and Responsibilities
-
-- **Server Racks**: AWS Outposts are physical server racks that AWS installs in your on-premises data center. These racks are equipped with the same hardware AWS uses in their data centers, ensuring a consistent environment between cloud and on-site infrastructure.
-- **Local Extension of AWS Services**: Outposts allow you to locally run a variety of AWS services, including EC2, EBS, S3, and EKS, seamlessly integrating with your cloud resources.
-- **Customer Responsibilities**: While AWS manages the hardware and AWS services, you are responsible for the physical security of the Outposts rack. This includes ensuring that the installation site meets AWS's environmental requirements and security standards.
+- **Managed Build Service**: As a managed service, CodeBuild scales automatically to meet varying build volumes and requires no dedicated infrastructure management, making it cost-effective and efficient.
 
 <!-- pagebreak -->
 
-#### Benefits of AWS Outposts
+#### Key Features of AWS CodeBuild
 
-- **Consistency**: Offers the same AWS infrastructure, services, APIs, and tools both on-premises and in the cloud, making it easier to migrate workloads with minimal changes.
-- **Low Latency**: Ideal for applications that need to be close to on-premises assets for low-latency access.
-- **Local Data Processing**: Suitable for data residency requirements where data must remain on-site, providing the flexibility to meet regulatory and compliance needs.
+- **Fully Managed Build Environment**: CodeBuild provides prepackaged build environments for programming languages such as Java, Python, Node.js, Ruby, Go, and more, or you can fully customize build environments to suit your specific needs.
 
-AWS Outposts bridges the gap between on-premises and cloud environments, offering a hybrid solution that extends the reach of AWS services directly into your physical locations. This integration allows for a more versatile and efficient infrastructure that can adapt to various operational requirements.
+- **Integration with AWS Services**: Seamlessly integrates with other AWS services like AWS CodeCommit, AWS CodePipeline, and AWS CodeDeploy, forming a comprehensive CI/CD pipeline that automates the entire release process from code commit to deployment.
+
+- **Security**: Builds are run in isolated environments within AWS, and CodeBuild is integrated with AWS Identity and Access Management (IAM), ensuring that your build process is secure and compliant with your company’s policies.
+
+<!-- pagebreak -->
+
+#### Use Cases for AWS CodeBuild
+
+- **Automated Testing**: Automatically run unit tests and other testing scripts during the build process to ensure that your codebase maintains high-quality standards with every update.
+
+- **Build Artifacts**: Compile code into executable software with the necessary dependencies packaged correctly for deployment on any platform.
+
+- **Integration with CodePipeline**: Use CodeBuild as part of AWS CodePipeline to automate the entire software release process from code check-in to production deployment.
+
+<!-- pagebreak -->
+
+#### Benefits of Using CodeBuild
+
+- **Cost-Effective**: You only pay for the compute resources you use during the build process, and there are no costs for idle build server capacity.
+
+- **Scalability**: Automatically scales to handle multiple builds simultaneously, reducing the build queue times and speeding up the development cycle.
+
+- **Simplified Logging and Monitoring**: Integrated with Amazon CloudWatch for monitoring your build and test processes and AWS CloudTrail for logging API calls for audit and governance.
+
+<!-- pagebreak -->
+
+#### Conclusion
+
+AWS CodeBuild is a powerful tool for developers looking to automate and manage the build process efficiently within the AWS ecosystem. Its integration with other AWS services and its ability to scale based on demand make it a important component of modern applica
 
 ---

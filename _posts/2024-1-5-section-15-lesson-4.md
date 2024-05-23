@@ -1,64 +1,35 @@
 ---
 layout: posts
-title: 'Service Control Policy Examples: Allowlists and Denylists'
-section: Section-16
+title: 'Integrating Amazon Lex and Connect'
+section: Section-15
 lesson: 4
 ---
 
-### Exploring SCP Examples
+### Amazon Lex and Amazon Connect Overview
 
-Service Control Policies (SCPs) provide the ability to manage permissions across your AWS Organization. This lesson will illustrate practical examples of allowlist and denylist policies and explain their impact.
-
-<!-- pagebreak -->
-
-#### Allowlist SCP Example
-
-An allowlist SCP explicitly permits certain actions while implicitly denying all others. Below is an example of an SCP that allows actions related to viewing and listing AWS S3 buckets but denies everything else:
-
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Allow",
-      "Action": ["s3:ListBucket", "s3:GetBucketLocation"],
-      "Resource": "*"
-    }
-  ]
-}
-```
-
-**Explanation**:
-
-- **Effect**: 'Allow' — Specifies that the actions listed are permitted.
-- **Action**: Lists specific S3 actions that are allowed.
-- **Resource**: '\*' — Applies to all S3 resources.
+Amazon Lex and Amazon Connect are powerful AWS services designed to enhance customer interaction through advanced communication technologies.
 
 <!-- pagebreak -->
 
-#### Denylist SCP Example
+#### Amazon Lex
 
-A denylist SCP explicitly prohibits certain actions, allowing all others by default. Here is an example SCP that prevents the termination of EC2 instances:
+- **Technology**: Built on the same technology that powers Alexa, Amazon Lex provides Automatic Speech Recognition (ASR) and Natural Language Understanding (NLU) capabilities.
+- **Functions**: Enables developers to build sophisticated chatbots and interactive voice response systems that can understand user intent and respond in a conversational manner.
 
-```json
-{
-  "Version": "2012-10-17",
-  "Statement": [
-    {
-      "Effect": "Deny",
-      "Action": "ec2:TerminateInstances",
-      "Resource": "*"
-    }
-  ]
-}
-```
+<!-- pagebreak -->
 
-**Explanation**:
+#### Amazon Connect
 
-- **Effect**: 'Deny' — Indicates that the specified actions are forbidden.
-- **Action**: 'ec2:TerminateInstances' — Specifically denies the termination of EC2 instances.
-- **Resource**: '\*' — Applies to all EC2 resources.
+- **Virtual Contact Center**: A cloud-based contact center service that allows businesses to manage customer interactions at scale.
+- **Cost-Effective**: Offers a pay-as-you-go model that is typically 80% cheaper than traditional contact center solutions.
+- **Integration**: Seamlessly integrates with other CRM systems and AWS services, enhancing its utility and application.
 
-These examples show how SCPs can be crafted to provide precise access control within AWS Organizations, ensuring compliance and security across your cloud environment.
+<!-- pagebreak -->
+
+#### Integration of Lex and Connect
+
+- **Workflow Example**: A typical integration scenario involves a customer calling to schedule an appointment. Amazon Connect receives the call and uses Amazon Lex to interpret the customer's request through natural language. The intent is processed, and a Lambda function may be triggered to schedule the appointment directly into a CRM system.
+
+This integration allows for a streamlined process that enhances customer experience by facilitating efficient and accurate communication, powered by advanced AWS technologies.
 
 ---

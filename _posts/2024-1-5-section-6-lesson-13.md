@@ -1,38 +1,37 @@
 ---
 layout: posts
-title: 'Amazon DocumentDB Overview'
-section: Section-7
+title: 'Snowball Edge Pricing Overview'
+section: Section-6
 lesson: 13
 ---
 
-### Amazon DocumentDB Overview
+### Snowball Edge Pricing Overview
 
-Amazon DocumentDB is a fully managed NoSQL database service that is compatible with MongoDB. It allows users to operate and scale JSON workloads easily when leveraging a managed service environment. This overview will highlight the key aspects of DocumentDB, especially in comparison to other AWS services like Aurora and DynamoDB.
-
-<!-- pagebreak -->
-
-#### Key Features of DocumentDB
-
-- **MongoDB Compatibility**: DocumentDB is designed to be compatible with MongoDB, meaning it supports the same MongoDB application code, drivers, and tools.
-
-- **NoSQL Database**: It is a NoSQL database that uses JSON-like documents for storing data. This flexibility allows for varied and complex data structures to be used efficiently.
-
-- **Fully Managed**: AWS manages the underlying infrastructure of DocumentDB, providing automated backups, patching, and scaling capabilities.
-
-- **Deployment Concept Similar to Aurora**: Just like Amazon Aurora, DocumentDB is designed to offer high durability and availability. It replicates six copies of your data across three Availability Zones (AZs).
-
-- **Storage and Scaling**: DocumentDB’s storage automatically grows in increments of 10GB up to a maximum of 64 TB without any impact on database performance. It can scale to accommodate millions of requests per second.
+Amazon Snowball Edge offers flexible pricing options tailored to your usage patterns and project requirements. Here's an overview of the key pricing details for using Snowball Edge devices:
 
 <!-- pagebreak -->
 
-#### Use Cases and Exam Tips
+#### Basic Costs
 
-- **When to Use DocumentDB**: Consider DocumentDB when you need to work with MongoDB workloads or require a NoSQL database that supports complex document models.
+- **Device Usage and Data Transfer**: Costs are incurred for both the usage of the Snowball Edge device and for any data transferred out of AWS.
+- **Data Transfer IN**: There is no cost for data transferred into Amazon S3 from Snowball Edge.
+<!-- pagebreak -->
 
-- **Exam Tips**:
-  - **MongoDB Relation**: Remember, if you see a reference to MongoDB in an exam question, think of DocumentDB due to its compatibility.
-  - **NoSQL on AWS**: For any queries related to NoSQL, consider both DynamoDB and DocumentDB. DynamoDB for key-value and DocumentDB for document-oriented database models.
+#### On-Demand Pricing
 
-DocumentDB provides an effective solution for managing NoSQL databases in AWS, particularly for users familiar with MongoDB looking for a scalable, durable, and secure managed database service.
+- **Service Fee Per Job**: Each job includes a one-time service fee that covers:
+  - **Snowball Edge Storage Optimized 80TB**: 10 days of usage.
+  - **Snowball Edge Storage Optimized 210TB**: 15 days of usage.
+- **Additional Days**: If you need the device for more than the included days, you will be charged on a per-day basis.
+- **Shipping Days**: Shipping days do not count towards the 10 or 15 days of usage included in the service fee.
+<!-- pagebreak -->
 
----
+#### Committed Use Pricing
+
+- **Prepayment Options**: You can choose to pay upfront for extended periods of usage (monthly, 1-year, and 3-year commitments) for Edge Computing use cases.
+- **Discounts**: Committed use contracts offer up to 62% discounted pricing compared to on-demand rates, providing significant savings for long-term projects.
+<!-- pagebreak -->
+
+#### Conclusion
+
+Snowball Edge provides a cost-effective solution for data transfer and edge computing needs, with pricing options that accommodate both short-term, on-demand use and longer-term commitments. Whether you are moving large amounts of data into AWS or performing local processing tasks, Snowball Edge offers a pricing structure that can be tailored to fit your project's budget and duration.

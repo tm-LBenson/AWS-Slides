@@ -1,38 +1,58 @@
 ---
 layout: posts
-title: 'AWS Wavelength'
-section: Section-10
+title: 'AWS CodePipeline Overview'
+section: Section-9
 lesson: 7
 ---
 
-### AWS Wavelength
+### AWS CodePipeline Overview
 
-#### Overview of AWS Wavelength
-
-AWS Wavelength brings AWS services to the edge of the 5G network, minimizing latency to deliver ultra-low latency applications for mobile and connected devices. Wavelength Zones are AWS infrastructure deployments embedded within the telecommunications providers' data centers at the edge of the 5G networks. This setup allows developers to serve end-users and devices with single-digit millisecond latencies over the 5G network.
+AWS CodePipeline is a continuous integration and continuous delivery (CI/CD) service for fast and reliable application and infrastructure updates. CodePipeline automates the build, test, and deploy phases of your release process every time there is a code change, based on the release model you define. This lesson explores the capabilities of AWS CodePipeline and its role in automating the steps from code change to deployment.
 
 <!-- pagebreak -->
 
-#### Key Features of AWS Wavelength
+#### What is AWS CodePipeline?
 
-- **5G Integration**: Wavelength is specifically designed to leverage the advancements in 5G technology to provide developers with the ability to build applications that require ultra-low latency.
-- **Seamless Access**: Developers can deploy their applications to Wavelength Zones using the same AWS tools and processes they use today. This familiarity in deployment processes ensures a seamless transition to using Wavelength.
+- **CI/CD Automation**: AWS CodePipeline automates the process of building, testing, and deploying your application according to the defined workflows.
 
-<!-- pagebreak -->
-
-#### Use Cases for AWS Wavelength
-
-- **Interactive and Immersive Applications**: Ideal for applications requiring real-time interactions, such as AR/VR experiences, interactive live video streams, and real-time gaming.
-- **IoT and Connected Devices**: Enhances applications involving autonomous vehicles, smart cities, and IoT devices that rely on real-time data processing.
+- **Orchestration**: It orchestrates the workflow configured for releasing your software changes continuously.
 
 <!-- pagebreak -->
 
-#### Exam Tips for AWS Wavelength
+#### Key Features of AWS CodePipeline
 
-For the AWS certification exams, the most critical aspect to remember about AWS Wavelength is its association with 5G networks:
+- **Modular Design**: CodePipeline allows you to define your build and deployment processes as a series of stages, with each stage representing a part of the CI/CD process. These stages can include actions like building code, running tests, or deploying to production.
 
-- **5G Networks**: If you encounter any questions where the scenario involves 5G technology and necessitates ultra-low latency, AWS Wavelength is likely the correct answer.
+- **Integration with AWS Services**: It integrates seamlessly with other AWS services such as AWS CodeBuild, AWS CodeDeploy, AWS Lambda, and AWS Elastic Beanstalk, as well as third-party tools like GitHub, Jenkins, and TeamCity.
 
-This lesson provides a foundational understanding of AWS Wavelength, emphasizing its role in leveraging 5G technology to enable new possibilities in application development and deployment at the network edge.
+- **Customizable Workflows**: You can customize the workflow to suit your development, testing, and production needs. This includes setting up different actions and transitions between actions, ensuring that the software release aligns with business, technical, and regulatory standards.
+
+<!-- pagebreak -->
+
+#### Use Cases for AWS CodePipeline
+
+- **Continuous Integration**: Automatically build and test your code every time there are changes, helping to catch bugs early and improve software quality.
+
+- **Continuous Delivery**: Automatically deploy every change that passes your production stage tests, ensuring that your software is always in a release-ready state.
+
+- **Application Updates**: Manage updates to applications deployed across a variety of AWS services, enabling faster and more reliable delivery of new features and updates.
+
+<!-- pagebreak -->
+
+#### Benefits of Using AWS CodePipeline
+
+- **Increased Speed and Reliability**: Automates every step in your release process, ensuring rapid and consistent software delivery.
+
+- **Enhanced Developer Productivity**: Reduces the need for manual tasks and helps developers to focus more on creating value through software improvements.
+
+- **Scalability**: Scales with your infrastructure and matches the demand of your deployment needs without the need to manage the underlying systems.
+
+<!-- pagebreak -->
+
+#### Exam Tips
+
+- **Remember for Exams**: If the exam question mentions orchestrating a pipeline or requires a tool for continuous integration and continuous delivery, think of AWS CodePipeline. It is specifically designed to manage these processes within the AWS ecosystem.
+
+AWS CodePipeline is an essential component of AWS's developer tools, providing a robust solution for automating software release processes. Understanding its operation and integration within AWS will empower developers and IT teams to more effectively manage their development workflows.
 
 ---

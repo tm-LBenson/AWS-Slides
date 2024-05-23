@@ -1,80 +1,50 @@
 ---
 layout: posts
-title: 'AWS Cloud Development Kit (CDK) Overview'
-section: Section-9
+title: 'Understanding ECS, Fargate, and ECR'
+section: Section-8
 lesson: 2
 ---
 
-### AWS Cloud Development Kit (CDK) Overview
+### Understanding ECS, Fargate, and ECR
 
-AWS Cloud Development Kit (CDK) revolutionizes infrastructure management by allowing developers to define cloud infrastructure using familiar programming languages such as JavaScript, Python, or TypeScript. This lesson introduces the AWS CDK, explaining how it enables efficient deployment of both infrastructure and application runtime code.
-
-<!-- pagebreak -->
-
-#### What is AWS CDK?
-
-- **Programmatic Infrastructure**: CDK allows you to define your cloud resources with an intuitive, imperative programming model instead of writing verbose JSON or YAML templates.
-
-- **Language Support**: With CDK, you can use programming languages like JavaScript, TypeScript, Python, Java, or C# to model your cloud infrastructure, leveraging existing language features and libraries.
-
-- **Integration with CloudFormation**: CDK synthesizes your application into a CloudFormation template, enabling reliable deployment and management of resources.
+AWS offers several services to run containerized applications, notably Amazon ECS, AWS Fargate, and Amazon ECR. Each serves a different purpose in managing and deploying Docker containers. This lesson will clarify these services and their roles, helping you prepare for AWS certification exams.
 
 <!-- pagebreak -->
 
-#### Key Features of AWS CDK
+#### Amazon Elastic Container Service (ECS)
 
-- **Integration with AWS Services**: CDK provides high-level components called constructs, which preconfigure cloud resources with sensible defaults to create complex cloud architectures easily.
+- **Overview**: ECS is a highly scalable, high-performance container orchestration service that supports Docker containers. It allows you to run applications on a managed cluster of Amazon EC2 instances.
 
-- **Extendable Framework**: You can customize constructs or compose multiple constructs together to encapsulate common patterns specific to your application.
+- **Infrastructure Management**: When using ECS, you must provision and maintain the underlying infrastructure, namely the EC2 instances. However, ECS automates the deployment, scaling, and management of containers.
 
-- **CDK CLI**: The toolkit includes a command line interface that allows you to interact with CDK applications, synthesize artifacts such as CloudFormation Templates, and deploy resources directly.
+- **Integration**: ECS integrates well with Amazon Application Load Balancer (ALB), enhancing the distribution of traffic across containers and providing high availability.
 
-<!-- pagebreak -->
-
-#### Example CDK Script
-
-Below is a snippet of JavaScript that outlines creating an ECS cluster with Fargate services using CDK. The example also sets up related networking resources like VPC and an Application Load Balancer.
-
-- **CDK Code Snippet**:
-
-  ```js
-  export class MyEcsConstructStack extends core.Stack {
-    constructor(scope: core.App, id: string, props?: core.StackProps) {
-      super(scope, id, props);
-
-      const vpc = new ec2.Vpc(this, 'MyVpc', {
-        maxAzs: 3, // Default is all AZs in region
-      });
-
-      const cluster = new ecs.Cluster(this, 'MyCluster', {
-        vpc: vpc,
-      });
-
-      // Create a load-balanced Fargate service and make it public
-      new ecs_patterns.ApplicationLoadBalancedFargateService(
-        this,
-        'MyFargateService',
-        {
-          cluster: cluster, // Required
-          cpu: 512, // Default is 256
-          desiredCount: 6, // Default is 1
-          taskImageOptions: {
-            image: ecs.ContainerImage.fromRegistry('amazon/amazon-ecs-sample'),
-          },
-          memoryLimitMiB: 2048, // Default is 512
-          publicLoadBalancer: true, // Default is false
-        },
-      );
-    }
-  }
-  ```
-
-- **Note**: This code snippet demonstrates the setup of several AWS resources: EC2 VPC, ECS cluster, and an Application Load Balanced Fargate service.
+- **Exam Tip**: If an exam question discusses running Docker containers on AWS and mentions managing the underlying servers, think of ECS.
 
 <!-- pagebreak -->
 
-#### Conclusion
+#### AWS Fargate
 
-AWS CDK empowers developers to define and deploy cloud infrastructure and services programmatically, ensuring that infrastructure management is as agile as application development. For those preparing for AWS certification exams, understanding CDK's capabilities to streamline cloud infrastructure deployment is important.
+- **Overview**: Fargate is a serverless compute engine for containers that works with both Amazon ECS and EKS (Elastic Kubernetes Service). It removes the need to provision and manage servers, simplifying the deployment of containers.
+
+- **Serverless**: With Fargate, you specify the CPU and memory requirements, and AWS manages the scaling and infrastructure needed to run your containers.
+
+- **Exam Tip**: For scenarios requiring Docker container deployment without direct server management, Fargate is the likely solution.
+
+<!-- pagebreak -->
+
+#### Amazon Elastic Container Registry (ECR)
+
+- **Overview**: ECR is a Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. It is integrated with ECS and Fargate, providing a secure location to pull images during container deployment.
+
+- **Private Registry**: ECR offers a private Docker registry on AWS, ensuring that your container images are securely stored and accessible within your AWS environment.
+
+- **Exam Tip**: If the discussion is about storing Docker images on AWS for use with ECS or Fargate, think ECR.
+
+<!-- pagebreak -->
+
+### Conclusion
+
+Understanding the differences between ECS, Fargate, and ECR is important for efficiently deploying and managing containerized applications on AWS. ECS requires active management of EC2 instances, Fargate offers a serverless option, and ECR provides a secure repository for Docker images. Recognizing when to use each service will help you make informed decisions in real-world applications and on AWS exams.
 
 ---

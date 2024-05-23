@@ -1,30 +1,53 @@
 ---
 layout: posts
-title: 'Introduction to Amazon Transcribe'
-section: Section-15
+title: 'DDoS Protection on AWS: Understanding AWS Shield and WAF'
+section: Section-14
 lesson: 2
 ---
 
-### Amazon Transcribe Overview
+### Overview of DDoS Protection on AWS
 
-Amazon Transcribe uses advanced machine learning techniques to convert speech into text, offering a versatile tool for various applications in business and media.
+#### AWS Shield
+
+AWS provides two levels of protection against Distributed Denial of Service (DDoS) attacks:
+
+- **AWS Shield Standard**:
+
+  - Automatically enabled for all AWS customers.
+  - Provides protection against common and most frequently occurring network and transport layer DDoS attacks.
+  - This protection is applied to all AWS services at no additional cost.
+
+- **AWS Shield Advanced**:
+  - Available for a fee.
+  - Offers 24/7 enhanced DDoS protection.
+  - Includes additional detection and mitigation capabilities, and access to the DDoS Response Team (DRT).
 
 <!-- pagebreak -->
 
-#### Key Features of Amazon Transcribe
+#### AWS Web Application Firewall (WAF)
 
-- **Automatic Speech Recognition (ASR)**: Utilizes deep learning processes to provide fast and accurate transcription of speech.
-- **PII Redaction**: Automatically identifies and removes Personally Identifiable Information from transcripts, enhancing privacy and compliance.
-- **Automatic Language Identification**: Capable of recognizing and transcribing multiple languages within the same audio, simplifying the process for multilingual environments.
+- **Customizable web application firewall**:
+  - Protects your web applications from common web exploits.
+  - Allows you to set up rules to block, allow, or monitor (count) web requests based on conditions you define.
+  - Helps ensure that your web applications are only accessible in ways that meet your requirements.
 
 <!-- pagebreak -->
 
-#### Use Cases
+#### Integration with CloudFront and Route 53
 
-- **Customer Service Optimization**: Transcribe customer service calls for quality monitoring, compliance, or training purposes.
-- **Media Services**: Automate closed captioning and subtitling, which can help in making content accessible to a broader audience.
-- **Content Archiving**: Generate searchable metadata for media assets, facilitating easy access and organization of digital media libraries.
+- **Enhanced Protection**:
+  - Combining AWS WAF with CloudFront and Route 53 enhances your application’s resilience against DDoS attacks.
+  - CloudFront's distributed network can serve as a global shield, distributing and thus mitigating the impact of attacks.
+  - Route 53 can effectively manage DNS traffic as part of a holistic defense strategy against DDoS attacks.
 
-Amazon Transcribe provides a robust platform for transforming spoken dialogue into written text, streamlining content creation and data analysis tasks across various sectors.
+<!-- pagebreak -->
 
----
+#### Auto Scaling for Resilience
+
+- **Scalability**:
+  - Auto Scaling ensures that your application can handle sudden and unexpected increases in traffic, which can be a symptom of a DDoS attack.
+  - Automatically adjusts capacity to maintain steady and predictable performance at the lowest possible cost.
+
+<!-- pagebreak -->
+
+AWS's comprehensive DDoS protection involves multiple layers of safeguards, including AWS Shield, AWS WAF, CloudFront, and Route 53, coupled with the ability to auto-scale resources to mitigate and absorb potential attacks.

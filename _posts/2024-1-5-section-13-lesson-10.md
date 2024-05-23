@@ -1,43 +1,35 @@
 ---
 layout: posts
-title: 'AWS Secrets Manager Overview'
-section: Section-14
+title: 'AWS Transit Gateway'
+section: Section-13
 lesson: 10
 ---
 
-### AWS Secrets Manager
+### AWS Transit Gateway
 
 #### Introduction
 
-AWS Secrets Manager is a service designed to help you protect access to your applications, services, and IT resources without the upfront investment and on-going maintenance costs of operating your own infrastructure.
+- **AWS Transit Gateway** acts as a network transit hub, simplifying the network architecture by allowing a single point of connectivity between multiple VPCs, on-premises networks, and other AWS services.
 
 <!-- pagebreak -->
 
-#### Key Features
+#### Features
 
-- **Secrets Rotation**: Secrets Manager has the capability to automatically rotate secrets according to a schedule you define. This helps in adhering to security best practices by changing passwords and other secrets periodically.
-- **Automated Secret Generation**: Upon rotation, AWS Secrets Manager can also automate the generation of new secrets, utilizing AWS Lambda to handle the complexities of the rotation logic.
-- **Encryption**: All secrets stored in AWS Secrets Manager are encrypted using AWS Key Management Service (KMS).
-<!-- pagebreak -->
-
-#### Integration with RDS
-
-- AWS Secrets Manager integrates seamlessly with Amazon RDS, supporting databases like MySQL, PostgreSQL, and Aurora. This integration simplifies the process of managing database credentials and other secrets.
-<!-- pagebreak -->
-
-#### Use Case for the Exam
-
-In the AWS certification exams, scenarios involving the management of database credentials securely or the need for automated password rotation often suggest the use of AWS Secrets Manager. When you see such requirements, particularly with Amazon RDS, think of AWS Secrets Manager as your go-to service.
+- **Transitive Peering**: Enables transitive peering between thousands of VPCs and on-premises environments without the need to establish multiple bilateral peering connections.
+- **Hub-and-Spoke Model**: Facilitates the hub-and-spoke (star) connection setup, where the transit gateway serves as the central hub.
 
 <!-- pagebreak -->
 
-#### Pricing and Hands-On Exploration
+#### Integration
 
-- Before concluding, it's useful for students to understand the cost implications of using AWS Secrets Manager.
-- Navigate to the AWS Management Console, find the AWS Secrets Manager service, and explore:
-  - **Pricing Details**: Understand how the pricing works to estimate the cost for managing secrets.
-  - **Creating a Secret**: Walk through the process of creating a secret to familiarize yourself with the interface and options available.
+- **Direct Connect and VPN Compatibility**: Seamlessly integrates with AWS Direct Connect and VPN, enhancing connectivity and extending the on-premises network into the cloud.
+- **Simplified Management**: Reduces the complexity of managing numerous network connections and routing policies.
 
-Make sure to cancel any operations if you are just exploring to avoid unnecessary charges.
+<!-- pagebreak -->
+
+#### Use Cases
+
+- **Large-Scale Network Architectures**: Ideal for enterprises with extensive network architectures that require streamlined connectivity across various environments.
+- **Centralized Network Management**: Allows centralized control over network routing and policies, enhancing security and efficiency.
 
 ---

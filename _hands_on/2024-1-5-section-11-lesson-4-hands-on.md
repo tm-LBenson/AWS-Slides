@@ -1,50 +1,64 @@
 ---
 layout: posts
-title: 'Hands-On: Creating and Reviewing a CloudTrail Trail'
-section: Section-12
+title: 'Hands-On: Using Amazon SNS'
+section: Section-11
 lesson: 4
 order: 1
 ---
 
-### Setting Up and Reviewing a CloudTrail Trail
+### Hands-On: Creating and Using Amazon SNS Topic
 
-This exercise will guide you through the process of creating an AWS CloudTrail trail and reviewing the event history to monitor account activities.
-
-<!-- pagebreak -->
-
-#### Step 1: Create a CloudTrail Trail
-
-- **Navigate to CloudTrail**: Open the AWS Management Console, go to Services, and select CloudTrail.
-- **Create Trail**:
-  - Click on 'Create trail'.
-  - Enter a name for the trail, such as `MyTrail`.
-  - Set the trail to apply to all regions to capture events from any AWS region.
-  - Configure the trail to store logs in an Amazon S3 bucket. You may create a new bucket or specify an existing one.
-  - Review the settings and click 'Create'.
+This hands-on guide will walk you through the process of creating an Amazon SNS (Simple Notification Service) topic, subscribing to it via email, and sending a test message to verify the setup.
 
 <!-- pagebreak -->
 
-#### Step 2: Review Event History
+#### Step 1: Create an SNS Topic
 
-- **Access Event History**:
-  - In the CloudTrail dashboard, click on 'Event history' in the left navigation pane.
-  - Here you can see all the recent API activity in your AWS account, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
-- **Analyze Events**:
-  - Browse through the list of events to find details about specific API calls, such as who made the call, the source IP, and the time of the call.
-  - This information is important for auditing and security purposes, especially to trace any changes or deletions in your AWS environment.
-
-<!-- pagebreak -->
-
-#### Understanding CloudTrail Data
-
-- **Event Log Details**:
-  - Each event log provides comprehensive details that can help in understanding the context and impact of each action.
-  - For example, if you have recently cleaned up resources from previous hands-on exercises, you can see delete actions logged with relevant details.
+- **Navigate to SNS**: Open the AWS Management Console, go to Services, and select Simple Notification Service.
+- **Create Topic**: Click on 'Create topic'.
+  - **Type**: Select 'Standard'.
+  - **Name**: Enter "demo-sns" as the topic name.
+  - **Settings**: Leave the default settings unchanged.
+  - **Create**: Click 'Create topic' to finalize the setup.
 
 <!-- pagebreak -->
 
-#### Conclusion
+#### Step 2: Subscribe to the Topic
 
-This hands-on experience with AWS CloudTrail illustrates how to set up a trail and review the event history, which is an essential skill for managing AWS accounts securely and efficiently. Understanding how to access and interpret CloudTrail data is important for troubleshooting, security monitoring, and compliance auditing.
+- **Create Subscription**:
+  - **Protocol**: Choose 'Email' as the subscription protocol.
+  - **Endpoint**: Enter your email address where you wish to receive notifications.
+  - **Create**: Click 'Create subscription'.
+- **Confirm Subscription**:
+  - **Email Verification**: Check your email for a subscription confirmation message from AWS.
+  - **Confirm**: Click the confirmation link in the email to activate your subscription.
+
+<!-- pagebreak -->
+
+#### Step 3: Publish a Message
+
+- **Publish Message**:
+  - **Access the Topic**: Return to the AWS SNS console and select your topic.
+  - **Publish**: Click on 'Publish message'.
+    - **Subject**: Provide a subject for your message.
+    - **Message Body**: Type a message body.
+    - **Send**: Click 'Publish message'.
+
+<!-- pagebreak -->
+
+#### Step 4: Check for the Message
+
+- **Email Notification**: Check your email to confirm that you have received the message sent through the SNS topic. This verifies that your SNS setup is functioning correctly.
+
+<!-- pagebreak -->
+
+#### Clean Up
+
+- **Delete Subscription and Topic**: To avoid potential charges and clean up resources, delete the subscription and the topic:
+  - Navigate back to the SNS dashboard.
+  - Select the topic, then 'Subscription' and delete it.
+  - After removing the subscription, delete the topic.
+
+This exercise demonstrates the basic functionalities of Amazon SNS, including creating a topic, subscribing via email, and publishing messages. It is a simple yet effective way to understand how SNS can be used for sending notifications across different channels.
 
 ---

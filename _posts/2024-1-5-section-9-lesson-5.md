@@ -1,44 +1,52 @@
 ---
 layout: posts
-title: 'AWS Global Accelerator'
-section: Section-10
+title: 'AWS CodeCommit Overview'
+section: Section-9
 lesson: 5
 ---
 
-### AWS Global Accelerator
+### AWS CodeCommit Overview
 
-#### Introduction to AWS Global Accelerator
-
-AWS Global Accelerator is a networking service that helps you improve the availability and performance of your applications with users globally. It leverages the AWS global network to direct traffic to optimal endpoints over the AWS backbone network.
+AWS CodeCommit is a fully managed source control service that hosts secure Git-based repositories. It allows teams to collaboratively work on code in a secure and highly scalable ecosystem. This lesson introduces AWS CodeCommit, highlighting its functionality and integration within AWS.
 
 <!-- pagebreak -->
 
-#### Key Features
+#### What is AWS CodeCommit?
 
-- **Anycast IPs**: Provides two fixed Anycast IP addresses that serve as a fixed entry point to your applications and route traffic through the AWS global network infrastructure.
-- **Edge Locations**: Uses the AWS edge locations to route traffic more efficiently to your applications in AWS regions.
-- **Performance**: Optimizes the path to your application to improve performance and reduce internet latency.
+- **Managed Source Control**: CodeCommit eliminates the need to operate your own source control system or worry about scaling its infrastructure. It provides a private Git repository with the benefits of AWS scalability and security.
 
-<!-- pagebreak -->
-
-#### Differences Between CloudFront and Global Accelerator
-
-While both services aim to improve performance and availability of applications globally, there are key differences:
-
-- **Caching**: CloudFront is a content delivery network (CDN) that caches copies of content at edge locations worldwide. Global Accelerator does not cache content but routes traffic to optimize connectivity and performance.
-- **Static IP**: Global Accelerator provides static IP addresses as a fixed entry point to your applications, making it suitable for use cases that require a consistent IP address for DNS management or whitelisting.
-- **Traffic Handling**: Unlike CloudFront, which serves content directly from edge locations, Global Accelerator routes user traffic to the nearest AWS region where your application is deployed. This ensures traffic is handled by the application in a more direct path, improving response times and reducing latency.
+- **AWS Integration**: Seamlessly integrates with AWS's suite of developer tools, making it a natural choice for managing application code before deployment.
 
 <!-- pagebreak -->
 
-#### Use Cases
+#### Key Features of AWS CodeCommit
 
-AWS Global Accelerator is particularly effective for:
+- **Collaboration**: Similar to GitHub, CodeCommit enables multiple developers to collaborate on code, with features like pull requests, branch policies, and merge options to manage code reviews and contributions effectively.
 
-- **Non-cacheable Content**: Applications that require dynamic content delivery, which cannot benefit from traditional caching mechanisms.
-- **Global Reach with Low Latency**: Services that need consistent, quick response times globally.
-- **Simplifying IP Management**: Applications that benefit from having fixed IP addresses for simplified DNS setups or regulatory requirements.
+- **Security**: CodeCommit stores your repositories in the AWS Cloud, offering encryption at rest and in transit, along with integration with AWS Identity and Access Management (IAM) for fine-grained access control.
 
-AWS Global Accelerator enhances your application's performance by leveraging the AWS global network to efficiently route traffic. Understanding the distinctions between Global Accelerator and CloudFront is important for architects designing solutions that require robust, global access with low latency.
+- **Scalability**: As a managed service, CodeCommit can scale seamlessly to meet the needs of both small development teams and large enterprise projects.
+
+<!-- pagebreak -->
+
+#### Comparing CodeCommit with GitHub
+
+- **AWS Native**: While GitHub is widely used and offers extensive third-party integrations, CodeCommit provides a deeper integration with AWS services, which can be beneficial for teams heavily invested in the AWS ecosystem.
+
+- **Security and Compliance**: AWS customers might prefer CodeCommit due to its alignment with AWS's security model and compliance certifications.
+
+<!-- pagebreak -->
+
+#### Use Cases for AWS CodeCommit
+
+- **Enterprise Version Control**: CodeCommit is ideal for enterprises requiring a secure, scalable, and integrated version control system.
+
+- **AWS-centric Development**: Projects that are developed primarily within the AWS ecosystem can benefit from the deep integration that CodeCommit offers with other AWS services.
+
+<!-- pagebreak -->
+
+#### Conclusion
+
+AWS CodeCommit is an essential tool for developers needing a robust, secure, and scalable version control system integrated within the AWS ecosystem. Understanding how to utilize CodeCommit effectively can streamline the development and deployment processes for AWS-based applications, making it an invaluable resource for any AWS-centric development team.
 
 ---

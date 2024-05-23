@@ -1,30 +1,52 @@
 ---
 layout: posts
-title: 'Understanding AWS Comprehend'
-section: Section-15
+title: 'Penetration Testing on AWS: Guidelines and Permissions'
+section: Section-14
 lesson: 5
 ---
 
-### AWS Comprehend Overview
+### Penetration Testing on AWS
 
-AWS Comprehend is a natural language processing (NLP) service that uses machine learning to uncover insights within textual data without the need for any machine learning expertise.
+#### Overview
 
-<!-- pagebreak -->
-
-#### Core Features of AWS Comprehend
-
-- **Text Analysis**: Automatically extracts information about language, key phrases, places, people, brands, or events from text.
-- **Sentiment Analysis**: Determines if the text is positive, negative, or neutral based on its context.
-- **Syntax Analysis**: Analyzes text using tokenization and parts of speech to better understand the grammatical structure.
-- **Topic Modeling**: Automatically organizes a collection of text files by topic, helping to sort and categorize information effectively.
+AWS allows customers to conduct security assessments or penetration tests on their AWS infrastructure without prior approval for certain services. This empowers users to ensure their deployments are robust against security threats, an essential aspect of maintaining AWS infrastructure.
 
 <!-- pagebreak -->
 
-#### Use Cases
+#### Permitted Services for Penetration Testing
 
-- **Customer Interaction Analysis**: Analyze customer interactions, such as emails or social media posts, to determine what factors contribute to a positive or negative customer experience.
-- **Content Organization**: Automatically group large sets of articles or documents by topics that Comprehend identifies, facilitating easier management of text data.
+Here are the AWS services that you can test without needing AWS's prior approval:
 
-AWS Comprehend offers a fully managed and serverless solution to perform advanced text analysis, making it an essential tool for applications requiring a deep understanding of textual content.
+- **Amazon EC2 instances, NAT Gateways, and Elastic Load Balancers**
+- **Amazon RDS**
+- **Amazon CloudFront**
+- **Amazon Aurora**
+- **Amazon API Gateways**
+- **AWS Lambda and Lambda Edge functions**
+- **Amazon Lightsail resources**
+- **Amazon Elastic Beanstalk environments**
+
+Understanding which services can be tested is vital for planning security assessments.
+
+<!-- pagebreak -->
+
+#### Prohibited Activities
+
+While AWS permits penetration testing on the above services, certain activities are strictly prohibited to prevent disruptions or damage to AWS infrastructure. Remember, any activity resembling an attack on AWS infrastructure itself is not allowed:
+
+- **DNS zone walking via Amazon Route 53 Hosted Zones**
+- **Denial of Service (DoS), Distributed Denial of Service (DDoS), Simulated DoS, Simulated DDoS**
+- **Port flooding**
+- **Protocol flooding**
+- **Request flooding (login request flooding, API request flooding)**
+
+These restrictions are in place to maintain the integrity and availability of AWS services for all customers.
+
+<!-- pagebreak -->
+
+#### Key Points for the AWS Exam
+
+- Be aware that AWS customers do not need prior approval to perform penetration tests on the listed services. However, adherence to AWS's testing policies and guidelines is crucial to avoid service disruptions or AWS terms of service violations.
+- Recognize the prohibited activities to ensure compliance during security assessments.
 
 ---

@@ -1,60 +1,39 @@
 ---
 layout: posts
-title: 'AWS Ecosystem & Free Resources'
-section: Section-19
+title: 'AWS DataSync Overview'
+section: Section-18
 lesson: 12
 ---
 
-### AWS Ecosystem — Free Resources
+### AWS DataSync
 
-AWS provides several resources to help you learn, implement, and manage your AWS environment effectively.
+#### What is AWS DataSync?
 
-<!-- pagebreak -->
-
-#### AWS Blogs and Community Resources
-
-- **AWS Blogs**: [AWS Blogs](https://aws.amazon.com/blogs/aws/)
-- **AWS Forums**: [Community Forums](https://forums.aws.amazon.com/index.jspa)
-- **AWS Whitepapers & Guides**: [Whitepapers](https://aws.amazon.com/whitepapers)
-- **AWS Partner Solutions**: [Quick Starts](https://aws.amazon.com/quickstart/)
-  - Automated deployments using CloudFormation, e.g., [WordPress on AWS](https://fwd.aws/P3m2d?did=qs_card&trk=qs_card).
-- **AWS Solutions**: [Solutions Implementations](https://aws.amazon.com/solutions/implementations/aws-landing-zone/)
-  - Vetted technology solutions like AWS Landing Zone.
+AWS DataSync is a data transfer service that simplifies, automates, and accelerates moving large amounts of data between on-premises storage systems and AWS storage services.
 
 <!-- pagebreak -->
 
-#### AWS Support Tiers
+#### Key Features:
 
-- **Developer**: Business hour email access to Cloud Support Associates.
-- **Business**: 24x7 phone, email, and chat support.
-- **Enterprise**: Access to a Technical Account Manager (TAM) and enhanced support.
+- **Fast Data Transfer**: Uses a purpose-built network protocol to speed up the transfer rates, reducing data migration time.
+- **Automated and Scheduled Transfers**: Supports setting up data transfers on a schedule (hourly, daily, weekly) to automate the synchronization process.
 
+- **Efficient Replication**: After the initial full load, DataSync uses incremental transfers to synchronize only the changes, which reduces the amount of data transferred and minimizes costs.
 <!-- pagebreak -->
 
-#### AWS Marketplace & Training
+#### Target Services:
 
-- **AWS Marketplace**: A digital catalog with thousands of software listings from independent software vendors.
-  - Integrate purchases into your AWS bill; sell your solutions.
-- **AWS Training**: Variety of training options including digital, classroom, and private training tailored for government or enterprise.
-  - [AWS Academy](https://aws.amazon.com/training/awsacademy/) for university programs.
-
+- Amazon S3: Supports all storage classes, including S3 Glacier for long-term archival.
+- Amazon Elastic File System (EFS): Ideal for moving data to a managed file storage service.
+- Amazon FSx for Windows File Server: Facilitates data transfers into a fully managed native Microsoft Windows file system.
 <!-- pagebreak -->
 
-#### AWS Professional Services & Partner Network
+#### Use Cases:
 
-- **AWS Professional Services**: A global team of experts assisting with AWS implementation.
-- **AWS Partner Network (APN)**:
-  - **Technology Partners**: Hardware, connectivity, and software providers.
-  - **Consulting Partners**: Professional services to build on AWS.
-  - **Training Partners**: Help learn AWS.
-  - **AWS Competency Program**: Recognizes technical proficiency in specialized areas.
+- **Disaster Recovery**: Quickly replicate data to AWS for backup purposes.
+- **Data Migration**: Move data to the cloud as part of a cloud adoption strategy.
+- **Data Processing**: Transfer data into AWS for processing with cloud-native services.
 
-<!-- pagebreak -->
-
-#### Exam Tips
-
-- You might encounter 1-2 questions about using the right AWS resource for a given scenario.
-- Understanding available resources will help intuitively answer questions without needing extensive memorization.
-- Review these resources shortly before your exam to keep the information fresh.
+For the exam, remember if you see a need for _**`incremental`**_ data transfers, AWS DataSync might be the indicated service due to its efficiency in handling subsequent data updates after the initial full load.
 
 ---

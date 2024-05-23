@@ -1,35 +1,36 @@
 ---
 layout: posts
-title: 'Integrating Amazon Lex and Connect'
-section: Section-15
+title: 'AWS Firewall Manager: Centralized Security Management'
+section: Section-14
 lesson: 4
 ---
 
-### Amazon Lex and Amazon Connect Overview
+### AWS Firewall Manager
 
-Amazon Lex and Amazon Connect are powerful AWS services designed to enhance customer interaction through advanced communication technologies.
+#### Introduction to AWS Firewall Manager
 
-<!-- pagebreak -->
-
-#### Amazon Lex
-
-- **Technology**: Built on the same technology that powers Alexa, Amazon Lex provides Automatic Speech Recognition (ASR) and Natural Language Understanding (NLU) capabilities.
-- **Functions**: Enables developers to build sophisticated chatbots and interactive voice response systems that can understand user intent and respond in a conversational manner.
+AWS Firewall Manager is a security management service designed to help you centrally manage security rules across your AWS Organization. This service simplifies the administration of security policies across multiple AWS accounts and resources.
 
 <!-- pagebreak -->
 
-#### Amazon Connect
+#### Simplifying Security Management
 
-- **Virtual Contact Center**: A cloud-based contact center service that allows businesses to manage customer interactions at scale.
-- **Cost-Effective**: Offers a pay-as-you-go model that is typically 80% cheaper than traditional contact center solutions.
-- **Integration**: Seamlessly integrates with other CRM systems and AWS services, enhancing its utility and application.
+- **Central Management**: Enables administrators to manage security rules for multiple accounts and resources from a single pane of glass, ensuring consistent security policy enforcement across the organization.
+- **Automatic Policy Application**: Automatically applies security policies to all existing and new resources within the organization, ensuring continuous compliance and protection.
 
 <!-- pagebreak -->
 
-#### Integration of Lex and Connect
+#### Supported Security Mechanisms
 
-- **Workflow Example**: A typical integration scenario involves a customer calling to schedule an appointment. Amazon Connect receives the call and uses Amazon Lex to interpret the customer's request through natural language. The intent is processed, and a Lambda function may be triggered to schedule the appointment directly into a CRM system.
+- **VPC Security Groups**: Manage security groups for EC2 instances and Application Load Balancers.
+- **AWS WAF**: Centralize the management of AWS WAF rules to protect web applications.
+- **AWS Shield Advanced**: Provides integration for enhanced DDoS protection.
+- **AWS Network Firewall**: Facilitates the deployment and management of network firewall policies.
 
-This integration allows for a streamlined process that enhances customer experience by facilitating efficient and accurate communication, powered by advanced AWS technologies.
+<!-- pagebreak -->
 
----
+#### Importance for AWS Cloud Practitioner Exam
+
+For the AWS Certified Cloud Practitioner exam, it's essential to understand that AWS Firewall Manager allows for the centralized management of security rules across all accounts in an AWS Organization. This is crucial for ensuring consistent security policies and simplifying regulatory compliance across the organization.
+
+Remember, the key takeaway for the exam is that AWS Firewall Manager is used for managing security rules at an organizational level, which is vital for maintaining security and compliance.

@@ -1,79 +1,48 @@
 ---
 layout: posts
-title: 'Hands-On: Using CloudWatch Logs with AWS Lambda'
-section: Section-12
+title: 'Hands-On: Amazon SQS Standard Queue'
+section: Section-11
 lesson: 2
 order: 1
 ---
 
-### Hands-On: Monitoring AWS Lambda with CloudWatch Logs
+### Hands-On: Creating and Using a Standard SQS Queue
 
-This exercise demonstrates how to use Amazon CloudWatch Logs to monitor and debug an AWS Lambda function written in Node.js. You will create a Lambda function, execute it to generate logs, and then analyze these logs in CloudWatch.
+#### Step-by-Step Guide to Creating a Standard Queue
 
-<!-- pagebreak -->
-
-#### Step 1: Create a New Lambda Function
-
-- **Open AWS Lambda**:
-  - Navigate to the AWS Management Console, go to Services, and select Lambda.
-- **Create Function**:
-  - Click on 'Create function'.
-  - Choose 'Author from scratch'.
-  - Enter a function name, e.g., `DemoLambda`.
-  - For the runtime, select 'Node.js'.
-  - Leave the default permissions and click 'Create function'.
+Amazon Simple Queue Service (SQS) allows you to manage message queuing for decoupling application components. In this hands-on, we will create a standard SQS queue and demonstrate basic operations like sending and receiving messages.
 
 <!-- pagebreak -->
 
-#### Step 2: Test and View Logs
+#### Creating a Standard SQS Queue
 
-- **Initial Test**:
-  - In the function's configuration page, locate the 'Test' button.
-  - Create a new test event with any sample JSON data, name it `TestEvent`, and click 'Test'.
-  - After execution, navigate to the 'Monitor' tab and click 'View logs in CloudWatch'.
-  - Observe the generated logs in CloudWatch Logs.
-
-<!-- pagebreak -->
-
-#### Step 3: Modify and Monitor
-
-- **Add Logging Statements**:
-  - Edit your Lambda function's code to add `console.log` statements. For example:
-    ```js
-    exports.handler = async (event) => {
-      console.log('Event: ', event);
-      console.log('This is a log statement before processing.');
-      // Your function logic here
-      console.log('Processing complete.');
-      return { statusCode: 200, body: JSON.stringify('Hello from Lambda!') };
-    };
-    ```
-  - Save the changes and re-run the test. View the new logs in CloudWatch.
+- **Navigate to SQS**: Open the AWS Management Console, go to Services, and select SQS under Application Integration.
+- **Create New Queue**: Click on 'Create Queue'.
+- **Select Queue Type**: Choose 'Standard Queue'. For this exercise, we will use a standard queue as it provides nearly unlimited throughput, best-effort ordering, and at-least-once delivery.
+- **Queue Settings**: You can leave all settings at their default values. Advanced settings are out of the scope for the exam.
 
 <!-- pagebreak -->
 
-#### Step 4: Error Logging
+#### Sending Messages
 
-- **Simulate an Error**:
-  - Modify the Lambda function to throw an error. For example:
-    ```js
-    exports.handler = async (event) => {
-      console.log('Event received:', event);
-      // Comment out the return statement and introduce an error
-      throw new Error('An error occurred: nooo');
-    };
-    ```
-  - Save the changes, re-test the function, and observe the error logs in CloudWatch.
+- **Send a Message**: Once your queue is created, navigate to the 'Send and receive messages' panel.
+- **Compose Your Message**: In the message body, type 'Hello World' and click 'Send Message'.
+- **Send Another Message**: Repeat the process to send another message. After sending, notice the 'Messages Available' count increase accordingly.
 
 <!-- pagebreak -->
 
-#### Step 5: Cleanup
+#### Receiving Messages
 
-- **Delete Resources**:
-  - To avoid incurring charges, remember to delete the Lambda function after you have completed the hands-on exercise.
-  - Navigate to the Lambda dashboard, select your function, and choose 'Actions' > 'Delete function'.
-  - Confirm deletion.
+- **Poll for Messages**: Click on 'Poll for messages' to see the messages you have sent.
+- **Review Messages**: As the messages appear, click on each one to view its contents. This shows how messages are received in an SQS queue.
+- **Delete Messages**: After reviewing, select each message and delete them to clean up your queue.
 
-This exercise helps you understand how AWS Lambda integrates with CloudWatch Logs for real-time monitoring and debugging, allowing you to track application behavior and respond to issues effectively.
+<!-- pagebreak -->
+
+#### Clean Up
+
+- **Delete the Queue**: To avoid any lingering resources, go back to the queue dashboard, select the queue you created, and click 'Delete Queue'. Confirm the deletion.
+
+This exercise demonstrates the basic functionality of Amazon SQS for standard queues. By following these steps, you gain practical experience in managing simple message queues, which can help in understanding the decoupling component of distributed applications.
 
 ---

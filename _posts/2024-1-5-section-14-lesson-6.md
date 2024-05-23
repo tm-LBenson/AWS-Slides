@@ -1,54 +1,50 @@
 ---
 layout: posts
-title: 'Exploring Amazon SageMaker'
-section: Section-15
+title: 'Encryption Practices in AWS: Securing Data at Rest and In Transit'
+section: Section-14
 lesson: 6
 ---
 
-### Amazon SageMaker Overview
+### Encryption Practices in AWS
 
-Amazon SageMaker is a fully managed machine learning (ML) service that enables developers and data scientists to quickly and easily build, train, and deploy machine learning models at scale.
+#### Data Encryption Overview
 
-<!-- pagebreak -->
+In AWS, ensuring the security of your data involves encrypting it both at rest and in transit:
 
-#### Machine Learning Process Simplified
-
-To understand how SageMaker enhances the ML workflow, consider a simple example: predicting exam scores based on study habits.
-
-<!-- pagebreak -->
-
-##### Step 1: Collect Historical Data
-
-Gather data that may influence exam scores:
-
-- Years of experience in IT.
-- Years of experience with AWS.
-- Time spent on the course.
-
-##### Step 2: Compare and Analyze
-
-Analyze how actual scores correlate with the time spent studying and other factors to identify patterns or insights.
+- **Data at Rest**: This refers to data stored on physical devices, such as disks in an Amazon RDS instance, S3 Glacier Deep Archive, or on a hard disk.
+- **Data in Transit (In Motion)**: This refers to data being actively moved from one location to another, such as from on-premises to AWS, or between AWS services like EC2 to DynamoDB. This typically involves data traveling across a network.
 
 <!-- pagebreak -->
 
-##### Step 3: Build the ML Model
+#### Importance of Encryption
 
-- Use SageMaker to create machine learning models that can predict exam scores based on historical data.
-- Train the model with existing data, tuning it to improve accuracy.
+Encrypting data in both states—rest and transit—is crucial to protect sensitive information from unauthorized access. AWS provides robust encryption solutions to handle this:
 
-##### Step 4: Deploy and Predict
-
-- Once trained, deploy the model in SageMaker to make it operational.
-- Input new data (e.g., hours a student plans to study) to predict potential exam scores.
+- **Encryption Keys**: Managed through AWS Key Management Service (KMS), which simplifies the creation and control of encryption keys used to encrypt data.
 
 <!-- pagebreak -->
 
-#### Benefits of Using SageMaker
+#### Encryption Options in AWS
 
-Amazon SageMaker streamlines the entire machine learning process, providing tools and resources to handle all aspects of model building, training, and deployment within a single platform. This includes automatic provisioning of servers and high-level tools to facilitate model creation and tuning, making it accessible for both novices and experienced practitioners.
+AWS provides two main approaches to encryption:
 
-SageMaker ensures that teams can focus more on solving the problem at hand rather than managing the underlying infrastructure, thus accelerating the machine learning lifecycle.
+- **Encryption Opt-in**:
 
-Note: For the exam, you do not need to memorize the steps in ML; they are an exaggerated and oversimplified example to explain what SageMaker does.
+  - **EBS volumes**: Encrypt volumes to secure data.
+  - **S3 buckets**: Enable server-side encryption for objects.
+  - **Redshift databases**: Activate encryption for data storage.
+  - **RDS databases**: Secure database data with encryption.
+  - **EFS drives**: Protect data with encryption.
+
+- **Encryption Automatically Enabled**:
+  - **CloudTrail Logs**: Automatically encrypted to secure audit logs.
+  - **S3 Glacier**: Encryption is standard for archived data.
+  - **Storage Gateway**: Data is encrypted by default to ensure security.
+
+<!-- pagebreak -->
+
+#### Key Takeaway for the AWS Exam
+
+Remember, whenever you hear "encryption" related to AWS services during the exam, think of AWS Key Management Service (KMS). AWS KMS manages the encryption keys for you, ensuring that your data remains secure whether at rest or in transit.
 
 ---

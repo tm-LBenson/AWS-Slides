@@ -1,40 +1,42 @@
 ---
 layout: posts
-title: 'Amazon Kinesis'
-section: Section-11
+title: 'CloudFront Overview'
+section: Section-10
 lesson: 3
 ---
 
-### Amazon Kinesis
+### CloudFront Overview
 
-#### Introduction to Amazon Kinesis
+#### What is a CDN?
 
-Amazon Kinesis is a powerful AWS service designed for real-time processing of large streams of data. It provides developers and businesses with the ability to easily collect, process, and analyze streaming data at any scale, enabling timely insights and quick decision-making.
-
-<!-- pagebreak -->
-
-#### Key Features of Amazon Kinesis
-
-- **Real-time Processing**: Kinesis allows for the processing of data as it arrives, which is important for time-sensitive applications that need to analyze and respond to information in real time.
-- **Scalability**: Automatically scales to accommodate the volume and throughput of incoming data streams, ensuring that data is processed quickly, even as data volume grows.
-- **Integration**: Seamlessly integrates with other AWS services for further analytics, storage, and processing, enhancing the utility of streamed data.
+A Content Delivery Network (CDN) like Amazon CloudFront is designed to deliver data, videos, applications, and APIs to customers worldwide with low latency and high transfer speeds. CDNs store cached versions of content in multiple geographical locations known as "edge locations."
 
 <!-- pagebreak -->
 
-#### Use Cases for Amazon Kinesis
+#### DDoS Protection
 
-- **IoT Data Streams**: Collect and process data from thousands of IoT devices in real time, enabling immediate response to conditions such as temperature changes or movement detection.
-- **Financial Transactions**: Analyze transaction data in real time to detect fraud or make immediate financial decisions based on current trends.
-- **Social Media Feeds**: Process large streams of social media data for sentiment analysis, trend tracking, and immediate response to customer feedback.
+CloudFront integrates with AWS Shield, a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS. AWS Shield provides automatic inline mitigations that minimize application downtime and latency, ensuring that your applications remain available and performant.
 
 <!-- pagebreak -->
 
-#### Exam Tips for Amazon Kinesis
+#### What are Edge Locations?
 
-When preparing for AWS certification exams, remember:
+Edge locations are sites deployed in major cities and highly populated areas around the world. They are used by CDN services to cache copies of content closer to users, reducing the distance data has to travel and improving access speed.
 
-- **Kinesis = Real-time Big Data Streaming**: This association is important for identifying when Kinesis is the appropriate service for a given scenario, particularly in contexts requiring immediate data processing and analysis.
+<!-- pagebreak -->
 
-Amazon Kinesis is integral to AWS's big data services, providing the capabilities necessary to handle real-time data streaming efficiently. Understanding its features and applications prepares you to leverage this service effectively in diverse operational environments.
+#### Point of Presence
+
+Points of Presence (PoPs) are network sites, located around the world, where ISPs (Internet Service Providers) peer to exchange traffic at common points. Each PoP houses a collection of edge locations. CloudFront uses these PoPs to deliver content to users with lower latency.
+
+<!-- pagebreak -->
+
+#### OAC and S3 Integration
+
+CloudFront can be integrated with AWS Origin Access Control (OAC) and Amazon S3 to securely serve private content through your CDN. OAC helps manage access to your S3 bucket content by requiring users to access your content through CloudFront URLs, enhancing security by preventing direct access to S3 content.
+
+---
+
+This lesson provides an essential understanding of Amazon CloudFront, focusing on its role as a CDN, its integration with AWS Shield for DDoS protection, the function of edge locations and Points of Presence, and how it integrates with AWS services like S3 for secure content delivery. This knowledge is important for deploying and managing fast and secure applications globally.
 
 ---

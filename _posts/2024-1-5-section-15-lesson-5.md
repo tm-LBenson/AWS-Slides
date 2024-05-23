@@ -1,20 +1,30 @@
 ---
 layout: posts
-title: 'AWS Organization — Consolidated Billing'
-section: Section-16
+title: 'Understanding AWS Comprehend'
+section: Section-15
 lesson: 5
 ---
 
-### AWS Organization — Consolidated Billing
+### AWS Comprehend Overview
 
-#### Why Consolidated Billing?
+AWS Comprehend is a natural language processing (NLP) service that uses machine learning to uncover insights within textual data without the need for any machine learning expertise.
 
-Imagine managing a large company where each department requires specific AWS access for their operations. You wouldn't expect employees to pay for their AWS usage. Instead, you'd centralize billing to manage costs effectively across your entire organization.
+<!-- pagebreak -->
 
-#### Benefits of Consolidated Billing
+#### Core Features of AWS Comprehend
 
-- **Combined Usage:** Combine the usage across all AWS accounts in the organization to share volume pricing, Reserved Instances, and Savings Plans discounts.
-- **One Bill:** Receive a single bill for all AWS Accounts within the organization.
-- **Flexible Discount Management:** The management account can turn off Reserved Instances discount sharing for any account in the organization, including itself.
+- **Text Analysis**: Automatically extracts information about language, key phrases, places, people, brands, or events from text.
+- **Sentiment Analysis**: Determines if the text is positive, negative, or neutral based on its context.
+- **Syntax Analysis**: Analyzes text using tokenization and parts of speech to better understand the grammatical structure.
+- **Topic Modeling**: Automatically organizes a collection of text files by topic, helping to sort and categorize information effectively.
+
+<!-- pagebreak -->
+
+#### Use Cases
+
+- **Customer Interaction Analysis**: Analyze customer interactions, such as emails or social media posts, to determine what factors contribute to a positive or negative customer experience.
+- **Content Organization**: Automatically group large sets of articles or documents by topics that Comprehend identifies, facilitating easier management of text data.
+
+AWS Comprehend offers a fully managed and serverless solution to perform advanced text analysis, making it an essential tool for applications requiring a deep understanding of textual content.
 
 ---

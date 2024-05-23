@@ -1,49 +1,64 @@
 ---
 layout: posts
-title: 'Hands-On: Understanding CIDR Notation'
-section: Section-13
+title: 'Hands-On: Setting Up Amazon EventBridge Rules'
+section: Section-12
 lesson: 3
 order: 1
 ---
 
-### Exploring CIDR Notation
+### Configuring Rules in Amazon EventBridge
 
-While CIDR notation might not be directly examined in depth for the AWS Cloud Practitioner exam, understanding it can significantly aid in comprehending how subnets are structured within AWS VPCs. This hands-on exercise involves using an external tool to explore Classless Inter-Domain Routing (CIDR) notation and its implications on network design.
-
-<!-- pagebreak -->
-
-#### Introduction to CIDR
-
-CIDR is a method for allocating IP addresses and routing IP packets. It is used to create unique identifiers for networks and individual devices within subnets, which are crucial when configuring VPCs in AWS.
+This hands-on tutorial will guide you through setting up different rules in Amazon EventBridge to handle scheduled tasks, monitor AWS account activities, and respond to specific events like EC2 instance termination.
 
 <!-- pagebreak -->
 
-#### Using cidr.xyz to Understand Subnets
+#### Creating a Scheduled Lambda Invocation Rule
 
-- **Navigate to [cidr.xyz](http://cidr.xyz) in your web browser. This tool provides a visual representation of the network range defined by a CIDR block.**
+- **Navigate to EventBridge**: Open AWS Management Console, go to Services and select EventBridge.
+- **Create Rule**:
+  - Click on 'Create rule'.
+  - Name the rule 'InvokeLambdaEveryHour'.
+  - Set the rule type to 'Schedule'.
+  - Choose 'Rate' and set it to trigger every 1 hour.
+  - Disable 'Flexible time window'.
+  - Click 'Next'.
+- **Set Targets**:
+  - For the target, select 'Lambda function'.
+  - Click 'Create new Lambda function', provide a name, and leave the default settings.
+  - In the function code, simply log the event or return a basic message.
+  - Configure a sample JSON payload to be sent to the Lambda function.
+  - Click 'Next' and review the settings.
 
 <!-- pagebreak -->
 
-#### Exploring CIDR Values
+#### Monitoring AWS Sign-in Events
 
-- **Netmask**: This defines the division between the network portion and the host portion of an IP address.
-- **CIDR Base IP**: The starting IP address of the CIDR block.
-- **Broadcast IP**: The last IP address within the CIDR block, used for broadcasting messages to all hosts within the network.
-- **Count**: The total number of IP addresses within the CIDR block.
-- **First Usable IP**: The first IP address in the CIDR block that can be assigned to a device.
-- **Last Usable IP**: The last IP address in the CIDR block that can be assigned to a device.
+- **Create a Rule for Sign-in Monitoring**:
+  - Select 'Rule with an event pattern'.
+  - Under 'Event Pattern', choose 'AWS Console sign-in events'.
+  - Select 'Sign-in events'.
+  - For the target, choose 'SNS topic'.
+  - Optionally, create a new SNS topic or select an existing one for notifications.
+  - Finalize the rule setup by reviewing and creating the rule.
 
 <!-- pagebreak -->
 
-#### Practical Application
+#### Monitoring EC2 Instance Termination
 
-- **Experiment with Different CIDR Blocks**: Change the CIDR block input (e.g., from `/24` to `/16`) and observe how the network size and the range of usable IP addresses change. Understanding these dynamics is essential for effectively planning and deploying networks in AWS.
+- **Create a Rule for EC2 Termination**:
+  - Again, choose 'Rule with an event pattern'.
+  - Under 'Event Pattern', select 'EC2' for service and 'Instance State-change Notification' for the event type.
+  - Specify 'terminated' as the specific state change to monitor.
+  - Set 'SNS topic' as the target, and either select an existing topic or create a new one for alerts.
+  - Complete the setup by reviewing all settings and creating the rule.
 
-- Visit [Tidal Cloud](https://tidalcloud.com/subnet-builder/) to see a visual way of interacting with subnets.
 <!-- pagebreak -->
 
-#### Conclusion
+#### Cleanup and Review
 
-This exercise provides a basic understanding of how IP addressing and subnetting work in a network, which is foundational knowledge for any networking or cloud computing professional. While the AWS exam may not delve deeply into CIDR notation, this understanding will aid in better network planning within your AWS VPCs.
+- **Review and Test**: Verify that each rule triggers as expected. For example, check your email for notifications or the Lambda logs for execution proof.
+- **Cleanup**: To avoid unnecessary charges, remember to delete any resources you no longer need, such as Lambda functions, SNS topics, or EventBridge rules.
+
+This exercise helps you understand how to use Amazon EventBridge to automate tasks, monitor important account activities, and respond to changes within your AWS environment effectively.
 
 ---

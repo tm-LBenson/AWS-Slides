@@ -1,26 +1,30 @@
 ---
 layout: posts
-title: 'Amazon AppStream 2.0: Desktop Application Streaming'
-section: Section-18
+title: 'AWS Directory Services Overview'
+section: Section-17
 lesson: 3
 ---
 
-### Amazon AppStream 2.0 Overview
+### AWS Directory Services
 
-Amazon AppStream 2.0 is a desktop application streaming service that allows businesses to deliver desktop applications to any computer through **a web browser.** (Not a desktop environment like Workspaces) This service simplifies application management and accessibility, eliminating the need for extensive infrastructure and traditional application deployment methods.
+AWS Directory Services provides a way to integrate AWS resources with Microsoft Active Directory (AD). This service allows you to use your existing corporate credentials to access AWS services and resources securely.
 
-#### Key Features
+#### Understanding Microsoft Active Directory (AD)
 
-- **Accessibility**: Users can access applications from any device capable of running a web browser, providing flexibility and convenience.
-- **Scalability**: Easily scales to meet user demand without the need for physical hardware provisioning.
-- **Security**: Applications run on AWS, isolating the application infrastructure from the user's device, which enhances security.
+- **Corporate Access Management**: If you've used a company computer that required a specific login that worked across multiple systems, that was likely powered by Microsoft AD.
+- **Features**: Microsoft AD manages user credentials and access across a network, including password policies, printer access, and access to other Windows services.
+<!-- pagebreak -->
+
+#### AWS Directory Services Features
+
+- **Integration with AWS**: Extends Microsoft AD capabilities into the AWS cloud, allowing seamless integration between on-premises AD infrastructures and AWS services.
+- **Managed Service**: AWS handles the setup, maintenance, and scalability of the directory services, making it easier for AWS customers to focus on their applications.
 
 #### Use Cases
 
-- Businesses that require providing their workforce with access to desktop applications without the complexity of managing end-user devices.
-- Educational institutions that need to deliver software for classes without requiring students to install specific applications on their personal computers.
-- Organizations that operate in regulated industries where data security and compliance are paramount.
+- **Single Sign-On (SSO)**: Allows users to sign in once and access multiple AWS services without re-authenticating.
+- **Resource Access**: Manage and control access to AWS resources using group memberships and permissions defined in AD.
 
-Amazon AppStream 2.0 offers a user-friendly, secure, and cost-effective solution for delivering applications directly to users, irrespective of their physical location.
+For the AWS Certified Cloud Practitioner exam, remember that AWS Directory Services enhances Microsoft Active Directory with AWS features.
 
 ---

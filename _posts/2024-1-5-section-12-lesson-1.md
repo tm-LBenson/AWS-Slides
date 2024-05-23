@@ -1,43 +1,52 @@
 ---
 layout: posts
-title: 'VPC - Virtual Private Cloud Overview'
-section: Section-13
+title: 'CloudWatch Metrics & Alarms'
+section: Section-12
 lesson: 1
 ---
 
-### Introduction to Virtual Private Cloud (VPC)
+### Overview of AWS CloudWatch Metrics & Alarms
 
-This lesson provides a high-level overview of Amazon Virtual Private Cloud (VPC), focusing on the default VPC setup, which is important for understanding basic networking within AWS. We'll briefly cover the essential components and concepts needed for the AWS Cloud Practitioner exam.
-
-<!-- pagebreak -->
-
-#### Core Components of a VPC
-
-- **VPC**: A virtual network dedicated to your AWS account within a region, providing isolation and control over AWS resources.
-- **Subnets**: Divisions within a VPC that allow you to allocate IP ranges within different availability zones, enhancing resource deployment flexibility and fault tolerance.
-- **Internet Gateways & NAT Gateways**: Facilitates communication between resources within your VPC and the internet. Internet Gateways allow public access, while NAT Gateways enable internet access for private subnets.
+AWS CloudWatch is an essential monitoring service that provides data and actionable insights to monitor your AWS resources, optimize performance, and understand system health. CloudWatch collects monitoring data in the form of logs, metrics, and events, offering a comprehensive view of AWS resources, applications, and services that run on AWS.
 
 <!-- pagebreak -->
 
-#### Security and Traffic Management
+#### CloudWatch Metrics
 
-- **Security Groups**: Act as virtual firewalls for your instances to control inbound and outbound traffic at the instance level.
-- **Network ACLs (NACLs)**: An additional layer of security that acts as a firewall for controlling traffic in and out of subnets.
-- **VPC Flow Logs**: Capture information about IP traffic going to and from network interfaces in your VPC, useful for monitoring and troubleshooting connectivity issues.
+- **What are Metrics?** Metrics are the fundamental concept in CloudWatch and represent a variable you can monitor over time. They are used to record the operations of different AWS services and resources.
+- **Key Metrics**:
+
+  - **EC2 Instances**: Metrics include CPU Utilization, Status Checks, and Network activity. Note that RAM usage is not automatically monitored.
+  - **EBS Volumes**: Key metrics are Disk Read/Writes.
+  - **S3 Buckets**: Includes metrics like `BucketSizeBytes`, `NumberOfObjects`, and `AllRequests`.
+  - **Billing**: Tracks the `Total Estimated Charge`, which is only available in the `us-east-1` region.
+  - **Service Limits**: Monitors the usage against the service limits.
+
+- **Monitoring Intervals**:
+  - Default metrics are available every 5 minutes.
+  - Detailed Monitoring, which provides data every 1 minute, is available for an additional charge.
 
 <!-- pagebreak -->
 
-#### Connectivity Solutions
+#### CloudWatch Alarms
 
-- **VPC Peering**: Allows you to connect two VPCs, enabling traffic to route between them using private IP addresses.
-- **VPC Endpoints**: Enables private connections between your VPC and AWS services without requiring traffic to traverse the internet.
-- **Site-to-Site VPN & Direct Connect**: Facilitates secure and private connectivity from an on-premises network to AWS or between AWS regions.
-- **Transit Gateway**: A service that simplifies the networking and management of multiple VPCs and VPNs across your cloud environment.
+- **Purpose of Alarms**: CloudWatch Alarms are used to perform actions in response to metrics reaching certain threshold. Alarms can take various actions, such as sending notifications or automatically adjusting resources.
+- **Alarm Actions**:
+  - **Auto Scaling**: Adjust the EC2 instances "desired" count based on metrics.
+  - **EC2 Actions**: Stop, terminate, reboot, or recover EC2 instances.
+  - **SNS Notifications**: Send alerts to an SNS topic to notify administrators or trigger automated processes.
+- **Configuration Options**: Alarms can be configured with various statistical calculations such as averages, maximums, and minimums, and can be set to evaluate over a specified period.
+- **Alarm States**:
+  - **OK**: The metric is within the defined threshold.
+  - **INSUFFICIENT DATA**: There isn't enough data to determine the metric state.
+  - **ALARM**: The metric is beyond the defined threshold and triggers the associated actions.
 
 <!-- pagebreak -->
 
-#### Conclusion
+#### Setting Up a Billing Alarm
 
-Understanding the basics of AWS VPC and its components is essential for managing network configurations within the AWS ecosystem. This knowledge is foundational for anyone preparing for AWS certification exams, particularly those focusing on architecture and network security.
+- **Example**: Set up a billing alarm to monitor charges and keep costs under control. This uses the billing metric available only in the `us-east-1` region and can notify stakeholders of potential overages.
+
+CloudWatch is a versatile tool that not only helps in monitoring the operational health of your AWS resources but also aids in automating responses to potential issues. Understanding and utilizing CloudWatch Metrics and Alarms effectively can ensure better management and operational efficiency of AWS environments.
 
 ---

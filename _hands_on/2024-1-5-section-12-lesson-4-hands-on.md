@@ -1,45 +1,50 @@
 ---
 layout: posts
-title: 'Hands-On: Exploring Security Groups and Network ACLs'
-section: Section-13
+title: 'Hands-On: Creating and Reviewing a CloudTrail Trail'
+section: Section-12
 lesson: 4
 order: 1
 ---
 
-### Exploring Security Groups and Network ACLs in AWS
+### Setting Up and Reviewing a CloudTrail Trail
 
-In this hands-on activity, you'll learn how to navigate and understand the functionalities of Security Groups and Network ACLs (NACLs) within your AWS Virtual Private Cloud (VPC). These are crucial components for managing and securing your network traffic.
-
-<!-- pagebreak -->
-
-#### Examining Security Groups
-
-- **Navigate to Security Groups**: Go to the VPC dashboard, and from the navigation pane on the left, select 'Security Groups'. You'll see the list of security groups associated with your account.
-- **Security Group Details**:
-  - Select a security group from the list to view its details.
-  - Explore the 'Inbound rules' and 'Outbound rules' tabs to see how traffic is managed. These rules define what traffic is allowed to and from the associated EC2 instances.
+This exercise will guide you through the process of creating an AWS CloudTrail trail and reviewing the event history to monitor account activities.
 
 <!-- pagebreak -->
 
-#### Working with Network ACLs
+#### Step 1: Create a CloudTrail Trail
 
-- **Access Network ACLs**: From the VPC dashboard, select 'Network ACLs' from the navigation pane. You will see the list of NACLs configured in your VPC.
-- **ACL Details**:
-  - Click on a listed ACL to view its details.
-  - Examine the 'Inbound Rules' and 'Outbound Rules'. These rules specify the allowed and denied traffic by rule number, type, protocol, port range, and source/destination.
+- **Navigate to CloudTrail**: Open the AWS Management Console, go to Services, and select CloudTrail.
+- **Create Trail**:
+  - Click on 'Create trail'.
+  - Enter a name for the trail, such as `MyTrail`.
+  - Set the trail to apply to all regions to capture events from any AWS region.
+  - Configure the trail to store logs in an Amazon S3 bucket. You may create a new bucket or specify an existing one.
+  - Review the settings and click 'Create'.
 
 <!-- pagebreak -->
 
-#### Editing ACL Rules
+#### Step 2: Review Event History
 
-- **Modify ACL Rules**: With the ACL of your choice selected, click on the 'Edit inbound rules' or 'Edit outbound rules' button.
-  - Observe the options for adding new rules. Each rule must specify the rule number, type (allow or deny), protocol, port range, and source or destination CIDR block.
-  - Note: Making changes here can affect the accessibility and security of your resources. For this exercise, you may review the settings without saving changes.
+- **Access Event History**:
+  - In the CloudTrail dashboard, click on 'Event history' in the left navigation pane.
+  - Here you can see all the recent API activity in your AWS account, including actions taken through the AWS Management Console, AWS SDKs, command line tools, and other AWS services.
+- **Analyze Events**:
+  - Browse through the list of events to find details about specific API calls, such as who made the call, the source IP, and the time of the call.
+  - This information is important for auditing and security purposes, especially to trace any changes or deletions in your AWS environment.
+
+<!-- pagebreak -->
+
+#### Understanding CloudTrail Data
+
+- **Event Log Details**:
+  - Each event log provides comprehensive details that can help in understanding the context and impact of each action.
+  - For example, if you have recently cleaned up resources from previous hands-on exercises, you can see delete actions logged with relevant details.
 
 <!-- pagebreak -->
 
 #### Conclusion
 
-This exercise provides a practical understanding of how security groups and NACLs are used to control traffic at the instance and subnet levels, respectively. Familiarity with these components is essential for securing applications in the AWS cloud.
+This hands-on experience with AWS CloudTrail illustrates how to set up a trail and review the event history, which is an essential skill for managing AWS accounts securely and efficiently. Understanding how to access and interpret CloudTrail data is important for troubleshooting, security monitoring, and compliance auditing.
 
 ---

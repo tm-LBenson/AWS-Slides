@@ -1,54 +1,52 @@
 ---
 layout: posts
-title: 'Amazon CodeGuru: Automated Code Reviews and Performance Optimization'
-section: Section-12
+title: 'Messaging and Queuing Services Summary'
+section: Section-11
 lesson: 6
 ---
 
-### Overview of Amazon CodeGuru
+### Summary of AWS Messaging and Queuing Services
 
-Amazon CodeGuru is a machine learning-powered service designed to provide automated code reviews and detailed performance recommendations for your applications. It helps developers optimize their code by identifying critical issues and inefficiencies during both the development phase and runtime.
-
-<!-- pagebreak -->
-
-#### Amazon CodeGuru Reviewer
-
-- **Automated Code Reviews**: CodeGuru Reviewer performs static code analysis to detect issues that could degrade the application's performance or security.
-- **Detection Capabilities**: It identifies resource leaks, security vulnerabilities, and problematic code patterns that deviate from best practices.
-- **Machine Learning Models**: Utilizes ML models trained on best practices and lessons learned from thousands of Amazon and open-source code reviews.
-- **Integration**: Seamlessly integrates with repositories and provides feedback on pull requests, helping developers fix issues before merging code.
+In this section, we've covered several AWS services designed for messaging and queuing. Each service offers unique features suited for specific use cases in distributed systems. Understanding these services is important for designing scalable, efficient, and robust cloud applications.
 
 <!-- pagebreak -->
 
-#### Amazon CodeGuru Profiler
+#### Amazon SQS (Simple Queue Service)
 
-- **Application Performance Insights**: Offers real-time visibility into the runtime behavior of your applications, identifying costly lines of code.
-- **CPU Utilization Analysis**: Helps determine if certain routines, like logging, are consuming excessive CPU resources.
-- **Heap Summary**: Provides insights into memory usage, helping developers understand which objects are using the most memory and suggesting optimizations.
-- **Cost Reduction**: By identifying inefficiencies, CodeGuru Profiler helps reduce compute costs associated with overutilization of resources.
-- **Anomaly Detection**: Monitors application behavior and alerts developers to unusual activities that could indicate performance issues.
-
-<!-- pagebreak -->
-
-#### Benefits of Amazon CodeGuru
-
-- **Enhanced Code Quality**: Improves overall code quality by providing actionable recommendations based on proven best practices.
-- **Performance Optimization**: Assists in optimizing application performance by pinpointing and resolving inefficiencies in the codebase.
-- **Cost Efficiency**: Helps reduce operational costs by ensuring that applications use AWS resources more efficiently.
-- **Ease of Use**: Offers a straightforward setup and minimal impact on application performance, making it accessible for teams of all sizes.
+- **Core Features**:
+  - **Queue Service**: SQS provides a secure, durable, and available hosted queue that lets you integrate and decouple distributed software systems and components.
+  - **Message Durability**: Messages can be retained in queues for up to 14 days.
+  - **Multiple Producers and Consumers**: Supports multiple producers and consumers interacting with the same queue. Consumers share the responsibility of reading and processing messages.
+  - **Decoupling Applications**: Primarily used to decouple application components in AWS, enhancing fault tolerance and scalability.
 
 <!-- pagebreak -->
 
-#### Use Cases
+#### Amazon SNS (Simple Notification Service)
 
-- **Development**: Use CodeGuru Reviewer during the development phase to ensure high-quality, secure, and efficient code.
-- **Production**: Implement CodeGuru Profiler in production environments to continuously monitor and improve application performance.
-- **Scalability**: Supports applications running on both AWS and on-premises environments, providing flexibility and scalability.
+- **Core Features**:
+  - **Notification Service**: SNS is a fully managed pub/sub messaging service that makes it easy to set up, operate, and send notifications from the cloud.
+  - **Subscribers**: Supports multiple subscribers types, including Email, Lambda, SQS, HTTP endpoints, and mobile devices.
+  - **Fan-Out Architecture**: Sends all messages to all subscribers, ensuring that messages are delivered to multiple receivers.
+  - **No Message Retention**: Messages must be processed or stored elsewhere as SNS does not retain messages.
 
 <!-- pagebreak -->
 
-#### Conclusion
+#### Amazon Kinesis
 
-Amazon CodeGuru serves as a critical tool for developers aiming to enhance application performance and maintain high standards of code quality. Its integration of machine learning techniques for automated code reviews and performance profiling represents a significant advancement in the way software is developed and maintained in cloud environments.
+- **Core Features**:
+  - **Real-Time Data Streaming**: Kinesis is ideal for real-time data streaming and processing, allowing for the collection, processing, and analysis of large streams of data.
+  - **Data Persistence**: Provides the ability to persist data streams to facilitate complex analyses and insights.
+  - **Use Cases**: Suitable for applications that require real-time analytics and event processing.
+
+<!-- pagebreak -->
+
+#### Amazon MQ
+
+- **Core Features**:
+  - **Managed Message Broker**: Offers a managed service for Apache ActiveMQ and RabbitMQ, supporting industry-standard protocols like MQTT and AMQP.
+  - **Integration**: Facilitates the migration of traditional applications to the cloud without the need to re-engineer applications to use native AWS services like SQS and SNS.
+  - **Use Cases**: Ideal for enterprises that require a traditional message broker with the benefits of a managed cloud service.
+
+Understanding the distinctions and capabilities of each service is fundamental for AWS practitioners. This knowledge aids in selecting the appropriate messaging or queuing service based on the architectural needs and operational requirements of specific applications.
 
 ---

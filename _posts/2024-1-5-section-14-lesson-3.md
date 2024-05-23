@@ -1,29 +1,38 @@
 ---
 layout: posts
-title: 'Exploring Amazon Polly'
-section: Section-15
+title: 'AWS Network Firewall: Simplified VPC Protection'
+section: Section-14
 lesson: 3
 ---
 
-### Amazon Polly Overview
+### AWS Network Firewall
 
-Amazon Polly is a service that turns text into lifelike speech, allowing developers to create applications that can speak to users in a clear and human-like voice.
+#### Overview of AWS Network Firewall
+
+AWS Network Firewall is a managed service that provides network protections at the Amazon VPC level. It's designed to secure all resources within a VPC by offering the following capabilities:
+
+- **Centralized Firewall Management**: Allows you to manage and apply firewall rules across your entire VPC, simplifying the setup and maintenance of network security.
+
+- **Comprehensive Protection**: Provides broad network protections to ensure that both inbound and outbound traffic complies with your security policies.
 
 <!-- pagebreak -->
 
-#### Core Features
+#### Key Features
 
-- **Lifelike Speech**: Utilizes advanced deep learning technologies to produce speech that can express various emotions and speech patterns.
-- **Wide Range of Voices and Languages**: Offers a diverse selection of voices across multiple languages, enabling global applications to speak in the local tongue of the user.
+- **Automated Scaling**: AWS Network Firewall scales automatically with your network traffic, ensuring that your firewall capacity meets demand without manual intervention.
+
+- **Integration with VPC**: Seamlessly integrates with Amazon VPC, providing a layer of security that protects all connected resources without the need for individual instance firewalls.
+
+- **Stateful Inspection**: Monitors and filters traffic dynamically based on state, protocol, and session information to provide robust security measures.
 
 <!-- pagebreak -->
 
-#### Application Uses
+#### Simplified Security Management
 
-- **Accessibility Features**: Enhance the accessibility of applications and services by providing audio options for users who are visually impaired or prefer auditory learning.
-- **Interactive Voice Response (IVR) Systems**: Improve customer service interactions in call centers by using natural-sounding automated responses.
-- **Educational Content**: Make educational materials more engaging by adding audio narration that is easy to follow and understand.
+- **Ease of Use**: Deployed with just a few clicks within the AWS Management Console, simplifying the process of network administration.
 
-Amazon Polly transforms the way content is delivered by making it possible for applications to interact with users in a more intuitive and human-like manner.
+- **Visibility and Control**: Offers detailed logging and monitoring capabilities that help you understand traffic flow and detect anomalies in your network.
 
----
+<!-- pagebreak -->
+
+For the exam, remember that AWS Network Firewall is the go-to solution for protecting an entire Amazon VPC at the network level.

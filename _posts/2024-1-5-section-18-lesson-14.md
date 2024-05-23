@@ -1,41 +1,47 @@
 ---
 layout: posts
-title: 'AWS Managed Services: Comprehensive Operational Support'
-section: Section-19
+title: 'AWS Application Discovery & Migration Services'
+section: Section-18
 lesson: 14
 ---
 
-### AWS Managed Services Overview
+### AWS Application Discovery Service
 
-AWS Managed Services (AMS) provides comprehensive infrastructure and application support on AWS, enabling organizations to offload routine IT management tasks and focus on their core business functions.
+#### Overview
 
-<!-- pagebreak -->
-
-#### Services Provided by AMS
-
-- **Operational Support**: AMS handles daily operational tasks such as monitoring, patch management, security, and backup services.
-- **Best Practices Implementation**: Ensures your AWS infrastructure is optimized for security, reliability, and availability.
-- **24/365 Business Hours**: Offers around-the-clock support to manage and operate your AWS environment.
+AWS Application Discovery Service helps enterprises plan their migration projects more effectively by collecting and presenting detailed information about their on-premises data centers.
 
 <!-- pagebreak -->
 
-#### How AWS Managed Services Works
+#### Key Features
 
-1. **Enable**: Establish a baseline governance and control model utilizing inputs from people, processes, and toolsets.
-2. **Sustain, Build, or Migrate**: Identify efficient methods to integrate, develop, and migrate workloads to AWS.
-3. **Operate**: Achieve operational outcomes at scale through enhanced observability, compliance, and financial management.
+- **Agentless Discovery**: Utilizes the AWS Agentless Discovery Connector to perform VM inventory and gather configuration and performance data like CPU, memory, and disk usage without installing additional software on your hosts.
+- **Agent-based Discovery**: Installs the AWS Application Discovery Agent on servers to collect comprehensive data including system performance, system configuration, running processes, and network connections between systems.
+<!-- pagebreak -->
+
+#### Integration with AWS Migration Hub
+
+The collected data can be analyzed directly within AWS Migration Hub, which provides centralized tools to track the progress of migration projects, making it easier to manage and optimize migration workflows.
 
 <!-- pagebreak -->
 
-#### Benefits of AWS Managed Services
+### AWS Application Migration Service (MGN)
 
-- **Improved Security**: Ensures consistent application of security policies and procedures.
-- **Focus on Automation**: Leverages automation to reduce manual processes and errors.
-- **Stronger Compliance**: Adheres to strict compliance guidelines to manage regulatory and compliance risk.
-- **Reduced Operating Costs**: Decreases the need for in-house operational tasks which can reduce overall IT costs.
-- **Simplified Management**: Streamlines management processes with AWS experts taking the lead.
-- **Frictionless Innovation**: Allows your team to focus on innovation and development by handling routine tasks.
+#### Overview
 
-Note: AWS Managed Services is not accessible directly through the AWS console; it requires direct contact with AWS for engagement.
+AWS Application Migration Service (MGN) is designed to simplify the process of migrating applications to AWS. It's the evolution of CloudEndure Migration, meant to streamline the rehosting (lift-and-shift) of applications from physical, virtual, or cloud infrastructures to AWS.
+
+<!-- pagebreak -->
+
+#### Key Benefits
+
+- **Broad Platform Support**: Compatible with a wide range of platforms, operating systems, and databases.
+- **Minimal Downtime**: Ensures that your applications remain operational during the migration process, minimizing business disruption.
+- **Cost Efficiency**: Reduces migration costs by automating many of the steps involved in traditional migrations.
+<!-- pagebreak -->
+
+#### Conclusion
+
+These services provide the tools necessary for effective planning and execution of large-scale migration projects, ensuring organizations can transition to AWS with confidence and minimal impact on ongoing operations.
 
 ---

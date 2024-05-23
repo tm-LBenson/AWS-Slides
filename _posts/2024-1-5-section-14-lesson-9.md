@@ -1,40 +1,36 @@
 ---
 layout: posts
-title: 'Amazon Personalize: Real-Time Personalization and Recommendation'
-section: Section-15
+title: 'AWS Certificate Manager (ACM) Overview'
+section: Section-14
 lesson: 9
 ---
 
-### Introduction to Amazon Personalize
+### AWS Certificate Manager (ACM)
 
-Amazon Personalize is a fully managed machine learning service that enables developers to create applications with real-time personalized recommendations, similar to those used by Amazon.com.
+#### Overview
 
-<!-- pagebreak -->
-
-#### Capabilities of Amazon Personalize
-
-- **Personalized Recommendations**: Deliver tailored product recommendations and re-rankings based on individual user actions and preferences.
-- **Integration Flexibility**: Easily integrates with existing websites, applications, SMS, and email marketing systems, allowing for personalized user interactions across various platforms.
-- **Rapid Deployment**: Enables the implementation of sophisticated learning models in days rather than months, without the need for expertise in machine learning model building, training, and deployment.
+AWS Certificate Manager (ACM) simplifies the management and deployment of Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates used to secure network communications and establish the identity of websites over the Internet.
 
 <!-- pagebreak -->
 
-#### Example Use Case: E-commerce Recommendations
+#### Key Features of ACM
 
-Imagine a user who recently purchased gardening tools on an e-commerce platform. Amazon Personalize can analyze this buying behavior to automatically suggest relevant products such as garden gloves or specialized plant fertilizers, enhancing the shopping experience and potentially increasing sales.
-
+- **Provisioning and Management**: ACM allows for easy provisioning, management, and deployment of public and private TLS certificates.
+- **No Additional Cost**: Public TLS certificates are provided free of charge, making it cost-effective for securing your websites.
+- **Automatic Renewal**: ACM offers automatic renewal of your TLS certificates, ensuring they are never outdated and always secure.
 <!-- pagebreak -->
 
-#### Industry Applications
+#### Integration with AWS Services
 
-While particularly beneficial for retail stores, Amazon Personalize also finds extensive applications in media and entertainment sectors, where it can suggest movies, articles, or music based on user preferences and previous interactions.
+ACM certificates can be used with various AWS services to enable HTTPS for a secure connection:
 
+- **Elastic Load Balancers (ELB)**: Deploy ACM certificates to ELBs to secure your applications.
+- **Amazon CloudFront**: Use ACM to manage SSL/TLS certificates for custom domain names in your CDN distribution.
+- **API Gateway**: Secure your APIs by deploying ACM certificates directly on API Gateway stages.
 <!-- pagebreak -->
 
-#### Benefits of Using Amazon Personalize
+#### Use Case for the Exam
 
-By leveraging the same machine learning technology that powers Amazon.com, Amazon Personalize helps businesses enhance user engagement through timely and relevant content suggestions. This service simplifies the use of machine learning for personalized user experiences, making advanced technology accessible to businesses of all sizes.
-
-Amazon Personalize allows companies to harness the power of AI to deliver a highly personalized user experience, driving engagement and satisfaction.
+Whenever you encounter exam scenarios involving the need to secure web communications or manage SSL/TLS certificates efficiently, think of AWS Certificate Manager. ACM not only simplifies security management but also ensures compliance with industry standards for in-flight encryption.
 
 ---

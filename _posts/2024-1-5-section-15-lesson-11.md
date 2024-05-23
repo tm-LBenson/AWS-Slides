@@ -1,23 +1,37 @@
 ---
-title: 'Pricing of Services: Compute Pricing - EC2'
-section: Section-16
+layout: posts
+title: 'AWS Machine Learning Services Overview'
+section: Section-15
 lesson: 11
 ---
 
-### Pricing of Services: Compute Pricing - EC2
+### AWS Machine Learning Services Summary
 
-#### EC2 Cost Components
+#### Comprehensive AI and ML Tools
 
-- **Instance Usage**: You are charged based on the number of instances running and their configuration.
-- **Instance Configuration**:
-  - **Physical Capacity**: Includes CPU, memory, storage, and networking capacity.
-  - **Region**: Costs can vary by AWS region.
-  - **OS and Software**: Charges based on the operating system and any licensed software.
-  - **Instance Type and Size**: Different types and sizes have different costs.
+AWS offers a broad range of machine learning services that cater to various use cases from image and speech recognition to language processing and personalized recommendations.
 
 <!-- pagebreak -->
 
-- **Elastic Load Balancer (ELB)**: Costs associated with ELB include the running time and the amount of data processed.
-- **Detailed Monitoring**: Additional charges may apply if using detailed monitoring features beyond the basic provided metrics.
+#### Key Services and Their Applications
+
+- **Rekognition**: Provides image and video analysis, including face detection, activity labeling, and celebrity recognition.
+- **Transcribe**: Converts speech into text, facilitating the creation of subtitles and transcriptions.
+- **Polly**: Transforms text into lifelike speech, enabling applications to speak out loud.
+- **Translate**: Offers real-time text translation between languages.
+- **Lex**: Allows for building sophisticated chatbots with conversational interfaces.
+- **Connect**: A cloud-based contact center solution that manages customer interactions.
+- **Comprehend**: Utilizes natural language processing to uncover insights and relationships in text.
+- **SageMaker**: Streamlines the process of building, training, and deploying machine learning models.
+- **Forecast**: Generates accurate forecasts from time-series data using machine learning.
+- **Kendra**: An enterprise search service powered by machine learning, making it easier to find the right information within the vast amount of content.
+- **Personalize**: Provides customized product recommendations and personalizations in real-time.
+- **Textract**: Automatically extracts text and data from scanned documents.
+
+<!-- pagebreak -->
+
+#### Benefits Across Industries
+
+These ML services are designed to enhance productivity and provide deep insights across various industries, including healthcare, finance, media, and more. By leveraging AWS’s machine learning services, organizations can accelerate their digital transformation initiatives and innovate faster.
 
 ---

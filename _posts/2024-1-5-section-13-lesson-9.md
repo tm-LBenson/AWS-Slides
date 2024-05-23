@@ -1,36 +1,36 @@
 ---
 layout: posts
-title: 'AWS Certificate Manager (ACM) Overview'
-section: Section-14
+title: 'AWS Client VPN'
+section: Section-13
 lesson: 9
 ---
 
-### AWS Certificate Manager (ACM)
+### AWS Client VPN
 
 #### Overview
 
-AWS Certificate Manager (ACM) simplifies the management and deployment of Secure Sockets Layer/Transport Layer Security (SSL/TLS) certificates used to secure network communications and establish the identity of websites over the Internet.
+- **AWS Client VPN**: Allows users to securely connect to AWS resources or on-premises networks from any location using a VPN client.
+- **OpenVPN Protocol**: Uses the OpenVPN protocol, which is widely supported across various devices and platforms.
 
 <!-- pagebreak -->
 
-#### Key Features of ACM
+#### Functionality
 
-- **Provisioning and Management**: ACM allows for easy provisioning, management, and deployment of public and private TLS certificates.
-- **No Additional Cost**: Public TLS certificates are provided free of charge, making it cost-effective for securing your websites.
-- **Automatic Renewal**: ACM offers automatic renewal of your TLS certificates, ensuring they are never outdated and always secure.
+- **Remote Access**: Enables secure access to your private AWS networks and EC2 instances via private IPs as if you were directly connected to your private VPC network.
+- **Internet Over Public**: Traffic travels over the public internet but remains encrypted and secure, safeguarding data integrity and confidentiality.
+
 <!-- pagebreak -->
 
-#### Integration with AWS Services
+#### Benefits
 
-ACM certificates can be used with various AWS services to enable HTTPS for a secure connection:
+- **Flexibility**: Users can connect from anywhere, providing flexibility for remote work and operations.
+- **Security**: Enhances security by ensuring that connections to AWS are encrypted, allowing safe transmission of sensitive data across the internet.
 
-- **Elastic Load Balancers (ELB)**: Deploy ACM certificates to ELBs to secure your applications.
-- **Amazon CloudFront**: Use ACM to manage SSL/TLS certificates for custom domain names in your CDN distribution.
-- **API Gateway**: Secure your APIs by deploying ACM certificates directly on API Gateway stages.
 <!-- pagebreak -->
 
-#### Use Case for the Exam
+#### Use Cases
 
-Whenever you encounter exam scenarios involving the need to secure web communications or manage SSL/TLS certificates efficiently, think of AWS Certificate Manager. ACM not only simplifies security management but also ensures compliance with industry standards for in-flight encryption.
+- **Remote Work**: Ideal for employees who need secure access to corporate applications hosted on AWS while working remotely.
+- **Secure Data Access**: Ensures that developers and IT staff can manage and maintain AWS resources without exposing them to public internet threats.
 
 ---

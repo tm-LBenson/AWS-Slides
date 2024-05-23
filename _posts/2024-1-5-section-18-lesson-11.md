@@ -1,35 +1,36 @@
 ---
 layout: posts
-title: 'AWS Right Sizing'
-section: Section-19
+title: 'AWS Elastic Disaster Recovery (DRS) Overview'
+section: Section-18
 lesson: 11
 ---
 
-### AWS Right Sizing
+### AWS Elastic Disaster Recovery (DRS)
 
-AWS EC2 offers a variety of instance types and sizes, and right sizing is crucial for optimizing performance and reducing costs.
+#### Introduction
 
-<!-- pagebreak -->
-
-#### What is Right Sizing?
-
-- **Definition**: Matching instance types and sizes to workload requirements efficiently, at the lowest cost.
-- **Start Small**: Scaling up is easy in AWS, so begin with smaller resources and scale as needed.
-- **Review Regularly**: Continuously assess and adjust your resource allocation to ensure it meets your current needs without being excessive.
+AWS Elastic Disaster Recovery (formerly known as CloudEndure Disaster Recovery) is a service designed to minimize downtime and data loss with fast, reliable recovery of physical, virtual, and cloud-based servers into AWS.
 
 <!-- pagebreak -->
 
-#### Importance of Right Sizing
+#### Key Features:
 
-- **Before Cloud Migration**: Evaluate your needs to choose the appropriate resources before migrating to the cloud.
-- **After Cloud Onboarding**: Regularly review your resource usage as requirements evolve over time.
+- **Continuous Replication**: Utilizes continuous block-level replication, ensuring that data is consistently up-to-date and recovery is quick.
+
+- **Broad Compatibility**: Supports a wide range of databases and applications, including critical systems like Oracle, MySQL, SQL Server, and enterprise applications like SAP.
+
+- **Ransomware Protection**: Offers robust recovery options to help protect against and recover from ransomware attacks.
 
 <!-- pagebreak -->
 
-#### Tools for Right Sizing
+#### Use Cases:
 
-- **AWS CloudWatch and Cost Explorer**: Monitor performance and usage to identify right sizing opportunities.
-- **AWS Trusted Advisor**: Provides recommendations for cost optimization.
-- **Third-Party Tools**: Can offer additional insights and management features for resource optimization.
+- **Database Protection**: Ensure the continuity and integrity of critical database services by enabling real-time replication.
+
+- **Enterprise Application Recovery**: Maintain operational continuity for key business applications by replicating them into the AWS cloud.
+
+- **Disaster Recovery**: Quickly recover your IT infrastructure in the event of a disaster to minimize downtime and financial impact.
+
+AWS Elastic Disaster Recovery is an essential tool for organizations looking to enhance their disaster recovery posture and ensure high availability of critical systems.
 
 ---
