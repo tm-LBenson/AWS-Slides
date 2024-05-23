@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Getting Started with AWS - Introduction'
-section: Section-1-IAM
+section: Section-1
 lesson: 1
 ---
 

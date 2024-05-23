@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Database Migration Service (DMS) Overview'
-section: Section-6-DBs
+section: Section-6
 lesson: 19
 ---
 

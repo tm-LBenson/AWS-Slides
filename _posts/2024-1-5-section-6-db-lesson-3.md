@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Overview of Amazon Aurora'
-section: Section-6-DBs
+section: Section-6
 lesson: 3
 ---
 

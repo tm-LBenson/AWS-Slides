@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Batch Overview'
-section: Section-7-ECS
+section: Section-7
 lesson: 5
 ---
 

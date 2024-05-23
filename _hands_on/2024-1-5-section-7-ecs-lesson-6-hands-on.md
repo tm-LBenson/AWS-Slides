@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On with Amazon Lightsail'
-section: Section-7-ECS
+section: Section-7
 lesson: 6
 order: 1
 ---

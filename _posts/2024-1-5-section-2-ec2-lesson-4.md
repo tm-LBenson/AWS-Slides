@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EC2 Instance Purchasing Options Explained'
-section: Section-2-EC2
+section: Section-2
 lesson: 4
 ---
 

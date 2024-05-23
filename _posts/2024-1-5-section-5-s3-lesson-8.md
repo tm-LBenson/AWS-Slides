@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'S3 Storage Classes Overview'
-section: Section-5-S3
+section: Section-5
 lesson: 8
 ---
 

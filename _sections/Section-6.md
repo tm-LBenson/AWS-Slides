@@ -1,5 +1,5 @@
 ---
 layout: section
-name: Section-6-DBs
+name: Section-6
 order: 6
 ---

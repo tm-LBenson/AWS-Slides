@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating and Attaching a Second EBS Volume'
-section: Section-3-EBS
+section: Section-3
 lesson: 2
 order: 1
 ---

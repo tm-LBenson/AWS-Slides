@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: AWS Lambda'
-section: Section-7-ECS
+section: Section-7
 lesson: 3
 order: 1
 ---

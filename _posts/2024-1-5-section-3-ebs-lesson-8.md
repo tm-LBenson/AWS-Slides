@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon EFS Infrequent Access (EFS-IA) Overview'
-section: Section-3-EBS
+section: Section-3
 lesson: 8
 ---
 

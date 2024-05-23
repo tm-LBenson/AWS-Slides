@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Auto Scaling Groups (ASGs) Overview'
-section: Section-4-ASG
+section: Section-4
 lesson: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon EMR Overview'
-section: Section-6-DBs
+section: Section-6
 lesson: 10
 ---
 

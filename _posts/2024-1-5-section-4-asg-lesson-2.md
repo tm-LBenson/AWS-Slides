@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Elastic Load Balancing (ELB) and the Four Types of Load Balancers in AWS'
-section: Section-4-ASG
+section: Section-4
 lesson: 2
 ---
 

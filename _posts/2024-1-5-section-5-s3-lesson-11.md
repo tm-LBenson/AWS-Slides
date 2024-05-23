@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Snow Family Overview'
-section: Section-5-S3
+section: Section-5
 lesson: 11
 ---
 

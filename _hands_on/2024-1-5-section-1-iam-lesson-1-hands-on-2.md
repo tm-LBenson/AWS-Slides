@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Setting Up a Zero Cost Budget'
-section: Section-1-IAM
+section: Section-1
 lesson: 1
 order: 2
 ---

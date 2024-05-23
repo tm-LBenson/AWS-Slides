@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EBS Snapshots Overview'
-section: Section-3-EBS
+section: Section-3
 lesson: 3
 ---
 

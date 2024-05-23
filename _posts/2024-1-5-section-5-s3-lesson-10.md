@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'IAM Access Analyzer for S3'
-section: Section-5-S3
+section: Section-5
 lesson: 10
 ---
 

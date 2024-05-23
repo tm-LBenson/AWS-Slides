@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Databases Overview'
-section: Section-6-DBs
+section: Section-6
 lesson: 1
 ---
 

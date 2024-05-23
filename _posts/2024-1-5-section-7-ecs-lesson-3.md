@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding Serverless Computing'
-section: Section-7-ECS
+section: Section-7
 lesson: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Machine Image (AMI) Overview'
-section: Section-3-EBS
+section: Section-3
 lesson: 4
 ---
 

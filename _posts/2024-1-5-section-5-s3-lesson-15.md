@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon S3 — Summary'
-section: Section-5-S3
+section: Section-5
 lesson: 15
 ---
 

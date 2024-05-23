@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: IAM - Using AWS CLI and SDK'
-section: Section-1-IAM
+section: Section-1
 lesson: 4
 order: 1
 ---

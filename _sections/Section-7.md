@@ -1,5 +1,5 @@
 ---
 layout: section
-name: Section-7-ECS
+name: Section-7
 order: 7
 ---

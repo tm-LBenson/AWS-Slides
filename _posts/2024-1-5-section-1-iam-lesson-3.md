@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'IAM - Advanced User Management and Policy Inheritance'
-section: Section-1-IAM
+section: Section-1
 lesson: 3
 
 ---

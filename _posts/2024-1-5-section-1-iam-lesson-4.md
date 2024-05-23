@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'IAM - Access Management via CLI and SDK'
-section: Section-1-IAM
+section: Section-1
 lesson: 4
 ---
 

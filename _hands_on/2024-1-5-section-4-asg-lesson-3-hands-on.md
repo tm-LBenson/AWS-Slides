@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating an Auto Scaling Group'
-section: Section-4-ASG
+section: Section-4
 lesson: 3
 order: 1
 ---

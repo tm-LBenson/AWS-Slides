@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon API Gateway Overview'
-section: Section-7-ECS
+section: Section-7
 lesson: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Elastic File System (EFS) Overview'
-section: Section-3-EBS
+section: Section-3
 lesson: 7
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On Guide: Working with S3 Storage Classes'
-section: Section-5-S3
+section: Section-5
 lesson: 8
 order: 1
 ---

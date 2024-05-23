@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'RDS Deployments Options'
-section: Section-6-DBs
+section: Section-6
 lesson: 4
 ---
 

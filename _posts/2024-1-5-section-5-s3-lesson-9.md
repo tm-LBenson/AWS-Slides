@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding S3 Encryption Methods'
-section: Section-5-S3
+section: Section-5
 lesson: 9
 ---
 

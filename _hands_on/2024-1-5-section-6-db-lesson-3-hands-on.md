@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Amazon RDS'
-section: Section-6-DBs
+section: Section-6
 lesson: 3
 order: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating Gmail Account and Signing Up for AWS'
-section: Section-1-IAM
+section: Section-1
 lesson: 1
 order: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Setting Up an EC2 Instance'
-section: Section-2-EC2
+section: Section-2
 lesson: 2
 order: 1
 ---

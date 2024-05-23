@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hybrid Cloud for Storage'
-section: Section-5-S3
+section: Section-5
 lesson: 14
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EBS - Creating a Volume in a Different Availability Zone'
-section: Section-3-EBS
+section: Section-3
 lesson: 2
 order: 2
 ---

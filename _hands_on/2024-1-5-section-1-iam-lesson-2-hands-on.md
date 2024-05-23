@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: IAM - Creating Users and Managing Permissions'
-section: Section-1-IAM
+section: Section-1
 lesson: 2
 order: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon FSx Overview'
-section: Section-3-EBS
+section: Section-3
 lesson: 9
 ---
 

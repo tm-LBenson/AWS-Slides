@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Load Balancer Hands-On'
-section: Section-4-ASG
+section: Section-4
 lesson: 2
 order: 1
 ---

@@ -1,5 +1,5 @@
 ---
 layout: section
-name: Section-5-S3
+name: Section-5
 order: 5
 ---

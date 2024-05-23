@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Implementing Scaling Strategies'
-section: Section-4-ASG
+section: Section-4
 lesson: 6
 ---
 

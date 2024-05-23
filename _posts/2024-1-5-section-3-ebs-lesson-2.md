@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EBS - Delete on Termination'
-section: Section-3-EBS
+section: Section-3
 lesson: 2
 ---
 

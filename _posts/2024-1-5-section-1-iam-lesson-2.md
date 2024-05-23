@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'IAM - Identity and Access Management Basics'
-section: Section-1-IAM
+section: Section-1
 lesson: 2
 ---
 

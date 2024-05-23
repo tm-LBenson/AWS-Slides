@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Introduction to Docker'
-section: Section-7-ECS
+section: Section-7
 lesson: 1
 ---
 
@@ -33,7 +33,7 @@ Docker is a pivotal technology in the development and deployment of applications
 
 - **Docker Images**: These are the blueprints for containers. They are stored in repositories and contain all the necessary components to run an application.
 
-- **Public Repositories**: Docker Hub (https://hub.docker.com) is the most well-known public repository for Docker images.
+- **Public Repositories**: [Docker Hub](https://hub.docker.com) is the most well-known public repository for Docker images.
 
 - **Private Repositories**: Amazon Elastic Container Registry (ECR) offers a secure location to store, manage, and deploy Docker container images.
 

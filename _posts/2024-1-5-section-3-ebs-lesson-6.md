@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EC2 Instance Store Overview'
-section: Section-3-EBS
+section: Section-3
 lesson: 6
 ---
 

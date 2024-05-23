@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: IAM - Custom Policies and Security Settings'
-section: Section-1-IAM
+section: Section-1
 lesson: 3
 order: 1
 ---
