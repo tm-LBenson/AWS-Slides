@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Configuring Bucket Policies in Amazon S3'
-section: Section-6
+section: Section-2
 lesson: 4
 order: 1
 ---

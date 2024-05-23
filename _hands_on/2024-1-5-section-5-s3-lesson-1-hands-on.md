@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Working with Amazon S3'
-section: Section-6
+section: Section-2
 lesson: 1
 order: 1
 ---
