@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Secrets Manager Overview'
-section: Section-13
+section: Section-14
 lesson: 10
 ---
 

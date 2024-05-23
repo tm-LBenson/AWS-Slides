@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding High Availability, Horizontal Scaling, and Vertical Scaling'
-section: Section-4
+section: Section-5
 lesson: 1
 ---
 

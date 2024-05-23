@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Introduction to Amazon Transcribe'
-section: Section-14
+section: Section-15
 lesson: 2
 ---
 

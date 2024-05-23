@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Section 8 Summary: AWS Developer Tools and Services'
-section: Section-8
+section: Section-9
 lesson: 13
 ---
 

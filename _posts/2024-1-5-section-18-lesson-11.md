@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Right Sizing'
-section: Section-18
+section: Section-19
 lesson: 11
 ---
 

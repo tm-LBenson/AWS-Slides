@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating a Retention Rule for EBS Snapshots'
-section: Section-3
+section: Section-4
 lesson: 3
 order: 2
 ---

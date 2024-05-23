@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Architecting & Ecosystem - Well-Architected Framework Overview'
-section: Section-18
+section: Section-19
 lesson: 1
 ---
 

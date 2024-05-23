@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Hosting a Website on Amazon S3'
-section: Section-5
+section: Section-6
 lesson: 5
 order: 1
 ---

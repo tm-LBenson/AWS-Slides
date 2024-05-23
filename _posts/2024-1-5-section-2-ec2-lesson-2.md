@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Introduction to Security Groups in AWS EC2'
-section: Section-2
+section: Section-3
 lesson: 2
 ---
 

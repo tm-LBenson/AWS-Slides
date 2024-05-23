@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Sustainability - AWS Well-Architected Framework'
-section: Section-18
+section: Section-19
 lesson: 7
 ---
 

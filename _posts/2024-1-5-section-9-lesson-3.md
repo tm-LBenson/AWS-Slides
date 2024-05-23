@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'CloudFront Overview'
-section: Section-9
+section: Section-10
 lesson: 3
 ---
 

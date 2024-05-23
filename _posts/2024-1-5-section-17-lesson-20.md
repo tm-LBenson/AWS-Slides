@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Pinpoint: Enhancing Customer Engagement Through Targeted Communications'
-section: Section-17
+section: Section-18
 lesson: 20
 ---
 

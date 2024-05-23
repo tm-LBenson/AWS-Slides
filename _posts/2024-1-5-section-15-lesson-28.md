@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Support Plans Pricing'
-section: Section-15
+section: Section-16
 lesson: 28
 ---
 

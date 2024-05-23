@@ -1,6 +1,6 @@
 ---
 title: 'Free Services & Free Tier in AWS'
-section: Section-15
+section: Section-16
 lesson: 10
 ---
 

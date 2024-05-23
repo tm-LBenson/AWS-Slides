@@ -1,6 +1,6 @@
 ---
 title: 'Networking Costs in AWS'
-section: Section-15
+section: Section-16
 lesson: 17
 ---
 

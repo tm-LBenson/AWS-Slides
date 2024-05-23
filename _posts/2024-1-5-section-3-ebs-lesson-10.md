@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Summary of Section 3 Notes'
-section: Section-3
+section: Section-4
 lesson: 10
 ---
 

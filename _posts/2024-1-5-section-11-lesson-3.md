@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon EventBridge Overview'
-section: Section-11
+section: Section-12
 lesson: 3
 ---
 

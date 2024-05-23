@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Orchestrating Workflows with AWS Step Functions'
-section: Section-17
+section: Section-18
 lesson: 18
 ---
 

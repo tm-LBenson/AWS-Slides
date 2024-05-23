@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Inspector: Automated Security Assessments'
-section: Section-13
+section: Section-14
 lesson: 12
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon API Gateway Overview'
-section: Section-7
+section: Section-8
 lesson: 4
 ---
 

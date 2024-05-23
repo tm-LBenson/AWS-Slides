@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Security and Compliance: Understanding AWS Shared Responsibility Model'
-section: Section-13
+section: Section-14
 lesson: 1
 ---
 

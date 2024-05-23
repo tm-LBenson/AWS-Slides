@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding AWS Service Quotas'
-section: Section-15
+section: Section-16
 lesson: 26
 ---
 

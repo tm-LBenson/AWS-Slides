@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Using Amazon SNS'
-section: Section-10
+section: Section-11
 lesson: 4
 order: 1
 ---

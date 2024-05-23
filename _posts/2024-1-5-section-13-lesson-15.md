@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Security Hub: Comprehensive Security and Compliance Management'
-section: Section-13
+section: Section-14
 lesson: 15
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Exploring Amazon SageMaker'
-section: Section-14
+section: Section-15
 lesson: 6
 ---
 

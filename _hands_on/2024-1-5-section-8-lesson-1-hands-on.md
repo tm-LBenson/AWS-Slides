@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: CloudFormation'
-section: Section-8
+section: Section-9
 lesson: 1
 order: 1
 ---

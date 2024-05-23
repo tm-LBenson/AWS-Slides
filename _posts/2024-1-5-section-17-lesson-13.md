@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Cloud Migration: The 7Rs Strategy'
-section: Section-17
+section: Section-18
 lesson: 13
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On Guide: Setting Up Amazon S3 Replication'
-section: Section-5
+section: Section-6
 lesson: 7
 order: 1
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'AWS Control Tower'
-section: Section-15
+section: Section-16
 lesson: 6
 ---
 

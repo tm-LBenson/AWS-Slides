@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding ECS, Fargate, and ECR'
-section: Section-7
+section: Section-8
 lesson: 2
 ---
 

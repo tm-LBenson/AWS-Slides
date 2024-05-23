@@ -1,6 +1,6 @@
 ---
 title: 'Understanding AWS Cost Explorer'
-section: Section-15
+section: Section-16
 lesson: 22
 ---
 

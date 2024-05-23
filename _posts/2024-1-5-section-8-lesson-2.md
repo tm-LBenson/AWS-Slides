@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Cloud Development Kit (CDK) Overview'
-section: Section-8
+section: Section-9
 lesson: 2
 ---
 
@@ -63,7 +63,7 @@ Below is a snippet of JavaScript that outlines creating an ECS cluster with Farg
           },
           memoryLimitMiB: 2048, // Default is 512
           publicLoadBalancer: true, // Default is false
-        }
+        },
       );
     }
   }

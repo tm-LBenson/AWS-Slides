@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS STS (Security Token Service) Overview'
-section: Section-16
+section: Section-17
 lesson: 1
 ---
 

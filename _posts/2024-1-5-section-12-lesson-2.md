@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding IP Addresses in AWS'
-section: Section-12
+section: Section-13
 lesson: 2
 ---
 

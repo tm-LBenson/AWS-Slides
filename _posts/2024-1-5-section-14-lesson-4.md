@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Integrating Amazon Lex and Connect'
-section: Section-14
+section: Section-15
 lesson: 4
 ---
 

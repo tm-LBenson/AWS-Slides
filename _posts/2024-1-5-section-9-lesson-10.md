@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Global Applications and Services Summary'
-section: Section-9
+section: Section-10
 lesson: 10
 ---
 

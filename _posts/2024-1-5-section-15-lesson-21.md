@@ -1,6 +1,6 @@
 ---
 title: 'AWS Cost and Usage Reports'
-section: Section-15
+section: Section-16
 lesson: 21
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Multi-Account Strategies with AWS Organizations'
-section: Section-15
+section: Section-16
 lesson: 2
 ---
 

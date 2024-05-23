@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding Amazon GuardDuty'
-section: Section-13
+section: Section-14
 lesson: 11
 ---
 

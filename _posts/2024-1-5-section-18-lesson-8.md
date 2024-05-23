@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding the AWS Cloud Adoption Framework (AWS CAF)'
-section: Section-18
+section: Section-19
 lesson: 8
 ---
 

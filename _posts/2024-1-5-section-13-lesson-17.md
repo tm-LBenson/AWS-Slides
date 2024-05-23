@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding and Reporting AWS Abuse'
-section: Section-13
+section: Section-14
 lesson: 17
 ---
 

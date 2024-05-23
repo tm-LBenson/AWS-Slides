@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Introduction to AWS Organizations'
-section: Section-15
+section: Section-16
 lesson: 1
 ---
 

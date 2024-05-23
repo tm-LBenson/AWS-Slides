@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Wavelength'
-section: Section-9
+section: Section-10
 lesson: 7
 ---
 

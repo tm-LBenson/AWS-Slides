@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Encryption Practices in AWS: Securing Data at Rest and In Transit'
-section: Section-13
+section: Section-14
 lesson: 6
 ---
 

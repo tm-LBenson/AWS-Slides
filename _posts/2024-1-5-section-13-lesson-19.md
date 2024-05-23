@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding AWS IAM Access Analyzer'
-section: Section-13
+section: Section-14
 lesson: 19
 ---
 

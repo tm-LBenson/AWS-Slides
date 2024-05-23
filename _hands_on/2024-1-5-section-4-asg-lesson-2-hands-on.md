@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Load Balancer Hands-On'
-section: Section-4
+section: Section-5
 lesson: 2
 order: 1
 ---

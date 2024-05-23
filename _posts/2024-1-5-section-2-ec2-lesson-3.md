@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EC2 Instance Types Explained'
-section: Section-2
+section: Section-3
 lesson: 3
 ---
 

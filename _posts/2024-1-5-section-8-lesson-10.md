@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Cloud9 Overview'
-section: Section-8
+section: Section-9
 lesson: 10
 ---
 

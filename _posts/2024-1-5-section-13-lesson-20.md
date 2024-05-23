@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Security and Compliance in AWS - Summary'
-section: Section-13
+section: Section-14
 lesson: 20
 ---
 

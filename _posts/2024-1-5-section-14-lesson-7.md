@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding Amazon Forecast'
-section: Section-14
+section: Section-15
 lesson: 7
 ---
 

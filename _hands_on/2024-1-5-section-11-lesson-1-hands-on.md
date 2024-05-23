@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: CloudWatch Metrics and Alarms'
-section: Section-11
+section: Section-12
 lesson: 1
 order: 1
 ---

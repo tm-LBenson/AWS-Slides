@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon S3 - Buckets Overview'
-section: Section-5
+section: Section-6
 lesson: 2
 order: 1
 ---

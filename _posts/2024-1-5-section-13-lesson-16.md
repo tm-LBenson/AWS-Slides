@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Detective: Deep Dive into Security Investigations'
-section: Section-13
+section: Section-14
 lesson: 16
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Trusted Advisor: Ensuring Best Practices'
-section: Section-15
+section: Section-16
 lesson: 27
 ---
 

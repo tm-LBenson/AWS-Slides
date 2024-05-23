@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Certificate Manager (ACM) Overview'
-section: Section-13
+section: Section-14
 lesson: 9
 ---
 

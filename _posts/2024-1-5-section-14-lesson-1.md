@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Introduction to AWS Rekognition'
-section: Section-14
+section: Section-15
 lesson: 1
 ---
 

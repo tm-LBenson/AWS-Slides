@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Summary of Amazon EC2 Topics'
-section: Section-2
+section: Section-3
 lesson: 5
 ---
 

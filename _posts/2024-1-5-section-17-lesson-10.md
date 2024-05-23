@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding Disaster Recovery Strategies on AWS'
-section: Section-17
+section: Section-18
 lesson: 10
 ---
 

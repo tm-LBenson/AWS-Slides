@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Network ACLs & Security Groups in AWS'
-section: Section-12
+section: Section-13
 lesson: 4
 ---
 

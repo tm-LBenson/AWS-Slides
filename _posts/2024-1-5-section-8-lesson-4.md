@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS CodeDeploy Overview'
-section: Section-8
+section: Section-9
 lesson: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Root User Privileges and Safe Practices'
-section: Section-13
+section: Section-14
 lesson: 18
 ---
 

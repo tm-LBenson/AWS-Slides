@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Billing and Costing Tools in AWS'
-section: Section-15
+section: Section-16
 lesson: 20
 ---
 

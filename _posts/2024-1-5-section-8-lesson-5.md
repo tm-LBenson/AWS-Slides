@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS CodeCommit Overview'
-section: Section-8
+section: Section-9
 lesson: 5
 ---
 

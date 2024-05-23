@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Exploring VPC Flow Logs and Peering Connections'
-section: Section-12
+section: Section-13
 lesson: 5
 order: 1
 ---

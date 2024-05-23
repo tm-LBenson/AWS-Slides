@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: AWS Elastic Beanstalk'
-section: Section-8
+section: Section-9
 lesson: 3
 order: 1
 ---

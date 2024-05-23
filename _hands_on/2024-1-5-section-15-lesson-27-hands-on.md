@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Exploring AWS Trusted Advisor'
-section: Section-15
+section: Section-16
 lesson: 27
 order: 1
 ---

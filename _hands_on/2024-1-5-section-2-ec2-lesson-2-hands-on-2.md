@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: SSH into EC2 and View IAM Users'
-section: Section-2
+section: Section-3
 lesson: 2
 order: 2
 ---

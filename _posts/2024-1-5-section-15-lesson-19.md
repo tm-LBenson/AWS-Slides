@@ -1,6 +1,6 @@
 ---
 title: 'Optimizing AWS Resources with AWS Compute Optimizer'
-section: Section-15
+section: Section-16
 lesson: 19
 ---
 

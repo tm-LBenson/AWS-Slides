@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Local Zones'
-section: Section-9
+section: Section-10
 lesson: 8
 ---
 

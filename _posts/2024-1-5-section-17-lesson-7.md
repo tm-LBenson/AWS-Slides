@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Application Composer: Simplifying Serverless App Design'
-section: Section-17
+section: Section-18
 lesson: 7
 ---
 

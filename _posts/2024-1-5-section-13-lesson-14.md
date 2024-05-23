@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Macie: Enhancing Data Security and Privacy'
-section: Section-13
+section: Section-14
 lesson: 14
 ---
 

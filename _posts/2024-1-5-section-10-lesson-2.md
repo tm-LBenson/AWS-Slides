@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Simple Queue Service (SQS)'
-section: Section-10
+section: Section-11
 lesson: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS CAF Transformation Domains and Phases'
-section: Section-18
+section: Section-19
 lesson: 9
 ---
 
@@ -57,6 +57,6 @@ The AWS CAF framework guides organizations through several critical phases to en
 
 4. **Scale**:
    - Broaden the scope of pilot projects to achieve full-scale implementation and business benefits.
-<!-- pagebreak -->
+   <!-- pagebreak -->
 
 ---

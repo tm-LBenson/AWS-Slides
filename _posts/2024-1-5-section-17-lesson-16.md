@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Migration Hub: Simplifying and Streamlining Your Migration Process'
-section: Section-17
+section: Section-18
 lesson: 16
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Exploring IPv4 and Subnets in AWS'
-section: Section-12
+section: Section-13
 lesson: 3
 order: 2
 ---

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Firewall Manager: Centralized Security Management'
-section: Section-13
+section: Section-14
 lesson: 4
 ---
 

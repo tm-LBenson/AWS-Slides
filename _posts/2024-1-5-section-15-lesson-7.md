@@ -1,6 +1,6 @@
 ---
 title: 'AWS Resource Access Manager (AWS RAM)'
-section: Section-15
+section: Section-16
 lesson: 7
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Organization — Consolidated Billing'
-section: Section-15
+section: Section-16
 lesson: 5
 ---
 

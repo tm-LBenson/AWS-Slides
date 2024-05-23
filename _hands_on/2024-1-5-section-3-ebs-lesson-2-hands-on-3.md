@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EBS - Delete on Termination and Terminating an EC2 Instance'
-section: Section-3
+section: Section-4
 lesson: 2
 order: 3
 ---

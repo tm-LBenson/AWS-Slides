@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding AWS Health Dashboards'
-section: Section-11
+section: Section-12
 lesson: 7
 ---
 

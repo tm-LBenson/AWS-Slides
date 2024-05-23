@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding Serverless Computing'
-section: Section-7
+section: Section-8
 lesson: 3
 ---
 

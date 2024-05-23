@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Connecting the Heavens and Earth: AWS Ground Station'
-section: Section-17
+section: Section-18
 lesson: 19
 ---
 

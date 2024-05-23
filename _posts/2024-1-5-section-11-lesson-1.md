@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'CloudWatch Metrics & Alarms'
-section: Section-11
+section: Section-12
 lesson: 1
 ---
 

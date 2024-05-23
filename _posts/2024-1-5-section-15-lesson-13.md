@@ -1,6 +1,6 @@
 ---
 title: 'Storage Pricing — S3 Overview'
-section: Section-15
+section: Section-16
 lesson: 13
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On Guide: Ordering an AWS Snow Family Device'
-section: Section-5
+section: Section-6
 lesson: 11
 order: 1
 ---

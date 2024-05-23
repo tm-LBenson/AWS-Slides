@@ -1,6 +1,6 @@
 ---
 title: 'Storage Pricing - EBS Overview'
-section: Section-15
+section: Section-16
 lesson: 14
 ---
 

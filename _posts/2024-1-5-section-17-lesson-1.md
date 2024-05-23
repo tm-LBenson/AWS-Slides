@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Introduction to Other AWS Services'
-section: Section-17
+section: Section-18
 lesson: 1
 ---
 

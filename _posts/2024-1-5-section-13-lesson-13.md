@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Config: Compliance and Resource Management'
-section: Section-13
+section: Section-14
 lesson: 13
 ---
 

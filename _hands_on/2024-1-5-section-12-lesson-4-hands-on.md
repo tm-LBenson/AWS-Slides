@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Exploring Security Groups and Network ACLs'
-section: Section-12
+section: Section-13
 lesson: 4
 order: 1
 ---

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding AWS EC2 - Elastic Compute Cloud'
-section: Section-2
+section: Section-3
 lesson: 1
 ---
 

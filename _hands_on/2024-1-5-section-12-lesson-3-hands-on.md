@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Understanding CIDR Notation'
-section: Section-12
+section: Section-13
 lesson: 3
 order: 1
 ---

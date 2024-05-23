@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Messaging and Queuing Services Summary'
-section: Section-10
+section: Section-11
 lesson: 6
 ---
 

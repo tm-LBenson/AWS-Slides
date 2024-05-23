@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: AWS Well-Architected Tool'
-section: Section-18
+section: Section-19
 lesson: 7
 order: 1
 ---

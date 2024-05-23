@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'VPC - Virtual Private Cloud Overview'
-section: Section-12
+section: Section-13
 lesson: 1
 ---
 

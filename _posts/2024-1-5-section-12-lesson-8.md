@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Direct Connect and Site-to-Site VPN'
-section: Section-12
+section: Section-13
 lesson: 8
 ---
 

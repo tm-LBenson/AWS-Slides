@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon WorkSpaces: Managed Desktop as a Service'
-section: Section-17
+section: Section-18
 lesson: 2
 ---
 

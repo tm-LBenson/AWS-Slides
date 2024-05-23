@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating VPC Endpoints'
-section: Section-12
+section: Section-13
 lesson: 6
 order: 1
 ---

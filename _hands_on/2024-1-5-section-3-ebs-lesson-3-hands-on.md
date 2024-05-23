@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating an EBS Snapshot'
-section: Section-3
+section: Section-4
 lesson: 3
 order: 1
 ---

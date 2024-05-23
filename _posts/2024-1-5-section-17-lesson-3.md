@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon AppStream 2.0: Desktop Application Streaming'
-section: Section-17
+section: Section-18
 lesson: 3
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Personalize: Real-Time Personalization and Recommendation'
-section: Section-14
+section: Section-15
 lesson: 9
 ---
 

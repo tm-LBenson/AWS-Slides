@@ -1,6 +1,6 @@
 ---
 title: 'Compute Pricing - EC2: In-Depth'
-section: Section-15
+section: Section-16
 lesson: 12
 ---
 

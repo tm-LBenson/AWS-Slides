@@ -1,6 +1,6 @@
 ---
 title: 'Pricing of Services: Compute Pricing - EC2'
-section: Section-15
+section: Section-16
 lesson: 11
 ---
 

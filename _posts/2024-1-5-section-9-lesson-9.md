@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Global Applications Architecture'
-section: Section-9
+section: Section-10
 lesson: 9
 ---
 

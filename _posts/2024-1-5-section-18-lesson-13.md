@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS IQ and AWS re:Post: Community-Driven AWS Support'
-section: Section-18
+section: Section-19
 lesson: 13
 ---
 

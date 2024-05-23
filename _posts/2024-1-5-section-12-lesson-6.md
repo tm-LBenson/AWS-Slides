@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding VPC Endpoints'
-section: Section-12
+section: Section-13
 lesson: 6
 ---
 

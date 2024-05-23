@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Elastic Disaster Recovery (DRS) Overview'
-section: Section-17
+section: Section-18
 lesson: 11
 ---
 

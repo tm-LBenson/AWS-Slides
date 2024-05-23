@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Service Control Policy Examples: Allowlists and Denylists'
-section: Section-15
+section: Section-16
 lesson: 4
 ---
 

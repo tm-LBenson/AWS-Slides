@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Setting Up Amazon EventBridge Rules'
-section: Section-11
+section: Section-12
 lesson: 3
 order: 1
 ---

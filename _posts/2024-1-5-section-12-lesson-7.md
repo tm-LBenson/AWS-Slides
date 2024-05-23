@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Private Link Overview'
-section: Section-12
+section: Section-13
 lesson: 7
 ---
 

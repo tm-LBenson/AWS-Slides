@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Directory Services Overview'
-section: Section-16
+section: Section-17
 lesson: 3
 ---
 

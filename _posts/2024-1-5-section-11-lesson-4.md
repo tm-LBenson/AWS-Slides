@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS CloudTrail: Governance, Compliance, and Audit'
-section: Section-11
+section: Section-12
 lesson: 4
 ---
 

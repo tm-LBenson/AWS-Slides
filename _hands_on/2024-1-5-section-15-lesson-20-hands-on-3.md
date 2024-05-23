@@ -1,6 +1,6 @@
 ---
 title: 'Hands-On: AWS Cost Allocation Tags'
-section: Section-15
+section: Section-16
 lesson: 20
 order: 3
 ---

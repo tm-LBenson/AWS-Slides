@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding Service Control Policies in AWS Organizations'
-section: Section-15
+section: Section-16
 lesson: 3
 ---
 

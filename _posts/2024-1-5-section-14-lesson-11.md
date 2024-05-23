@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Machine Learning Services Overview'
-section: Section-14
+section: Section-15
 lesson: 11
 ---
 

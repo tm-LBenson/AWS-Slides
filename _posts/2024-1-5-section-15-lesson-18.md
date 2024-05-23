@@ -1,6 +1,6 @@
 ---
 title: 'AWS Savings Plans Overview'
-section: Section-15
+section: Section-16
 lesson: 18
 ---
 

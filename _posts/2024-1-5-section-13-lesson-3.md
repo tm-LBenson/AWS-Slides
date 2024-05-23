@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Network Firewall: Simplified VPC Protection'
-section: Section-13
+section: Section-14
 lesson: 3
 ---
 

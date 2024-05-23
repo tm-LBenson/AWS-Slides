@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Migration Evaluator: Building a Business Case for Cloud Migration'
-section: Section-17
+section: Section-18
 lesson: 15
 ---
 

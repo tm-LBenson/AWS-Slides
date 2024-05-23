@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Application Discovery & Migration Services'
-section: Section-17
+section: Section-18
 lesson: 14
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Amplify: Full Stack App Development Platform'
-section: Section-17
+section: Section-18
 lesson: 6
 ---
 

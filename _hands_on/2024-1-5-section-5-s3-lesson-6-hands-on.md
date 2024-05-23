@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Managing Amazon S3 Versioning'
-section: Section-5
+section: Section-6
 lesson: 6
 order: 1
 ---

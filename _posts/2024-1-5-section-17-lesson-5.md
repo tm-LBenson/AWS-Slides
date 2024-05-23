@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS AppSync: Real-Time Data Synchronization'
-section: Section-17
+section: Section-18
 lesson: 5
 ---
 

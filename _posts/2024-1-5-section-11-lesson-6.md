@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon CodeGuru: Automated Code Reviews and Performance Optimization'
-section: Section-11
+section: Section-12
 lesson: 6
 ---
 

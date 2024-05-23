@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Using CloudWatch Logs with AWS Lambda'
-section: Section-11
+section: Section-12
 lesson: 2
 order: 1
 ---

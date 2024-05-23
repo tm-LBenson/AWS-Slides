@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Clean up to Avoid Charges'
-section: Section-4
+section: Section-5
 lesson: 6
 order: 1
 ---

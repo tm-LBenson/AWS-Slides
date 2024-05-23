@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Exploring AWS Key Management Service'
-section: Section-13
+section: Section-14
 lesson: 8
 order: 1
 ---

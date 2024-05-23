@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: AWS Lambda'
-section: Section-7
+section: Section-8
 lesson: 3
 order: 1
 ---

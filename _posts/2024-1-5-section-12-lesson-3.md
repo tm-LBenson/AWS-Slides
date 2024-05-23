@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'VPC and Subnets Explained'
-section: Section-12
+section: Section-13
 lesson: 3
 ---
 

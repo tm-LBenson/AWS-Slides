@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Penetration Testing on AWS: Guidelines and Permissions'
-section: Section-13
+section: Section-14
 lesson: 5
 ---
 

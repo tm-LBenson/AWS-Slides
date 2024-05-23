@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating and Reviewing a CloudTrail Trail'
-section: Section-11
+section: Section-12
 lesson: 4
 order: 1
 ---

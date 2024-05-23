@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Introducing AWS Fault Injection Simulator: Embracing Chaos Engineering'
-section: Section-17
+section: Section-18
 lesson: 17
 ---
 

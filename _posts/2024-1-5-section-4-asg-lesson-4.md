@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Auto Scaling Groups — Scaling Strategies'
-section: Section-4
+section: Section-5
 lesson: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS CAF Exam Tips'
-section: Section-18
+section: Section-19
 lesson: 10
 ---
 

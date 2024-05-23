@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon FSx Overview'
-section: Section-3
+section: Section-4
 lesson: 9
 ---
 

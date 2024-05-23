@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'EC2 Image Builder'
-section: Section-3
+section: Section-4
 lesson: 5
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Content Delivery and Pricing — CloudFront'
-section: Section-15
+section: Section-16
 lesson: 16
 ---
 

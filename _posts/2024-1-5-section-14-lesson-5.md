@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding AWS Comprehend'
-section: Section-14
+section: Section-15
 lesson: 5
 ---
 

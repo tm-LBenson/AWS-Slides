@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Device Farm: Testing Across Multiple Devices'
-section: Section-17
+section: Section-18
 lesson: 8
 ---
 

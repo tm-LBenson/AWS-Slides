@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'DDoS Protection on AWS: Understanding AWS Shield and WAF'
-section: Section-13
+section: Section-14
 lesson: 2
 ---
 

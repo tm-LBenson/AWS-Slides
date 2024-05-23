@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating and Using an Amazon Machine Image (AMI)'
-section: Section-3
+section: Section-4
 lesson: 4
 order: 1
 ---

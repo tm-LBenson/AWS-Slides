@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS X-Ray: Debugging and Performance Optimization'
-section: Section-11
+section: Section-12
 lesson: 5
 ---
 

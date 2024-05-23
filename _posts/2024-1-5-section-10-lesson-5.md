@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon MQ'
-section: Section-10
+section: Section-11
 lesson: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Creating an EC2 Instance from a Custom AMI with User Data'
-section: Section-3
+section: Section-4
 lesson: 4
 order: 2
 ---

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: CloudFront'
-section: Section-9
+section: Section-10
 lesson: 3
 order: 1
 ---

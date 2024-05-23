@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: Amazon SQS Standard Queue'
-section: Section-10
+section: Section-11
 lesson: 2
 order: 1
 ---

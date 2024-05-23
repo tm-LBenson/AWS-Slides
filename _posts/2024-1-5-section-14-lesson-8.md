@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Amazon Kendra: Intelligent Search Service'
-section: Section-14
+section: Section-15
 lesson: 8
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Implementing Scaling Strategies'
-section: Section-4
+section: Section-5
 lesson: 5
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 'Billing Alarms in CloudWatch'
-section: Section-15
+section: Section-16
 lesson: 23
 ---
 

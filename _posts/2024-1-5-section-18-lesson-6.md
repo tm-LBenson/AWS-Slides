@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Cost Optimization - AWS Well-Architected Framework'
-section: Section-18
+section: Section-19
 lesson: 6
 ---
 

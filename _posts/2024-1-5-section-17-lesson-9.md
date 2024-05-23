@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'AWS Backup: Simplified Data Protection'
-section: Section-17
+section: Section-18
 lesson: 9
 ---
 

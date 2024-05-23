@@ -1,6 +1,6 @@
 ---
 title: 'Hands-On with AWS Cost Explorer'
-section: Section-15
+section: Section-16
 lesson: 22
 order: 1
 ---

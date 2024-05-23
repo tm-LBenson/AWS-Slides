@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Understanding AWS CloudHSM: Managed Hardware Security Modules'
-section: Section-13
+section: Section-14
 lesson: 7
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Hands-On: AWS Organization and SCPs'
-section: Section-15
+section: Section-16
 lesson: 4
 order: 1
 ---

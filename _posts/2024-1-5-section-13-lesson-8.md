@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'Types of AWS KMS Keys: Understanding Your Options'
-section: Section-13
+section: Section-14
 lesson: 8
 ---
 

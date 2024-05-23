@@ -1,6 +1,6 @@
 ---
 title: 'AWS Service Catalog'
-section: Section-15
+section: Section-16
 lesson: 8
 ---
 

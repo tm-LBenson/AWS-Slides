@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: 'S3 Transfer Acceleration'
-section: Section-9
+section: Section-10
 lesson: 4
 ---
 
