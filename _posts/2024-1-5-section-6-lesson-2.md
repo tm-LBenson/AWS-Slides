@@ -2,7 +2,7 @@
 layout: posts
 title: 'Snowball Edge Pricing Overview'
 section: Section-6
-lesson: 12
+lesson: 2
 ---
 
 ### Snowball Edge Pricing Overview
@@ -35,3 +35,5 @@ Amazon Snowball Edge offers flexible pricing options tailored to your usage patt
 #### Conclusion
 
 Snowball Edge provides a cost-effective solution for data transfer and edge computing needs, with pricing options that accommodate both short-term, on-demand use and longer-term commitments. Whether you are moving large amounts of data into AWS or performing local processing tasks, Snowball Edge offers a pricing structure that can be tailored to fit your project's budget and duration.
+
+---

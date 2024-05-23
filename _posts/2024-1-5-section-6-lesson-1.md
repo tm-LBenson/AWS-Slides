@@ -2,7 +2,7 @@
 layout: posts
 title: 'AWS Snow Family Overview'
 section: Section-6
-lesson: 11
+lesson: 1
 ---
 
 ### AWS Snow Family Overview
@@ -31,3 +31,5 @@ The AWS Snow Family is a suite of physical devices designed to help businesses m
 #### Conclusion
 
 The AWS Snow Family addresses a variety of needs related to data transfer and edge computing, especially in situations where traditional cloud connectivity solutions are impractical or insufficient. Whether it's migrating petabytes of data to AWS, processing data locally on a remote site, or distributing high volumes of content, the Snow Family offers robust solutions to meet these challenges.
+
+---

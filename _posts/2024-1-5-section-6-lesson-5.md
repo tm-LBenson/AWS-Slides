@@ -2,7 +2,7 @@
 layout: posts
 title: 'Amazon Snow Family — Summary'
 section: Section-6
-lesson: 15
+lesson: 5
 ---
 
 #### Snow Family
