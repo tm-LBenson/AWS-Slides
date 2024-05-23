@@ -28,8 +28,6 @@ Understanding AWS networking costs can help optimize how you deploy and manage y
 
 - **Using Any IP**: $0.02 per GB when traffic crosses regions.
 
-![Network Traffic Costs Diagram](/assets/network-traffic-costs-diagram.png)
-
 #### Cost-Saving Tips
 
 - **Use Private IPs**: Opt for private IPs for intra-region communication to save costs and enhance performance.

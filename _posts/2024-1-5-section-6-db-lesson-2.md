@@ -70,12 +70,6 @@ lesson: 2
 - Recognize that both platforms support disaster recovery but handle replication and failover differently.
 <!-- pagebreak -->
 
-#### RDS Solution Architecture
-
-![RDS Solution Architecture](rds-architecture.png)
-
-<!-- pagebreak -->
-
 #### RDS Solution Architecture Explained
 
 1. Elastic Load Balancer (ELB)

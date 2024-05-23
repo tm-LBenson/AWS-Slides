@@ -42,8 +42,6 @@ Amazon Elastic Block Store (EBS) is a high-performance block storage service des
 - **Single Attachment**: By default, an EBS volume can only be attached to one EC2 instance at a time. However, certain EBS volumes can be configured for multi-attach, enabling them to be attached to multiple instances simultaneously.
 - **Mobility**: EBS volumes are tied to a specific Availability Zone and must be in the same AZ as the EC2 instance to which they are attached. However, they can be detached and reattached to other instances within the same AZ as needed.
 
-![EBS Attachment](/assets/multiple-ebs.png)
-
 **Note:** While EBS Multi-Attach enables a single volume to be attached to multiple instances, it is a more advanced feature typically not covered in a Developer Associate exam.
 
 #### Multiple EBS Volumes on Single Instance

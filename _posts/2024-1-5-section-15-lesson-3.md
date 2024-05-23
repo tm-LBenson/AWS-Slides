@@ -33,6 +33,4 @@ Service Control Policies (SCPs) provide a powerful mechanism to centrally manage
 
 Understanding and implementing SCPs within AWS Organizations is crucial for maintaining governance and operational control over your AWS resources across different accounts.
 
-![scp](scp.png)
-
 ---

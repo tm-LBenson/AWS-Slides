@@ -25,14 +25,6 @@ AWS CloudHSM offers a way to secure encryption keys and other sensitive data usi
 - **Tamper Resistance**: The physical HSM device is designed to be tamper-resistant, offering additional security against physical threats.
 <!-- pagebreak -->
 
-#### Image of an HSM Device
-
-![HSM Device](assets/hsm.png)
-
-This image shows a typical HSM device used in CloudHSM setups. These devices are robust and secure, designed to protect cryptographic keys and other digital assets.
-
-<!-- pagebreak -->
-
 #### Using CloudHSM
 
 - **Setup and Configuration**: Setting up CloudHSM involves integrating it with your applications to use it for cryptographic operations.
