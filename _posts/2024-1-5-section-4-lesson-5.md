@@ -47,3 +47,5 @@ EC2 Image Builder is a service from Amazon Web Services (AWS) that allows you to
   - The distribution feature allows you to create a custom AMI in one region and deploy it across multiple regions, facilitating global deployments.
 
 EC2 Image Builder is a powerful tool for managing custom AMIs, offering automation, compliance, and multi-region distribution capabilities to simplify image creation and maintenance.
+
+---

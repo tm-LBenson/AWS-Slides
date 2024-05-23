@@ -54,3 +54,5 @@ An EC2 instance store provides temporary block-level storage for Amazon EC2 inst
   - To preserve important data, use persistent storage like EBS or regular backups to Amazon S3.
 
 EC2 instance store offers high-performance, temporary storage for EC2 instances. However, it's important to understand its limitations and use it appropriately to avoid data loss.
+
+---

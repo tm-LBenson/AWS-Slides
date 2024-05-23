@@ -52,3 +52,5 @@ An Amazon Machine Image (AMI) is a pre-configured template used to create new Am
 - **Backup and Recovery**: By creating custom AMIs, you can back up critical environments and restore them easily if needed.
 
 This overview covers the basics of AMIs, providing a foundational understanding of what they are, how they're created, and why they're useful for managing EC2 instances in AWS.
+
+---
