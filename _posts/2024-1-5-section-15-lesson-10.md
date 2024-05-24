@@ -2,7 +2,7 @@
 layout: posts
 title: 'AWS Machine Learning Services Overview'
 section: Section-15
-lesson: 11
+lesson: 10
 ---
 
 ### AWS Machine Learning Services Summary
