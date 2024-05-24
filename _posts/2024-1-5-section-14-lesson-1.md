@@ -76,3 +76,5 @@ Customers are responsible for managing the guest operating system (including upd
 <!-- pagebreak -->
 
 ![AWS Shared Responsibility Model](https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg)
+
+---

@@ -51,3 +51,5 @@ AWS provides two levels of protection against Distributed Denial of Service (DDo
 <!-- pagebreak -->
 
 AWS's comprehensive DDoS protection involves multiple layers of safeguards, including AWS Shield, AWS WAF, CloudFront, and Route 53, coupled with the ability to auto-scale resources to mitigate and absorb potential attacks.
+
+---

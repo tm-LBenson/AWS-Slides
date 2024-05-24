@@ -34,3 +34,5 @@ AWS Firewall Manager is a security management service designed to help you centr
 For the AWS Certified Cloud Practitioner exam, it's essential to understand that AWS Firewall Manager allows for the centralized management of security rules across all accounts in an AWS Organization. This is crucial for ensuring consistent security policies and simplifying regulatory compliance across the organization.
 
 Remember, the key takeaway for the exam is that AWS Firewall Manager is used for managing security rules at an organizational level, which is vital for maintaining security and compliance.
+
+---

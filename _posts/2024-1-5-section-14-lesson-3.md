@@ -36,3 +36,5 @@ AWS Network Firewall is a managed service that provides network protections at t
 <!-- pagebreak -->
 
 For the exam, remember that AWS Network Firewall is the go-to solution for protecting an entire Amazon VPC at the network level.
+
+---
