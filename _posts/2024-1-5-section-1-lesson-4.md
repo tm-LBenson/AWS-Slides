@@ -12,7 +12,6 @@ lesson: 4
 Discover the versatility and power of the AWS Command Line Interface (CLI), an essential tool for managing AWS services. The AWS CLI allows you to execute a wide range of tasks in AWS from your command line, providing a quick method to perform AWS operations.
 
 - **Key Benefits**: Automation of repetitive tasks, direct access to manage AWS resources, and the ability to script these commands to increase operational efficiency.
-- **Certification Relevance**: Understanding and proficiency in the AWS CLI are important for the AWS Certified SysOps Administrator and AWS Certified Developer exams.
 
 <!-- pagebreak -->
 
