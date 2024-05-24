@@ -1,6 +1,6 @@
 /* Base styles for the entire page */
 body {
-  font-family: 'Georgia', serif;
+  font-family: sans-serif;
   color: #dcdcdc; /* Light gray text for readability */
   background-color: #232f3e; /* Dark background similar to AWS dark mode */
   font-size: 28px; /* Suitable font size for desktop */
