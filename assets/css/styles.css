@@ -109,6 +109,46 @@ th {
   background-color: #f2f2f2; /* Adds a light grey background to header cells */
   color: black;
 }
+/* Basic styling for the checkboxes */
+input[type='checkbox'] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #4caf50;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Styling for the checked state */
+input[type='checkbox']:checked {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+input[type='checkbox']:checked::after {
+  content: '\2714';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 14px;
+}
+
+/* Add some margin to the checkboxes */
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+/* Style the links and list items */
+ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+/* Additional styling for section headers */
 
 /* Responsive adjustments */
 @media (max-width: 992px) {

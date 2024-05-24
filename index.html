@@ -11,15 +11,28 @@ sorted_sections %}
   {% assign sorted_posts = site.posts | where: "section", section.name | sort:
   'lesson' %} {% for post in sorted_posts %}
   <li>
+    <input
+      type="checkbox"
+      class="topic-checkbox"
+      data-id="post-{{ post.id }}"
+    />
     <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     <ul>
       {% assign sorted_hands_on = site.hands_on | where: "section", post.section
       | where: "lesson", post.lesson | sort: 'order' %} {% for hand in
       sorted_hands_on %}
-      <li><a href="{{ site.baseurl }}{{ hand.url }}">{{ hand.title }}</a></li>
+      <li>
+        <input
+          type="checkbox"
+          class="topic-checkbox"
+          data-id="hand-{{ hand.id }}"
+        />
+        <a href="{{ site.baseurl }}{{ hand.url }}">{{ hand.title }}</a>
+      </li>
       {% endfor %}
     </ul>
   </li>
   {% endfor %}
 </ul>
 {% endfor %}
+<script src="{{ site.baseurl }}/assets/js/checkboxes.js"></script>
