@@ -12,20 +12,6 @@ lesson: 4
 Discover the versatility and power of the AWS Command Line Interface (CLI), an essential tool for managing AWS services. The AWS CLI allows you to execute a wide range of tasks in AWS from your command line, providing a quick method to perform AWS operations.
 
 - **Key Benefits**: Automation of repetitive tasks, direct access to manage AWS resources, and the ability to script these commands to increase operational efficiency.
-- **Certification Relevance**: Understanding and proficiency in the AWS CLI are important for the AWS Certified SysOps Administrator and AWS Certified Developer exams.
-
-<!-- pagebreak -->
-
-#### Access Management through CLI
-
-Learn how to manage access within AWS using the CLI, a critical skill for securing your AWS environment.
-
-- **Creating Access Keys**: How to create and manage AWS access keys that are used to perform AWS operations programmatically.
-- **CLI Credentials Management**: Best practices for managing credentials securely, including using the AWS credentials file and environment variables.
-- **Demonstration**:
-  - **Command**: `aws iam list-users`
-  - **Purpose**: Lists all IAM users in your AWS account, providing visibility into the users and their attributes.
-- **Troubleshooting**: Address common issues related to permissions and authentication when using the AWS CLI.
 
 <!-- pagebreak -->
 
