@@ -37,16 +37,4 @@ Explore the AWS Software Development Kit (SDK), which provides an application pr
 - **Supported Languages**: Extensive support for languages including JavaScript, Python, Java, .NET, and more.
 - **Mobile and IoT SDKs**: Specialized SDKs for mobile development platforms like iOS and Android, and for IoT devices, facilitating development in these environments.
 
-<!-- pagebreak -->
-
-#### Practical Use of AWS SDK and CLI
-
-Applying the AWS CLI and SDK in practical scenarios enhances your ability to automate AWS services efficiently.
-
-- **Hands-On Implementation**: Step-by-step guide on using the SDK to programmatically manage AWS services, such as creating and managing IAM policies.
-- **Example SDK Call**: How to use the AWS SDK to list IAM users, modify resources, and handle responses within your application.
-- **Integration Techniques**: Best practices for integrating the AWS SDK into your development projects, ensuring robust and scalable applications.
-
-This lesson equips you with the knowledge to utilize the AWS CLI and SDK effectively, fundamental for automating AWS service management and important for roles involving AWS operations and development.
-
 ---

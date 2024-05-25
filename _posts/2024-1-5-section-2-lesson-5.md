@@ -40,7 +40,7 @@ This URL serves the index document specified in the static website hosting setti
 
 - **Public Read Access**: For your website to be accessible to the public, the bucket must have public read access enabled. This involves:
 - **Modifying Block Public Access Settings**: Ensure that the block public access settings on the bucket are configured to allow public reads.
-- **Bucket Policy**: Apply a bucket policy that grants `public read` access to the objects. For example:
+- **Bucket Policy**: Apply a bucket the policy that grants `public read` access to the objects. For example:
 
   ```json
   {
@@ -56,7 +56,7 @@ This URL serves the index document specified in the static website hosting setti
   }
   ```
 
-  <!-- pagebreak -->
+<!-- pagebreak -->
 
 #### Conclusion
 

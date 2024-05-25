@@ -22,8 +22,12 @@ Amazon S3 (Simple Storage Service) provides comprehensive security and complianc
    - **Bucket Policies**:
      - **Description**: Bucket policies are JSON-based policies that apply to the buckets and objects within them. They can be used to grant broader access permissions across the entire bucket.
      - **Use Cases**: Bucket policies are particularly useful for allowing cross-account access, restricting IP addresses, enforcing encryption of uploaded objects, or granting public access to the bucket.
-   - **Access Control Lists (ACLs)**: - **Object ACLs**: Provide granular access control for individual objects within a bucket. You can specify which AWS accounts can access an object and what permissions they have. - **Bucket ACLs**: Similar to object ACLs, but they apply to the bucket itself. They are less commonly used due to the granularity and flexibility offered by bucket policies.
-   <!-- pagebreak -->
+
+#### Access Control Lists (ACLs)
+
+- **Object ACLs**: Provide granular access control for individual objects within a bucket. You can specify which AWS accounts can access an object and what permissions they have.
+- **Bucket ACLs**: Similar to object ACLs, but they apply to the bucket itself. They are less commonly used due to the granularity and flexibility offered by bucket policies.
+<!-- pagebreak -->
 
 #### Principles of Access Control
 
