@@ -7,7 +7,7 @@ lesson: 2
 
 ### Amazon S3 - Buckets Overview
 
-Amazon S3 (Simple Storage Service) uses a storage architecture based on "buckets" and "objects." Buckets are the fundamental containers in S3 for data storage, equivalent to directories in file systems, whereas objects represent the individual files stored within these buckets. Understanding how S3 buckets work and the rules for naming and managing them is important for effectively using S3. Below is a detailed overview of S3 buckets, their properties, and naming conventions.
+Amazon S3 (Simple Storage Service) uses a storage architecture based on "buckets" and "objects." Buckets are the fundamental containers in S3 for data storage, equivalent to directories in file systems, whereas objects represent the individual files stored within these buckets. Understanding how S3 buckets work and the rules for naming and managing them is important for effectively using S3. 
 
 <!-- pagebreak -->
 

@@ -7,7 +7,7 @@ lesson: 10
 
 ### Summary of Section 3 Notes
 
-Day 3 covers various storage services within Amazon Web Services (AWS), focusing on Elastic Block Store (EBS), Elastic File System (EFS), and Amazon FSx. Below is a summary of the key points from these notes:
+Day 3 covers various storage services within Amazon Web Services (AWS), focusing on Elastic Block Store (EBS), Elastic File System (EFS), and Amazon FSx. 
 
 <!-- pagebreak -->
 
