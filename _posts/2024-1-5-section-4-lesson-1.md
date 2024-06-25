@@ -44,6 +44,8 @@ Amazon Elastic Block Store (EBS) is a high-performance block storage service des
 
 **Note:** While EBS Multi-Attach enables a single volume to be attached to multiple instances, it is a more advanced feature typically not covered in a Developer Associate exam.
 
+<!-- pagebreak -->
+
 #### Multiple EBS Volumes on Single Instance
 
 - **Capability**: Multiple EBS volumes can be attached to a single EC2 instance, providing expanded storage and enhanced performance capabilities.
