@@ -29,10 +29,5 @@ AWS Migration Hub offers a unified location to manage and monitor your migration
 - **Centralized Management**: Enables centralized control over various migration activities, ensuring that all parts of the migration ecosystem are aligned and trackable.
 
 - **Enhanced Visibility**: Provides clear and continuous visibility into the status of migration projects, helping teams to identify issues early and adjust plans swiftly.
-<!-- pagebreak -->
-
-#### Conclusion
-
-AWS Migration Hub is an essential tool for organizations looking to migrate to AWS, offering a comprehensive suite of features that simplify and optimize the migration process.
 
 ---
