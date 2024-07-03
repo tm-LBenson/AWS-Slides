@@ -29,10 +29,5 @@ AWS Migration Evaluator, formerly known as TSO Logic, is designed to support org
 - **Streamlined Planning**: Simplifies the complexity of planning a large-scale migration by providing clear, actionable data on your existing infrastructure and its potential in the cloud.
 
 - **Customized Recommendations**: Delivers tailored advice on migration strategies based on your specific organizational needs and goals.
-<!-- pagebreak -->
-
-#### Conclusion
-
-AWS Migration Evaluator is an essential tool for any organization considering a move to AWS, ensuring that the decision to migrate is backed by thorough analysis and clear economic benefits.
 
 ---
