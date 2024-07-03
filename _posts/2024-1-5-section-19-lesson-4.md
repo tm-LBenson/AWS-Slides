@@ -19,8 +19,4 @@ Reliability in the AWS Well-Architected Framework refers to the ability of a sys
 - **Stop guessing capacity**: Utilize Auto Scaling to ensure you have the right amount of resources to handle the demand without over or under provisioning.
 - **Manage change in automation**: Implement infrastructure changes through automation to minimize risks and ensure consistency.
 
-<!-- pagebreak -->
-
-These principles guide you in building robust systems that can withstand failures and adapt to evolving conditions without human intervention.
-
 ---

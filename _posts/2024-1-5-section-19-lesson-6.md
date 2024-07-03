@@ -19,8 +19,4 @@ Cost Optimization in the AWS Well-Architected Framework focuses on running syste
 - **Analyze and attribute expenditure**: Use tagging to accurately identify system usage and costs to measure Return on Investment (ROI).
 - **Use managed and application level services to reduce cost of ownership**: Leveraging managed services can lead to lower costs per transaction or service due to economies of scale.
 
-<!-- pagebreak -->
-
-These principles guide organizations in efficient financial management of their cloud resources, ensuring that they can deliver maximum value while minimizing costs.
-
 ---

@@ -19,8 +19,4 @@ Security within the AWS Well-Architected Framework encompasses the ability to pr
 - **Keep people away from data**: Minimize direct access to data by using automated tools to handle and process data securely.
 - **Prepare for security events**: Continually practice incident response, simulate security events to test your preparedness, and implement automated tools to aid in rapid detection, investigation, and recovery.
 
-<!-- pagebreak -->
-
-Understanding and applying these principles ensures robust security measures are embedded within every aspect of your cloud architecture.
-
 ---

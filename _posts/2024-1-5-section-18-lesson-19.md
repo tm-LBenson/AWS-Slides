@@ -27,6 +27,4 @@ AWS Ground Station is a fully managed service that provides you with the ability
 - **Communications**: Facilitate global communications by relaying data across vast distances.
 - **Video Broadcasts**: Stream live events and broadcasts directly from satellites.
 
-AWS Ground Station is transforming how businesses interact with space-based assets, providing unprecedented control and integration with cloud services.
-
 ---

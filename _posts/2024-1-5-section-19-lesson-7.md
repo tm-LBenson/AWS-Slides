@@ -20,8 +20,4 @@ The Sustainability pillar of the AWS Well-Architected Framework emphasizes minim
 - **Use managed services**: Leverage shared services to reduce the overall infrastructure footprint and automate sustainable best practices, such as moving infrequently accessed data to cold storage or adjusting compute capacity to need.
 - **Reduce the downstream impact of your cloud workloads**: Minimize the energy or resources required for your services, thereby reducing the need for customers to upgrade their devices.
 
-<!-- pagebreak -->
-
-These principles help organizations optimize their cloud infrastructure in an environmentally conscious manner, ensuring that cloud operations contribute positively to sustainability goals.
-
 ---

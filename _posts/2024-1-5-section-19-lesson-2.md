@@ -18,8 +18,4 @@ Operational Excellence involves the ability to run and monitor systems to delive
 - **Anticipate failure**: Design systems with the expectation of failure in mind, implementing fallback and recovery procedures to maintain operational stability.
 - **Learn from all operational failures**: Treat failures as learning opportunities, using them to improve system resilience and reliability.
 
-<!-- pagebreak -->
-
-These principles guide the management of operations in the cloud, promoting automation, continuous improvement, and learning from operational experiences to achieve better business outcomes.
-
 ---

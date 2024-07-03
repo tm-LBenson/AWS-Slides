@@ -34,6 +34,4 @@ AWS Step Functions allows you to orchestrate and automate serverless workflows u
 - **Scalability**: Scale your workflow executions as your needs grow without managing underlying infrastructure.
 - **Cost-Effectiveness**: Pay only for the transitions your workflows execute, not for idle time.
 
-AWS Step Functions is a powerful tool for developers looking to streamline operations and automate processes across their AWS environment.
-
 ---
