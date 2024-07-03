@@ -28,10 +28,5 @@ The 7Rs of cloud migration provide a strategic framework for organizations consi
 - **Repurchase** ("Drop and Shop"): Move from a traditional license to a cloud service model, like moving from an on-prem CRM to Salesforce or from an on-prem ERP to NetSuite.
 
 - **Refactor / Re-architect**: Reimagine how the application is architected and developed, typically using cloud-native technologies, to enhance agility, performance, and scalability.
-<!-- pagebreak -->
-
-#### Choosing the Right Strategy
-
-The choice of strategy depends on various factors including the application’s strategic importance, the complexity of the migration, and the desired benefits of moving to the cloud. The decision is often a balance between cost, time, and the intended outcome.
 
 ---
