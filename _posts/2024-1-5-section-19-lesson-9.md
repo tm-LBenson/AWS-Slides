@@ -57,6 +57,5 @@ The AWS CAF framework guides organizations through several critical phases to en
 
 4. **Scale**:
    - Broaden the scope of pilot projects to achieve full-scale implementation and business benefits.
-   <!-- pagebreak -->
 
 ---
