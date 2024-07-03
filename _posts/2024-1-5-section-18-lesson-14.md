@@ -38,10 +38,5 @@ AWS Application Migration Service (MGN) is designed to simplify the process of m
 - **Broad Platform Support**: Compatible with a wide range of platforms, operating systems, and databases.
 - **Minimal Downtime**: Ensures that your applications remain operational during the migration process, minimizing business disruption.
 - **Cost Efficiency**: Reduces migration costs by automating many of the steps involved in traditional migrations.
-<!-- pagebreak -->
-
-#### Conclusion
-
-These services provide the tools necessary for effective planning and execution of large-scale migration projects, ensuring organizations can transition to AWS with confidence and minimal impact on ongoing operations.
 
 ---
