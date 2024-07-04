@@ -26,7 +26,7 @@ AWS Cost Explorer is a powerful tool designed to help users visualize, understan
 
 #### Exam Pointers
 
-For the AWS practitioner exam, remember:
+For the exam, remember:
 
 - Cost Explorer is essential for visualizing and managing AWS costs.
 - It supports decision-making for Savings Plans and provides usage forecasts based on previous trends.

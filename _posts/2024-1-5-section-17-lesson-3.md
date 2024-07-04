@@ -25,6 +25,6 @@ AWS Directory Services provides a way to integrate AWS resources with Microsoft 
 - **Single Sign-On (SSO)**: Allows users to sign in once and access multiple AWS services without re-authenticating.
 - **Resource Access**: Manage and control access to AWS resources using group memberships and permissions defined in AD.
 
-For the AWS Certified Cloud Practitioner exam, remember that AWS Directory Services enhances Microsoft Active Directory with AWS features.
+For the exam, remember that AWS Directory Services enhances Microsoft Active Directory with AWS features.
 
 ---

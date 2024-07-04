@@ -24,6 +24,4 @@ AWS Backup is a centralized service designed to automate and simplify data prote
 - Amazon EFS
 - Amazon S3
 
-AWS Backup simplifies backup management by providing a consistent, policy-driven solution, which reduces the operational burden of manual backup processes and improves compliance and data durability.
-
 ---

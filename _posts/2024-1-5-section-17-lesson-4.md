@@ -26,6 +26,6 @@ AWS IAM Identity Center simplifies user access to AWS accounts and business appl
 
 - **Simplified Access Management**: Streamlines user access across multiple services, enhancing security by reducing the number of credentials users must manage.
 
-For the AWS Certified Cloud Practitioner exam, focus on understanding that AWS IAM Identity Center offers an efficient way to manage access across multiple AWS accounts and external applications through a single login mechanism.
+For the exam, focus on understanding that AWS IAM Identity Center offers an efficient way to manage access across multiple AWS accounts and external applications through a single login mechanism.
 
 ---
