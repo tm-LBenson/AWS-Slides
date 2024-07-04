@@ -27,6 +27,6 @@ DynamoDB Global Tables offer a powerful feature for applications that require a 
 
 #### Conclusion
 
-For the AWS Cloud Practitioner exam, understanding the basic functionality and benefits of DynamoDB Global Tables, such as low latency, multi-region data replication for both reads and writes, is sufficient. These features make Global Tables an ideal choice for developers looking to minimize response times and maximize availability in distributed applications.
+For the exam, understanding the basic functionality and benefits of DynamoDB Global Tables, such as low latency, multi-region data replication for both reads and writes, is sufficient. These features make Global Tables an ideal choice for developers looking to minimize response times and maximize availability in distributed applications.
 
 ---
