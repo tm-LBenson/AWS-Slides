@@ -8,7 +8,7 @@ order: 1
 
 ### Exploring CIDR Notation
 
-While CIDR notation might not be directly examined in depth for the AWS Cloud Practitioner exam, understanding it can significantly aid in comprehending how subnets are structured within AWS VPCs. This hands-on exercise involves using an external tool to explore Classless Inter-Domain Routing (CIDR) notation and its implications on network design.
+While CIDR notation might not be directly examined in depth for the exam, understanding it can significantly aid in comprehending how subnets are structured within AWS VPCs. This hands-on exercise involves using an external tool to explore Classless Inter-Domain Routing (CIDR) notation and its implications on network design.
 
 <!-- pagebreak -->
 
