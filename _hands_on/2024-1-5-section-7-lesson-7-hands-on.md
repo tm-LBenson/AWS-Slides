@@ -6,12 +6,6 @@ lesson: 7
 order: 2
 ---
 
-### Hands-On: Creating a DynamoDB Table
-
-This hands-on guide will walk you through creating a basic DynamoDB table, which will help you understand the simplicity and serverless nature of DynamoDB, an essential aspect for the AWS Cloud Practitioner exam.
-
-<!-- pagebreak -->
-
 #### Step 1: Navigate to DynamoDB
 
 - Go to the AWS Management Console.
@@ -50,11 +44,5 @@ This hands-on guide will walk you through creating a basic DynamoDB table, which
 
 - **Create Another Item**: This time, only include `user_id` and `first_name`.
   - Notice how DynamoDB does not require a uniform schema across all items. Each item can have a unique set of attributes, unlike traditional relational databases where each row in a table must have the same columns.
-
-<!-- pagebreak -->
-
-#### Conclusion
-
-This exercise demonstrates the flexibility and ease of use of DynamoDB. Items in a DynamoDB table do not need to have the same attributes, which provides great flexibility but also requires careful design since DynamoDB does not support joining tables. This basic understanding is sufficient for the AWS Cloud Practitioner exam. Pursuing deeper knowledge and understanding, such as indexing and more complex data operations, would be necessary for the AWS Developer Associate certification.
 
 ---
