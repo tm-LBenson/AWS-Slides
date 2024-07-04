@@ -7,7 +7,7 @@ lesson: 1
 
 ### Introduction to Virtual Private Cloud (VPC)
 
-This lesson provides a high-level overview of Amazon Virtual Private Cloud (VPC), focusing on the default VPC setup, which is important for understanding basic networking within AWS. We'll briefly cover the essential components and concepts needed for the AWS Cloud Practitioner exam.
+This lesson provides a high-level overview of Amazon Virtual Private Cloud (VPC), focusing on the default VPC setup, which is important for understanding basic networking within AWS. We'll briefly cover the essential components and concepts needed for the exam.
 
 <!-- pagebreak -->
 
