@@ -32,6 +32,5 @@ It’s crucial to implement strong security measures to protect your AWS resourc
 - **Password Policies**: Enforce rules like password complexity and expiration to enhance security.
 - **Multi-Factor Authentication (MFA)**: Use MFA to add an extra security layer, crucial for protecting sensitive operations.
 
-This lesson covers fundamental concepts and tools needed to manage users and secure your AWS environment effectively. These principles are vital for efficient AWS management and are relevant for various AWS certification exams.
 
 ---
