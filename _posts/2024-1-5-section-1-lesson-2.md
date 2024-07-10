@@ -52,6 +52,4 @@ Implement these IAM best practices for optimal security:
 3. **Employ IAM Roles** for safer access management.
 4. **Regularly review and update permissions** to maintain necessary access levels.
 
-This overview introduces the basics of IAM, setting the foundation for further exploration of identity management in AWS.
-
 ---
