@@ -20,7 +20,7 @@ This hands-on guide will introduce you to setting up VPC Flow Logs and exploring
 - **Create Flow Log**:
   - Click on 'Create flow log'.
   - Review the settings which include the type of traffic to capture, the destination for the logs (CloudWatch Logs, S3, etc.), and additional tagging options.
-  - **Note**: Understanding these settings is crucial for configuring flow logs that meet your monitoring needs.
+  - **Note**: Understanding these settings is important for configuring flow logs that meet your monitoring needs.
 
 <!-- pagebreak -->
 

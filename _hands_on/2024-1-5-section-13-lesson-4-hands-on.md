@@ -8,7 +8,7 @@ order: 1
 
 ### Exploring Security Groups and Network ACLs in AWS
 
-In this hands-on activity, you'll learn how to navigate and understand the functionalities of Security Groups and Network ACLs (NACLs) within your AWS Virtual Private Cloud (VPC). These are crucial components for managing and securing your network traffic.
+In this hands-on activity, you'll learn how to navigate and understand the functionalities of Security Groups and Network ACLs (NACLs) within your AWS Virtual Private Cloud (VPC). These are important components for managing and securing your network traffic.
 
 <!-- pagebreak -->
 
@@ -37,9 +37,5 @@ In this hands-on activity, you'll learn how to navigate and understand the funct
   - Note: Making changes here can affect the accessibility and security of your resources. For this exercise, you may review the settings without saving changes.
 
 <!-- pagebreak -->
-
-#### Conclusion
-
-This exercise provides a practical understanding of how security groups and NACLs are used to control traffic at the instance and subnet levels, respectively. Familiarity with these components is essential for securing applications in the AWS cloud.
 
 ---

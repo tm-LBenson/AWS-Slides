@@ -61,8 +61,4 @@ This hands-on guide will walk you through using the AWS Well-Architected Tool to
 - Navigate back to `Workloads` using the breadcrumb trail.
 - Delete the `Test Workload` by selecting it and choosing the delete option.
 
-<!-- pagebreak -->
-
-This exercise is crucial for understanding how to leverage the AWS Well-Architected Tool for serious production applications, ensuring that you take full advantage of AWS best practices for designing and operating reliable, secure, efficient, and cost-effective systems in the AWS cloud.
-
 ---

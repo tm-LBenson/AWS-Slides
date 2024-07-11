@@ -27,10 +27,9 @@ There are two main types of IAM policies: custom and managed.
 
 #### Key Security Practices
 
-It’s crucial to implement strong security measures to protect your AWS resources.
+It’s important to implement strong security measures to protect your AWS resources.
 
 - **Password Policies**: Enforce rules like password complexity and expiration to enhance security.
-- **Multi-Factor Authentication (MFA)**: Use MFA to add an extra security layer, crucial for protecting sensitive operations.
-
+- **Multi-Factor Authentication (MFA)**: Use MFA to add an extra security layer, important for protecting sensitive operations.
 
 ---

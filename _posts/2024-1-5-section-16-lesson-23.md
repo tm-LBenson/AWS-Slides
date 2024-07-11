@@ -6,7 +6,7 @@ lesson: 23
 
 ### Understanding Billing Alarms in CloudWatch
 
-Billing alarms in CloudWatch provide a basic method to monitor AWS expenses and can be crucial for managing costs effectively. Here are the key points to understand for the exam:
+Billing alarms in CloudWatch provide a basic method to monitor AWS expenses and can be important for managing costs effectively. Here are the key points to understand for the exam:
 
 <!-- pagebreak -->
 

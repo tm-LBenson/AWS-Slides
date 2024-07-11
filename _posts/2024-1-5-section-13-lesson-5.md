@@ -7,7 +7,7 @@ lesson: 5
 
 ### VPC Flow Logs
 
-VPC Flow Logs are a crucial tool for monitoring and analyzing network traffic within your AWS environment. They help ensure transparency in traffic flow, aiding in troubleshooting and optimizing network performance.
+VPC Flow Logs are a important tool for monitoring and analyzing network traffic within your AWS environment. They help ensure transparency in traffic flow, aiding in troubleshooting and optimizing network performance.
 
 <!-- pagebreak -->
 

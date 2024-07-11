@@ -54,7 +54,7 @@ To understand the essence of cloud computing, let's look at its five key charact
 
 #### Setting Up a Budget
 
-Monitoring and managing your AWS spending is crucial to avoid unexpected charges. AWS provides tools to set up budgets and alerts to help you keep track of your expenses.
+Monitoring and managing your AWS spending is important to avoid unexpected charges. AWS provides tools to set up budgets and alerts to help you keep track of your expenses.
 
 - **Budget Types**: Cost budgets, usage budgets, and reservation budgets.
 - **Setting Alerts**: Define conditions based on your estimated usage to receive notifications when your costs approach your budget limits.
@@ -91,6 +91,6 @@ The Shared Responsibility Model outlines the division of responsibilities betwee
 - **AWS Responsibilities**: Security of the cloud infrastructure, including hardware, software, networking, and facilities.
 - **Customer Responsibilities**: Security in the cloud, including data encryption, identity and access management, and application security.
 
-Understanding this model is crucial for ensuring compliance and security in your AWS environment.
+Understanding this model is important for ensuring compliance and security in your AWS environment.
 
 ---

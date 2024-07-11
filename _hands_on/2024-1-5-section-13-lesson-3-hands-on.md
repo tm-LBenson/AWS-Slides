@@ -14,7 +14,7 @@ While CIDR notation might not be directly examined in depth for the exam, unders
 
 #### Introduction to CIDR
 
-CIDR is a method for allocating IP addresses and routing IP packets. It is used to create unique identifiers for networks and individual devices within subnets, which are crucial when configuring VPCs in AWS.
+CIDR is a method for allocating IP addresses and routing IP packets. It is used to create unique identifiers for networks and individual devices within subnets, which are important when configuring VPCs in AWS.
 
 <!-- pagebreak -->
 
@@ -40,10 +40,5 @@ CIDR is a method for allocating IP addresses and routing IP packets. It is used 
 - **Experiment with Different CIDR Blocks**: Change the CIDR block input (e.g., from `/24` to `/16`) and observe how the network size and the range of usable IP addresses change. Understanding these dynamics is essential for effectively planning and deploying networks in AWS.
 
 - Visit [Tidal Cloud](https://tidalcloud.com/subnet-builder/) to see a visual way of interacting with subnets.
-<!-- pagebreak -->
-
-#### Conclusion
-
-This exercise provides a basic understanding of how IP addressing and subnetting work in a network, which is foundational knowledge for any networking or cloud computing professional. While the AWS exam may not delve deeply into CIDR notation, this understanding will aid in better network planning within your AWS VPCs.
 
 ---

@@ -37,6 +37,6 @@ AWS Trusted Advisor is an online tool that provides real-time guidance to help y
 - **Idle Load Balancers**: Identifying and suggesting removal or optimization of underutilized load balancers to reduce costs.
 - **EC2 Reserved Instances Optimization**: Recommending purchase options and configurations based on usage patterns to maximize cost savings.
 
-AWS Trusted Advisor is a crucial tool for maintaining an efficient, secure, and well-optimized AWS environment, providing actionable insights and recommendations.
+AWS Trusted Advisor is a important tool for maintaining an efficient, secure, and well-optimized AWS environment, providing actionable insights and recommendations.
 
 ---

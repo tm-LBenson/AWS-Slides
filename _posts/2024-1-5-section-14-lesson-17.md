@@ -9,7 +9,7 @@ lesson: 17
 
 #### Introduction to AWS Abuse
 
-Abuse in the AWS environment refers to the use of AWS resources for activities that violate the AWS Acceptable Use Policy. Understanding how to identify and report abusive behavior is crucial for maintaining security and compliance within your AWS infrastructure.
+Abuse in the AWS environment refers to the use of AWS resources for activities that violate the AWS Acceptable Use Policy. Understanding how to identify and report abusive behavior is important for maintaining security and compliance within your AWS infrastructure.
 
 <!-- pagebreak -->
 

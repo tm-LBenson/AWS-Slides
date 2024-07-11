@@ -46,7 +46,7 @@ These restrictions are in place to maintain the integrity and availability of AW
 
 #### Key Points for the AWS Exam
 
-- Be aware that AWS customers do not need prior approval to perform penetration tests on the listed services. However, adherence to AWS's testing policies and guidelines is crucial to avoid service disruptions or AWS terms of service violations.
+- Be aware that AWS customers do not need prior approval to perform penetration tests on the listed services. However, adherence to AWS's testing policies and guidelines is important to avoid service disruptions or AWS terms of service violations.
 - Recognize the prohibited activities to ensure compliance during security assessments.
 
 ---

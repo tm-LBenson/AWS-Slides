@@ -9,7 +9,7 @@ lesson: 2
 
 #### Introduction to IAM
 
-AWS Identity and Access Management (IAM) is crucial for securely managing access to AWS services. This service allows you to control who can sign in and what resources they can use.
+AWS Identity and Access Management (IAM) is important for securely managing access to AWS services. This service allows you to control who can sign in and what resources they can use.
 
 - **Global Impact**: IAM settings are effective across all AWS regions.
 - **Primary Use**: IAM is typically set up right after creating an AWS account to ensure secure access management.

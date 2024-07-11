@@ -55,10 +55,5 @@ This guide will walk you through the process of creating a new S3 bucket, upload
     - Click "Add transition", set the number of days after creation when the transition should occur, and select the target storage class.
     - You can add multiple transitions, for example, moving to "Glacier" after 90 days, then to "Deep Archive" after 180 days.
 - **Create Rule**: Click "Create rule" to apply the lifecycle management settings.
-<!-- pagebreak -->
-
-#### Conclusion
-
-This hands-on exercise demonstrates how to interact with different S3 storage classes and automate the management of your stored data using lifecycle rules. By efficiently managing storage classes, you can optimize costs and ensure data is stored in the most appropriate class based on access patterns and retention requirements.
 
 ---

@@ -7,7 +7,7 @@ lesson: 8
 
 ### AWS Cloud Adoption Framework (AWS CAF)
 
-The AWS Cloud Adoption Framework (AWS CAF) is essential for guiding businesses through the complexities of cloud transformation. It has increasingly been a topic on the AWS exam, making it crucial for candidates to understand.
+The AWS Cloud Adoption Framework (AWS CAF) is essential for guiding businesses through the complexities of cloud transformation. It has increasingly been a topic on the AWS exam, making it important for candidates to understand.
 
 <!-- pagebreak -->
 

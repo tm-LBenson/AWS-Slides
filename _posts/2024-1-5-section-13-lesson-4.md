@@ -36,7 +36,7 @@ AWS provides two primary methods to manage network traffic at different layers o
 - **NACL vs. Security Groups**: NACLs provide a broad layer of security at the subnet level, useful for controlling access to multiple instances within the same subnet. Security groups provide more granular control at the instance level.
 - **Combining Both**: For robust security, it's common to use both NACLs and security groups. NACLs serve as a first line of defense, blocking undesirable traffic at the subnet level. Security groups then provide finer-grained control over the traffic allowed to reach individual instances.
 
-Understanding the functionalities and differences between NACLs and security groups is crucial for designing secure, highly available network architectures in AWS.
+Understanding the functionalities and differences between NACLs and security groups is important for designing secure, highly available network architectures in AWS.
 
 <!-- pagebreak -->
 

@@ -18,7 +18,7 @@ In AWS, ensuring the security of your data involves encrypting it both at rest a
 
 #### Importance of Encryption
 
-Encrypting data in both states—rest and transit—is crucial to protect sensitive information from unauthorized access. AWS provides robust encryption solutions to handle this:
+Encrypting data in both states—rest and transit—is important to protect sensitive information from unauthorized access. AWS provides robust encryption solutions to handle this:
 
 - **Encryption Keys**: Managed through AWS Key Management Service (KMS), which simplifies the creation and control of encryption keys used to encrypt data.
 

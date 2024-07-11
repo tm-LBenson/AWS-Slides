@@ -31,6 +31,6 @@ Service Control Policies (SCPs) provide a powerful mechanism to centrally manage
 - **Restricting Services**: Utilize SCPs to prevent the use of specific AWS services, such as Amazon EMR, enhancing security and compliance by limiting the services available to users.
 - **Compliance Enforcement**: SCPs can enforce compliance with standards such as PCI DSS by explicitly disabling non-compliant AWS services.
 
-Understanding and implementing SCPs within AWS Organizations is crucial for maintaining governance and operational control over your AWS resources across different accounts.
+Understanding and implementing SCPs within AWS Organizations is important for maintaining governance and operational control over your AWS resources across different accounts.
 
 ---

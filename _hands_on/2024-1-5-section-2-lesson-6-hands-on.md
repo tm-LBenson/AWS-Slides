@@ -48,10 +48,5 @@ This practical exercise will guide you through enabling versioning on an S3 buck
 
 - **View the Page**: Navigate to your S3 website URL or where `index.html` is accessed. Use CTRL + SHIFT + R to clear the cache and reload the page, ensuring you're seeing the most current version served by S3.
 - **Final Check**: The `index.html` should now be restored to the last uploaded version before the delete marker was added.
-<!-- pagebreak -->
-
-#### Conclusion
-
-This exercise demonstrates the power and utility of S3 versioning, especially in managing document revisions and recovering from unintended deletions. By practicing these steps, you gain a stronger grasp of how to leverage S3 for more robust data management and recovery strategies, ensuring that you can maintain continuity and integrity of data stored in the cloud.
 
 ---

@@ -7,7 +7,7 @@ lesson: 8
 
 ### Types of AWS KMS Keys
 
-AWS Key Management Service (KMS) offers different types of keys to accommodate varying requirements for control, management, and usage. Understanding these differences is crucial for effectively managing encryption across your AWS resources.
+AWS Key Management Service (KMS) offers different types of keys to accommodate varying requirements for control, management, and usage. Understanding these differences is important for effectively managing encryption across your AWS resources.
 
 <!-- pagebreak -->
 

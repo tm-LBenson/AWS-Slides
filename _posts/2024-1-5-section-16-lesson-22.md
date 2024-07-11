@@ -20,7 +20,7 @@ AWS Cost Explorer is a powerful tool designed to help users visualize, understan
 #### Strategic Cost Management
 
 - **Optimal Savings Plans**: Cost Explorer aids in choosing the most beneficial Savings Plans, helping to reduce overall expenses.
-- **Usage Forecasting**: Capable of forecasting future usage and costs up to 12 months based on historical data, which is crucial for budget planning and cost management.
+- **Usage Forecasting**: Capable of forecasting future usage and costs up to 12 months based on historical data, which is important for budget planning and cost management.
 
 <!-- pagebreak -->
 

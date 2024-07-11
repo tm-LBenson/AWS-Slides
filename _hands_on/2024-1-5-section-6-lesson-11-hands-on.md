@@ -49,8 +49,5 @@ This guide provides a walkthrough on how to order an AWS Snow Family device for 
 
 - **Final Step**: After reviewing all options and ensuring all configurations are correct, you have the option to either confirm the order or cancel it.
 - **Click Cancel**: If you are just testing or not ready to proceed, click "Cancel" to abort the process. This action will not submit any order or incur any costs.
-<!-- pagebreak -->
 
-#### Conclusion
-
-Ordering a device from the AWS Snow Family involves several important steps, from selecting the right device and configuring the job to reviewing shipping details and network configurations. This hands-on guide is designed to familiarize you with the ordering process, ensuring you are prepared to efficiently manage data transportation jobs using AWS Snow Family devices.
+---

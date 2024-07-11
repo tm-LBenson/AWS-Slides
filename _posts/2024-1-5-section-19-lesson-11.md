@@ -7,7 +7,7 @@ lesson: 11
 
 ### AWS Right Sizing
 
-AWS EC2 offers a variety of instance types and sizes, and right sizing is crucial for optimizing performance and reducing costs.
+AWS EC2 offers a variety of instance types and sizes, and right sizing is important for optimizing performance and reducing costs.
 
 <!-- pagebreak -->
 
