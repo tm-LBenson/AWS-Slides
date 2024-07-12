@@ -40,10 +40,4 @@ This hands-on exercise will guide you through the process of accessing and under
 - **Service vs. Account Health**: It's important to understand the distinction between the general service health, which applies to all AWS users, and your specific account health, which provides insights unique to your account's interaction with AWS services.
 - **Practical Application**: Knowing how to navigate and interpret these dashboards is essential for maintaining operational efficiency and preparing for AWS certification exams.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-This exercise demonstrates how to effectively use AWS Health Dashboards to monitor the health of AWS services and your specific AWS account. By regularly checking these dashboards, you can stay informed about potential impacts on your applications and respond promptly to any issues.
-
 ---
