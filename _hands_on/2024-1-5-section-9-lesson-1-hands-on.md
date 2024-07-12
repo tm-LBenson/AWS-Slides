@@ -100,10 +100,4 @@ This practical exercise will guide you through the process of using AWS CloudFor
 
 - **Deploy**: Upload this updated template to your CloudFormation and follow the process to update your stack.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-You've now seen how to use AWS CloudFormation to not only deploy resources but also to manage more complex scenarios involving security settings and networking. This hands-on experience is important for understanding the full capabilities of CloudFormation and enhancing your skills in cloud infrastructure management.
-
 ---
