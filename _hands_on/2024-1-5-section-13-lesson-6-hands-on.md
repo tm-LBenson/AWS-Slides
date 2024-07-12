@@ -38,8 +38,4 @@ order: 1
   - Gateway endpoints are used specifically for Amazon S3 and DynamoDB.
   - Interface endpoints are applicable to most other AWS services, indicating a different setup and use case.
 
-#### Conclusion
-
-- This exercise helps clarify the types of VPC Endpoints available and their specific uses. Remember for the exam: VPC Endpoints allow private connections to AWS services, with S3 and DynamoDB using Gateway endpoints, while most others use Interface endpoints.
-
 ---
