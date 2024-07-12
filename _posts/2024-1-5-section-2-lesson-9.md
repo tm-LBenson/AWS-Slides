@@ -7,7 +7,7 @@ lesson: 9
 
 ### Understanding S3 Encryption Methods
 
-Amazon S3 offers two primary methods of encryption to secure your data, ensuring that your information is protected both during transit and while at rest in the cloud. These methods are known as Server-Side Encryption and Client-Side Encryption. 
+Amazon S3 offers two primary methods of encryption to secure your data, ensuring that your information is protected both during transit and while at rest in the cloud. These methods are known as Server-Side Encryption and Client-Side Encryption.
 
 <!-- pagebreak -->
 
@@ -28,10 +28,5 @@ Amazon S3 offers two primary methods of encryption to secure your data, ensuring
   - **Upload**: Sends the encrypted file to the S3 bucket.
   - **S3**: Stores the already-encrypted file as it is received.
 - **Advantage**: This approach gives you complete control over the encryption process and the security of your data before it leaves your local environment.
-<!-- pagebreak -->
-
-#### Conclusion
-
-Choosing between server-side and client-side encryption depends on your specific security needs and compliance requirements. Server-side encryption is easier to implement as it requires less handling on your part and is managed by AWS once your data reaches the cloud. In contrast, client-side encryption offers greater control over your data's security before it is transmitted to the cloud, suitable for scenarios requiring stringent data confidentiality measures.
 
 ---
