@@ -44,10 +44,4 @@ This hands-on guide will introduce you to setting up VPC Flow Logs and exploring
 - **Cancellation**:
   - After reviewing, you may cancel out of the creation dialogs to avoid unnecessary charges or configurations that are not needed for your current environment.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-This exercise provides a foundational understanding of how to monitor network traffic with VPC Flow Logs and how to set up direct network connectivity between two VPCs using VPC Peering. These capabilities are essential for managing large-scale network deployments in AWS.
-
 ---
