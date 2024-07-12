@@ -41,10 +41,4 @@ This exercise will guide you through the process of creating an AWS CloudTrail t
   - Each event log provides comprehensive details that can help in understanding the context and impact of each action.
   - For example, if you have recently cleaned up resources from previous hands-on exercises, you can see delete actions logged with relevant details.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-This hands-on experience with AWS CloudTrail illustrates how to set up a trail and review the event history, which is an essential skill for managing AWS accounts securely and efficiently. Understanding how to access and interpret CloudTrail data is important for troubleshooting, security monitoring, and compliance auditing.
-
 ---
