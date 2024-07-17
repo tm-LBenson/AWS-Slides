@@ -30,10 +30,5 @@ Amazon Snowball Edge offers flexible pricing options tailored to your usage patt
 
 - **Prepayment Options**: You can choose to pay upfront for extended periods of usage (monthly, 1-year, and 3-year commitments) for Edge Computing use cases.
 - **Discounts**: Committed use contracts offer up to 62% discounted pricing compared to on-demand rates, providing significant savings for long-term projects.
-<!-- pagebreak -->
-
-#### Conclusion
-
-Snowball Edge provides a cost-effective solution for data transfer and edge computing needs, with pricing options that accommodate both short-term, on-demand use and longer-term commitments. Whether you are moving large amounts of data into AWS or performing local processing tasks, Snowball Edge offers a pricing structure that can be tailored to fit your project's budget and duration.
 
 ---
