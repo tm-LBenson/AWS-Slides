@@ -18,15 +18,11 @@ DynamoDB Global Tables offer a powerful feature for applications that require a 
 - **Multi-Region Replication**: They utilize active-active replication, meaning that data is continuously synchronized across all configured regions. This ensures that the application can read and write from any region while maintaining data consistency.
 
 - **Use Case**: This feature is important for applications that are geographically distributed and need quick data access no matter where the user is located.
-
+<!-- pagebreak -->
 #### Key Features
 
 - **Read and Write Replication**: Unlike traditional replication models that may only support read replicas, DynamoDB Global Tables supports both read and write operations across all replicas. This enhances the application's responsiveness and availability.
 
 - **Simplicity of Operation**: Configuring Global Tables is straightforward in the DynamoDB management console, and once set up, AWS handles the replication process, making it seamless for developers.
-
-#### Conclusion
-
-For the exam, understanding the basic functionality and benefits of DynamoDB Global Tables, such as low latency, multi-region data replication for both reads and writes, is sufficient. These features make Global Tables an ideal choice for developers looking to minimize response times and maximize availability in distributed applications.
 
 ---
