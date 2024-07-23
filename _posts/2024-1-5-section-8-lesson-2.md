@@ -41,5 +41,4 @@ AWS Batch enables developers to efficiently run hundreds of thousands of batch c
 
 - **Efficient Processing**: By managing and scaling resources dynamically, AWS Batch ensures that you are only paying for the compute resources you use.
 
-
 ---
