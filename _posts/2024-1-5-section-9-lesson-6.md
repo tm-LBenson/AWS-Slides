@@ -47,10 +47,4 @@ AWS CodeBuild is a fully managed continuous integration service that compiles so
 
 - **Simplified Logging and Monitoring**: Integrated with Amazon CloudWatch for monitoring your build and test processes and AWS CloudTrail for logging API calls for audit and governance.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-AWS CodeBuild is a powerful tool for developers looking to automate and manage the build process efficiently within the AWS ecosystem. Its integration with other AWS services and its ability to scale based on demand make it a important component of modern applica
-
 ---
