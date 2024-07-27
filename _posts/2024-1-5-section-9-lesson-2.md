@@ -71,10 +71,4 @@ Below is a snippet of JavaScript that outlines creating an ECS cluster with Farg
 
 - **Note**: This code snippet demonstrates the setup of several AWS resources: EC2 VPC, ECS cluster, and an Application Load Balanced Fargate service.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-AWS CDK empowers developers to define and deploy cloud infrastructure and services programmatically, ensuring that infrastructure management is as agile as application development. For those preparing for AWS certification exams, understanding CDK's capabilities to streamline cloud infrastructure deployment is important.
-
 ---
