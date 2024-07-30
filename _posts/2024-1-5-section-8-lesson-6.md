@@ -41,10 +41,5 @@ AWS offers several services to run containerized applications, notably Amazon EC
 
 - **Exam Tip**: If the discussion is about storing Docker images on AWS for use with ECS or Fargate, think ECR.
 
-<!-- pagebreak -->
-
-### Conclusion
-
-Understanding the differences between ECS, Fargate, and ECR is important for efficiently deploying and managing containerized applications on AWS. ECS requires active management of EC2 instances, Fargate offers a serverless option, and ECR provides a secure repository for Docker images. Recognizing when to use each service will help you make informed decisions in real-world applications and on AWS exams.
 
 ---
