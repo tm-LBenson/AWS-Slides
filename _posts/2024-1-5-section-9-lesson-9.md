@@ -33,10 +33,4 @@ AWS CodeStar is a unified user interface that provides a seamless way to develop
 
 - **AWS CodeCatalyst**: AWS has announced that CodeStar will be replaced by AWS CodeCatalyst, which is expected to provide enhanced capabilities and integration for managing development projects on AWS.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-While AWS CodeStar provides a comprehensive interface for managing projects on AWS, it's important to note its upcoming phase-out. Understanding its functionalities can still provide insights into AWS's approach to integrated development environments and may be useful for understanding the transition to AWS CodeCatalyst.
-
 ---
