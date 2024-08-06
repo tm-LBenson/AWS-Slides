@@ -46,10 +46,4 @@ This summary lesson reviews the key AWS services and tools covered in Section 8,
 
 - **Infrastructure Definition**: Allows developers to define their cloud resources using familiar programming languages, transforming into CloudFormation templates.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-The suite of AWS developer tools and services provides a comprehensive ecosystem for managing the entire lifecycle of software development from coding through deployment. These tools are designed to enhance productivity, ensure high availability, and maintain security across complex application architectures. Understanding the functionality and best use cases for each tool is important for optimizing cloud applications and infrastructure efficiently.
-
 ---
