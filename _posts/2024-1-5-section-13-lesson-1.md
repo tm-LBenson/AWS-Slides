@@ -34,10 +34,5 @@ This lesson provides a high-level overview of Amazon Virtual Private Cloud (VPC)
 - **Site-to-Site VPN & Direct Connect**: Facilitates secure and private connectivity from an on-premises network to AWS or between AWS regions.
 - **Transit Gateway**: A service that simplifies the networking and management of multiple VPCs and VPNs across your cloud environment.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-Understanding the basics of AWS VPC and its components is essential for managing network configurations within the AWS ecosystem. This knowledge is foundational for anyone preparing for AWS certification exams, particularly those focusing on architecture and network security.
 
 ---
