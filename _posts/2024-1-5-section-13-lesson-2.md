@@ -42,10 +42,4 @@ This lesson demystifies the types and usage of IP addresses within the AWS ecosy
 
 - **Choosing IP Versions**: Depending on your application requirements and future scalability needs, consider opting for IPv6 to leverage its benefits and prepare for broader adoption.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-Understanding IP addressing in AWS is important for effectively managing network configurations and ensuring the accessibility and security of your applications. Whether you are deploying a simple web application or a complex multi-tier architecture, proper IP address management plays a critical role in the success of your deployments.
-
 ---
