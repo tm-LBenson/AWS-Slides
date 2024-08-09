@@ -41,10 +41,4 @@ Understanding the structure and function of Amazon VPC (Virtual Private Cloud) a
 - **Routing for Public Subnets**: Includes a default route to the Internet Gateway.
 - **Routing for Private Subnets**: Typically includes routes to local network resources and may include routes to a NAT Gateway for internet access without direct exposure.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-VPCs and subnets are foundational components in AWS that provide the network infrastructure for deploying and managing cloud resources securely and efficiently. Proper understanding and management of these components ensure optimal performance and security of your AWS environment.
-
 ---
