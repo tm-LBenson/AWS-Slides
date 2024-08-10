@@ -37,10 +37,5 @@ Amazon GuardDuty is an intelligent threat detection service that provides contin
 
 1. **Enabling GuardDuty**: Navigate to the GuardDuty console within the AWS Management Console and activate it with a single click to start analyzing your logs and network activity.
 2. **Review Findings**: Regularly check the findings dashboard to understand the security state of your environment and take necessary actions.
-<!-- pagebreak -->
-
-#### Conclusion
-
-By leveraging Amazon GuardDuty, AWS users can enhance the security posture of their cloud environments through proactive threat detection and automated responses. It's a critical tool for maintaining compliance and protecting against modern cybersecurity threats.
 
 ---
