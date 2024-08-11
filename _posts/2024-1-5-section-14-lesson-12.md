@@ -41,10 +41,5 @@ Amazon Inspector is an automated security assessment service that helps improve 
 - **Proactive Security**: By continuously analyzing your AWS resources, Amazon Inspector helps identify and mitigate potential security issues before they can be exploited.
 - **Compliance Assurance**: Regular assessments help ensure compliance with security best practices and regulatory standards, reducing the risk of non-compliance penalties.
 - **Integrated Reporting**: Seamless integration with AWS Security Hub provides centralized reporting and visibility into security and compliance status across your AWS environment.
-<!-- pagebreak -->
-
-#### Conclusion
-
-Amazon Inspector is a important tool for any AWS environment, providing automated, continuous security assessments to help you secure your applications against vulnerabilities and compliance issues. Its integration with other AWS services enhances its utility by enabling automated actions and centralized reporting.
 
 ---
