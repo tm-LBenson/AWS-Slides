@@ -42,10 +42,5 @@ AWS Security Hub integrates with multiple AWS services and partner solutions to 
 #### Getting Started
 
 - **Enabling AWS Security Hub**: To use Security Hub, you must first enable AWS Config to monitor your AWS resources. After enabling AWS Config, you can activate Security Hub with a few clicks, automatically importing your existing findings and configurations.
-<!-- pagebreak -->
-
-#### Conclusion
-
-AWS Security Hub is an essential tool for anyone managing multiple AWS accounts or large AWS environments. It streamlines your security tasks and helps you respond quickly to potential security issues. By centralizing security management, Security Hub not only enhances visibility but also improves your AWS environment's overall security posture.
 
 ---

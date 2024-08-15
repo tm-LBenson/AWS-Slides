@@ -44,10 +44,5 @@ Certain actions within AWS can only be performed by the root user, making unders
 
 - **MFA (Multi-Factor Authentication)**: Always enable MFA on the root account to enhance security.
 - **Regular Monitoring**: Keep a close watch on the root account's activity, even if it's not used regularly, to detect any unauthorized access promptly.
-<!-- pagebreak -->
-
-#### Conclusion
-
-Managing root user privileges responsibly is critical for maintaining the security and integrity of your AWS account. Limiting the use of the root account to only necessary actions and following best practices can help safeguard your AWS environment against potential threats.
 
 ---

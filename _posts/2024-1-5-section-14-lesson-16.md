@@ -42,10 +42,5 @@ Amazon Detective automatically collects and processes log data from various AWS 
 
 - **Incident Response**: Enhance your ability to respond to security incidents by quickly identifying the source and impact of the breach.
 - **Security Operations**: Improve the efficiency of your security operations center (SOC) by providing tools that help analysts to resolve issues faster.
-<!-- pagebreak -->
-
-#### Conclusion
-
-Amazon Detective is an essential tool for organizations looking to enhance their security posture by reducing the time and effort required to investigate and respond to security issues. By providing deep insights and actionable intelligence, Amazon Detective enables security teams to stay ahead of potential threats.
 
 ---

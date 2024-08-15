@@ -46,10 +46,4 @@ Before submitting an abuse report, gather as much information as possible about 
 
 Reporting abusive behavior helps AWS maintain a secure and compliant environment for all users. It contributes to the overall security of the internet by curbing harmful activities and ensuring that AWS resources are used responsibly.
 
-<!-- pagebreak -->
-
-#### Conclusion
-
-AWS takes abuse reports seriously and has measures in place to address and mitigate any reported incidents. By understanding the types of abuse and how to report them, you can contribute to the security and integrity of your AWS operations and the broader AWS community.
-
 ---
